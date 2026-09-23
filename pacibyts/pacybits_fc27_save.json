@@ -1,0 +1,16 @@
+{
+  "coins": 50000,
+  "club": {
+    "gold_carvajal": true,
+    "silver_mainoo": true,
+    "bronze_paz": true
+  },
+  "duplicates": {},
+  "stats": {
+    "packsOpened": 1,
+    "walkouts": 0,
+    "coinsEarned": 0
+  },
+  "claimedRewards": {},
+  "soundEnabled": true
+}

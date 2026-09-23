@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>PacyBits FC 27 - Ultimate Desktop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Superior -->
+    <header class="header-bar">
+        <div class="logo-area">
+            <div class="logo-badge">PB 27</div>
+            <div class="logo-title">PACYBITS <span>FC 27</span></div>
+        </div>
+
+        <div class="stats-area">
+            <div class="stat-pill coins">
+                <span>💰</span>
+                <span id="header-coins">50,000</span>
+            </div>
+
+            <div class="stat-pill collection">
+                <span>📚</span>
+                <span id="header-collection">0 / 0 (0%)</span>
+            </div>
+
+            <button class="btn-icon" id="btn-sound-toggle" title="Activar/Silenciar Sonido">
+                🔊
+            </button>
+        </div>
+    </header>
+
+    <!-- Barra de Navegación -->
+    <nav class="nav-bar">
+        <button class="nav-tab active" data-tab="store">
+            <span>📦</span> Sobres
+        </button>
+        <button class="nav-tab" data-tab="album">
+            <span>📚</span> Mi Club
+        </button>
+        <button class="nav-tab" data-tab="duplicates">
+            <span>🔄</span> Repetidas
+            <span class="badge" id="nav-dup-badge">0</span>
+        </button>
+        <button class="nav-tab" data-tab="draft">
+            <span>⚡</span> FUT Draft
+        </button>
+        <button class="nav-tab" data-tab="rewards">
+            <span>🏆</span> Recompensas
+        </button>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="main-container">
+
+        <!-- PESTAÑA: TIENDA DE SOBRES -->
+        <section id="view-store" class="tab-view active">
+            <div class="store-hero">
+                <h1>TIENDA DE SOBRES FC 27</h1>
+                <p>Abre sobres estilo PacyBits clásico con animaciones de Walkout y guarda tu colección automáticamente.</p>
+            </div>
+
+            <div class="packs-grid" id="packs-container">
+                <!-- Se inyecta dinámicamente desde app.js -->
+            </div>
+        </section>
+
+        <!-- PESTAÑA: FUT DRAFT -->
+        <section id="view-draft" class="tab-view">
+            <!-- PANTALLA 1: ELEGIR FORMACIÓN -->
+            <div id="draft-formation-screen" class="draft-screen">
+                <div class="store-hero">
+                    <h1>⚡ FUT DRAFT FC 27</h1>
+                    <p>Elige tu esquema táctico favorito para armar tu plantilla de ensueño.</p>
+                </div>
+                <div class="draft-formations-grid" id="draft-formations-container">
+                    <!-- Botones de formación inyectados por app.js -->
+                </div>
+            </div>
+
+            <!-- PANTALLA 2: TABLERO DE DRAFT (CAMPO + BANQUILLO + RESERVAS) -->
+            <div id="draft-board-screen" class="draft-screen" style="display: none;">
+                <div class="draft-header-stats">
+                    <div class="draft-stat-chip">
+                        <span class="lbl">FORMACIÓN</span>
+                        <span class="val" id="draft-formation-name">4-3-3</span>
+                    </div>
+                    <div class="draft-stat-chip rating">
+                        <span class="lbl">VALORACIÓN</span>
+                        <span class="val" id="draft-total-rating">0</span>
+                    </div>
+                    <div class="draft-stat-chip chem">
+                        <span class="lbl">QUÍMICA</span>
+                        <span class="val" id="draft-total-chem">0 / 33</span>
+                    </div>
+                    <div class="draft-actions-bar">
+                        <button class="btn-summary primary" id="btn-finish-draft" style="display: none;">
+                            🏆 Reclamar Recompensa
+                        </button>
+                        <button class="btn-summary secondary" id="btn-restart-draft">
+                            🔄 Nuevo Draft
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CAMPO DE FÚTBOL CON LOS 11 TITULARES -->
+                <div class="pitch-container" id="pitch-container">
+                    <div class="pitch-field" id="pitch-field">
+                        <div class="pitch-center-circle"></div>
+                        <div class="pitch-half-line"></div>
+                        <div class="pitch-penalty-area top"></div>
+                        <div class="pitch-penalty-area bottom"></div>
+
+                        <!-- 11 Slots de Jugadores Titulares -->
+                        <div class="pitch-slots-layer" id="pitch-starters-slots"></div>
+                    </div>
+                </div>
+
+                <!-- BANQUILLO (6 JUGADORES) -->
+                <div class="draft-bench-section">
+                    <div class="draft-section-title">
+                        <span>🪑 BANQUILLO (6 Jugadores)</span>
+                        <span class="sub" id="bench-progress">0/6</span>
+                    </div>
+                    <div class="bench-slots-grid" id="pitch-bench-slots">
+                        <!-- 6 slots -->
+                    </div>
+                </div>
+
+                <!-- RESERVAS (4 JUGADORES) -->
+                <div class="draft-reserves-section">
+                    <div class="draft-section-title">
+                        <span>📦 RESERVAS (4 Jugadores)</span>
+                        <span class="sub" id="reserves-progress">0/4</span>
+                    </div>
+                    <div class="reserves-slots-grid" id="pitch-reserves-slots">
+                        <!-- 4 slots -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PESTAÑA: MI CLUB (ÁLBUM) -->
+        <section id="view-album" class="tab-view">
+            <div class="album-controls">
+                <div class="filter-group" id="rarity-filters">
+                    <button class="filter-btn active" data-rarity="all">Todas</button>
+                    <button class="filter-btn" data-rarity="gold_rare">Oro</button>
+                    <button class="filter-btn" data-rarity="totw">TOTW</button>
+                    <button class="filter-btn" data-rarity="icon">Iconos</button>
+                    <button class="filter-btn" data-rarity="hero">Héroes</button>
+                    <button class="filter-btn" data-rarity="silver">Plata</button>
+                    <button class="filter-btn" data-rarity="bronze">Bronce</button>
+                </div>
+
+                <div class="filter-group">
+                    <select class="search-box" id="pos-filter" style="min-width: 110px;">
+                        <option value="all">Posición: Todas</option>
+                        <option value="DEL">Delanteros (DEL/EI/ED)</option>
+                        <option value="MED">Centrocampistas</option>
+                        <option value="DEF">Defensas</option>
+                        <option value="POR">Porteros</option>
+                    </select>
+
+                    <input type="text" class="search-box" id="album-search" placeholder="🔍 Buscar jugador o club...">
+                </div>
+            </div>
+
+            <div class="cards-gallery-grid" id="album-gallery">
+                <!-- Se inyecta desde app.js -->
+            </div>
+        </section>
+
+        <!-- PESTAÑA: PILA DE REPETIDAS -->
+        <section id="view-duplicates" class="tab-view">
+            <div class="duplicates-banner">
+                <div class="duplicates-info">
+                    <h2>PILA DE CARTAS REPETIDAS</h2>
+                    <p id="dup-summary-text">Tienes 0 cartas repetidas valoradas en 0 monedas.</p>
+                </div>
+                <button class="btn-sell-all" id="btn-sell-all-dups">
+                    💰 Vender Todas las Repetidas
+                </button>
+            </div>
+
+            <div class="cards-gallery-grid" id="duplicates-gallery">
+                <!-- Se inyectan las cartas duplicadas -->
+            </div>
+        </section>
+
+        <!-- PESTAÑA: RECOMPENSAS Y LOGROS -->
+        <section id="view-rewards" class="tab-view">
+            <div class="store-hero">
+                <h1>RECOMPENSAS Y RETOS</h1>
+                <p>Consigue monedas adicionales gratis para seguir abriendo sobres.</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;" id="rewards-list">
+                <!-- Lista de recompensas y botón de monedas gratis -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CINEMÁTICA DE WALKOUT -->
+    <div class="walkout-overlay" id="walkout-modal">
+        <div class="stadium-beams"></div>
+
+        <div class="walkout-stage">
+            <div class="walkout-clues" id="walkout-clues">
+                <div class="clue-item" id="clue-nation">
+                    <img src="" alt="País" class="clue-flag" id="clue-flag-img">
+                    <span style="margin-top: 8px; font-weight: 800; font-size: 16px;" id="clue-nation-name">FRANCIA</span>
+                </div>
+
+                <div class="clue-item" id="clue-pos">
+                    <div class="clue-pos" id="clue-pos-text">DEL</div>
+                </div>
+
+                <div class="clue-item" id="clue-club">
+                    <img src="" alt="Club" class="clue-club" id="clue-club-img">
+                    <span style="margin-top: 8px; font-weight: 800; font-size: 16px;" id="clue-club-name">REAL MADRID</span>
+                </div>
+            </div>
+
+            <div class="walkout-card-container" id="walkout-card-box">
+                <!-- Aquí aterriza la carta gigante revelada -->
+            </div>
+        </div>
+
+        <button class="btn-skip-walkout" id="btn-skip-walkout">
+            Continuar ➡
+        </button>
+    </div>
+
+    <!-- PANTALLA DE RESUMEN DEL SOBRE -->
+    <div class="pack-summary-modal" id="pack-summary-modal">
+        <div class="summary-header">
+            <h2 id="summary-pack-title">¡SOBRE ABIERTO!</h2>
+            <p>Todas las cartas se han guardado automáticamente en tu colección y pila de repetidas.</p>
+        </div>
+
+        <div class="summary-cards-row" id="summary-cards-container">
+            <!-- Las 5 cartas del sobre con etiquetas de NUEVA o REPETIDA -->
+        </div>
+
+        <div class="summary-actions">
+            <button class="btn-summary secondary" id="btn-summary-back">
+                Volver a la Tienda
+            </button>
+            <button class="btn-summary sell" id="btn-summary-sell-dups">
+                Vender Repetidas del Sobre
+            </button>
+            <button class="btn-summary primary" id="btn-summary-reopen">
+                Abrir Otro Sobre 📦
+            </button>
+        </div>
+    </div>
+
+    <!-- MODAL DETALLE DE CARTA -->
+    <div class="card-detail-modal" id="card-detail-modal">
+        <div class="card-detail-box">
+            <button class="close-detail-btn" id="btn-close-detail">✕</button>
+            <div id="detail-card-render"></div>
+            <div style="flex: 1;">
+                <h2 id="detail-player-name" style="font-size: 24px; color: #fbbf24; margin-bottom: 6px;">Nombre</h2>
+                <p id="detail-player-full" style="color: #94a3b8; font-size: 14px; margin-bottom: 15px;">Nombre Completo</p>
+                <div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; margin-bottom: 20px;">
+                    <div><strong>Posición:</strong> <span id="detail-player-pos">DEL</span></div>
+                    <div><strong>Club:</strong> <span id="detail-player-club">Club</span></div>
+                    <div><strong>Nacionalidad:</strong> <span id="detail-player-nation">País</span></div>
+                    <div><strong>Tipo de Carta:</strong> <span id="detail-player-type">Oro Único</span></div>
+                    <div><strong>Valor de Venta Rápida:</strong> <span id="detail-player-price" style="color: #10b981; font-weight: 800;">5,000 monedas</span></div>
+                </div>
+                <div id="detail-actions"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL SELECCIÓN DE JUGADOR EN FUT DRAFT -->
+    <div class="draft-pick-modal" id="draft-pick-modal">
+        <div class="draft-pick-dialog">
+            <div class="draft-pick-header">
+                <div>
+                    <h2 id="draft-pick-title">ELIGE TU JUGADOR</h2>
+                    <p id="draft-pick-subtitle">Selecciona 1 de las 5 opciones aleatorias para esta posición</p>
+                </div>
+                <button class="close-detail-btn" id="btn-close-draft-pick">✕</button>
+            </div>
+            <div class="draft-pick-candidates" id="draft-pick-candidates">
+                <!-- 5 cartas aleatorias renderizadas -->
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL FINALIZAR FUT DRAFT Y RECOMPENSAS -->
+    <div class="draft-pick-modal" id="draft-reward-modal">
+        <div class="draft-pick-dialog" style="max-width: 600px; text-align: center; align-items: center;">
+            <div style="font-size: 50px; margin-bottom: 10px;">🏆</div>
+            <h2 style="font-size: 28px; font-weight: 900; color: var(--accent-gold); margin-bottom: 6px;" id="draft-reward-title">¡DRAFT COMPLETADO!</h2>
+            <p style="color: var(--text-secondary); font-size: 15px; margin-bottom: 24px;" id="draft-reward-desc">Has completado los 21 jugadores de tu plantilla.</p>
+            
+            <div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 25px; width: 100%;">
+                <div class="draft-stat-chip rating" style="flex: 1; padding: 12px;">
+                    <span class="lbl">VALORACIÓN</span>
+                    <span class="val" id="reward-final-rating">0</span>
+                </div>
+                <div class="draft-stat-chip chem" style="flex: 1; padding: 12px;">
+                    <span class="lbl">QUÍMICA</span>
+                    <span class="val" id="reward-final-chem">0 / 33</span>
+                </div>
+                <div class="draft-stat-chip coins" style="flex: 1; padding: 12px; border-color: rgba(251, 191, 36, 0.4);">
+                    <span class="lbl">PREMIO MONEDAS</span>
+                    <span class="val" id="reward-final-coins" style="color: var(--accent-gold);">+0 💰</span>
+                </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.04); border-radius: 12px; padding: 14px; margin-bottom: 24px; font-size: 14px; color: var(--text-secondary); line-height: 1.5;" id="reward-final-tier-info">
+                Cuanto mayor es la media y la química de tu equipo, mayor es la recompensa obtenida.
+            </div>
+
+            <button class="btn-summary primary" id="btn-claim-draft-reward" style="width: 100%; justify-content: center; font-size: 16px; padding: 14px;">
+                ¡Reclamar Monedas y Jugar Otro! 💰
+            </button>
+        </div>
+    </div>
+
+    <!-- Scripts de Datos y Lógica -->
+    <script src="database.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

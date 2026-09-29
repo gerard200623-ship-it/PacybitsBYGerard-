@@ -42,10 +42,31 @@ class PacybitsAPI:
             return False
 
 def get_resource_path(relative_path):
-    """Obtiene la ruta a los recursos tanto en desarrollo como en ejecutable empaquetado"""
+    """Obtiene la ruta a los recursos.
+    Prioriza carpetas en el disco para que cualquier cambio en la UI se aplique
+    instantáneamente sin necesidad de recompilar el EXE."""
+    # 1. Comprobar en el directorio padre por si el exe está en dist/ (proyecto principal)
+    if getattr(sys, 'frozen', False):
+        exe_dir = os.path.dirname(sys.executable)
+        parent_path = os.path.join(os.path.dirname(exe_dir), relative_path)
+        if os.path.exists(parent_path):
+            return parent_path
+            
+        local_path = os.path.join(exe_dir, relative_path)
+        if os.path.exists(local_path):
+            return local_path
+            
+    # 2. Comprobar junto al script .py
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    local_path = os.path.join(script_dir, relative_path)
+    if os.path.exists(local_path):
+        return local_path
+
+    # 3. Fallback al desempaquetado interno de PyInstaller
     if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, relative_path)
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), relative_path)
+        
+    return local_path
 
 def find_free_port():
     """Encuentra un puerto libre en localhost"""
@@ -69,29 +90,112 @@ class PacybitsHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
             elif raw_url.startswith('http:/') and not raw_url.startswith('http://'):
                 raw_url = raw_url.replace('http:/', 'http://', 1)
             
+            # 1. Intentar servir desde caché local en disco (assets/faces) si ya está descargada
             try:
-                req = urllib.request.Request(
-                    raw_url,
-                    headers={
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-                        'Referer': 'https://sofifa.com/'
-                    }
-                )
-                with urllib.request.urlopen(req, timeout=6) as response:
-                    img_data = response.read()
-                    content_type = response.headers.get('Content-Type', 'image/png')
-                    self.send_response(200)
-                    self.send_header('Content-Type', content_type)
-                    self.send_header('Content-Length', str(len(img_data)))
-                    self.send_header('Cache-Control', 'public, max-age=604800')
-                    self.send_header('Access-Control-Allow-Origin', '*')
-                    self.end_headers()
-                    self.wfile.write(img_data)
-                    return
+                import re
+                # Primero probar si el archivo ya existe con el nombre de la URL tal cual
+                url_filename = raw_url.split('/')[-1]
+                
+                # Probar coincidencia de id numérico estándar .../players/XXX/YYY/...
+                m = re.search(r'/players/(\d{3})/(\d{3})/', raw_url)
+                m_ea = re.search(r'/p(\d+)\.png', raw_url)
+                pid_str = None
+                if m:
+                    pid_str = str(int(m.group(1) + m.group(2)))
+                elif m_ea:
+                    pid_str = m_ea.group(1)
+
+                if pid_str:
+                    local_face = os.path.join(self.directory, "assets", "faces", f"{pid_str}.png")
+                    if os.path.exists(local_face) and os.path.getsize(local_face) > 500:
+                        with open(local_face, "rb") as f:
+                            img_data = f.read()
+                        self.send_response(200)
+                        self.send_header('Content-Type', 'image/png')
+                        self.send_header('Content-Length', str(len(img_data)))
+                        self.send_header('Cache-Control', 'public, max-age=31536000')
+                        self.send_header('Access-Control-Allow-Origin', '*')
+                        self.end_headers()
+                        self.wfile.write(img_data)
+                        return
             except Exception:
-                self.send_response(404)
+                pass
+
+            # 2. Descargar de la URL remota (con fallback a versiones de temporadas anteriores 24, 23, 22, 21...)
+            VERSIONS = ["25_120.png", "24_120.png", "23_120.png", "22_120.png", "21_120.png", "20_120.png"]
+            urls_to_try = [raw_url]
+            m_ver = re.search(r'/players/(\d{3})/(\d{3})/', raw_url)
+            if m_ver:
+                p1, p2 = m_ver.group(1), m_ver.group(2)
+                for v in VERSIONS:
+                    v_url = f"https://cdn.sofifa.net/players/{p1}/{p2}/{v}"
+                    if v_url not in urls_to_try:
+                        urls_to_try.append(v_url)
+
+            success_data = None
+            success_content_type = 'image/png'
+
+            for target_url in urls_to_try:
+                try:
+                    req = urllib.request.Request(
+                        target_url,
+                        headers={
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                            'Referer': 'https://sofifa.com/'
+                        }
+                    )
+                    with urllib.request.urlopen(req, timeout=4) as response:
+                        if response.status == 200:
+                            data = response.read()
+                            if len(data) > 500:
+                                success_data = data
+                                success_content_type = response.headers.get('Content-Type', 'image/png')
+                                break
+                except Exception:
+                    continue
+
+            if success_data:
+                # Guardar automáticamente en disco para futuras peticiones ultra-rápidas
+                try:
+                    save_pid = None
+                    if m_ver:
+                        save_pid = str(int(m_ver.group(1) + m_ver.group(2)))
+                    elif m_ea:
+                        save_pid = m_ea.group(1)
+                    if save_pid:
+                        cache_file = os.path.join(self.directory, "assets", "faces", f"{save_pid}.png")
+                        os.makedirs(os.path.dirname(cache_file), exist_ok=True)
+                        with open(cache_file, "wb") as f:
+                            f.write(success_data)
+                except Exception:
+                    pass
+
+                self.send_response(200)
+                self.send_header('Content-Type', success_content_type)
+                self.send_header('Content-Length', str(len(success_data)))
+                self.send_header('Cache-Control', 'public, max-age=604800')
+                self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
+                self.wfile.write(success_data)
                 return
+
+            # 3. Si falla la descarga remota o no hay conexión, servir assets/silhouette.png como fallback
+            silhouette_path = os.path.join(self.directory, "assets", "silhouette.png")
+            if os.path.exists(silhouette_path):
+                with open(silhouette_path, "rb") as f:
+                    img_data = f.read()
+                self.send_response(200)
+                self.send_header('Content-Type', 'image/png')
+                self.send_header('Content-Length', str(len(img_data)))
+                self.send_header('Cache-Control', 'no-cache')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(img_data)
+                return
+
+            self.send_response(404)
+            self.end_headers()
+            return
 
         return super().do_GET()
 

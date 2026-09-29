@@ -5,66 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <title>PacyBits FC 27 - Ultimate Desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Superior -->
-    <header class="header-bar">
-        <div class="logo-area">
-            <div class="logo-badge">PB 27</div>
-            <div class="logo-title">PACYBITS <span>FC 27</span></div>
-        </div>
-
-        <div class="stats-area">
-            <div class="stat-pill coins">
-                <span>💰</span>
-                <span id="header-coins">50,000</span>
-            </div>
-
-            <div class="stat-pill collection">
-                <span>📚</span>
-                <span id="header-collection">0 / 0 (0%)</span>
-            </div>
-
-            <button class="btn-icon" id="btn-sound-toggle" title="Activar/Silenciar Sonido">
-                🔊
-            </button>
+    <!-- Barra Superior Auténtica PACYBITS (TABS: ONLINE / SINGLE PLAYER / MY CLUB) -->
+    <header class="pb-header-top">
+        <div class="pb-top-tabs">
+            <button class="pb-top-tab" data-nav="online">ONLINE</button>
+            <button class="pb-top-tab active" data-nav="single_player">SINGLE PLAYER</button>
+            <button class="pb-top-tab" data-nav="my_club">MY CLUB</button>
         </div>
     </header>
 
-    <!-- Barra de Navegación -->
-    <nav class="nav-bar">
-        <button class="nav-tab active" data-tab="store">
-            <span>📦</span> Sobres
-        </button>
-        <button class="nav-tab" data-tab="album">
-            <span>📚</span> Mi Club
-        </button>
-        <button class="nav-tab" data-tab="duplicates">
-            <span>🔄</span> Repetidas
-            <span class="badge" id="nav-dup-badge">0</span>
-        </button>
-        <button class="nav-tab" data-tab="draft">
-            <span>⚡</span> FUT Draft
-        </button>
-        <button class="nav-tab" data-tab="rewards">
-            <span>🏆</span> Recompensas
-        </button>
-    </nav>
+    <!-- Barra de Estado / Recursos Pacybits: Nivel, Progreso, Monedas, Puntos/Tokens, Cartas -->
+    <div class="pb-subbar">
+        <div class="pb-subbar-level">
+            <button class="pb-menu-back-btn" id="btn-global-menu" style="display: none;" title="Volver al Menú Principal">
+                <span class="back-arrow">⬅</span> <span class="back-lbl">MENÚ</span>
+            </button>
+            <div class="pb-badge-lvl">27</div>
+            <div class="pb-level-track">
+                <div class="pb-level-fill" id="header-level-fill" style="width: 68%;"></div>
+            </div>
+        </div>
+
+        <div class="pb-subbar-currency">
+            <div class="pb-stat-group coins" title="Monedas">
+                <span id="header-coins">50,000</span>
+                <span class="pb-coin-icon">🟡</span>
+            </div>
+            <div class="pb-stat-group purple-tokens" title="Fichas Moradas Hall of FUT">
+                <span id="header-purple-tokens">0</span>
+                <span class="pb-token-icon">🟣</span>
+            </div>
+            <div class="pb-stat-group tokens" title="Draft Tokens">
+                <span id="header-tokens">1,016</span>
+                <span class="pb-token-icon">🧪</span>
+            </div>
+            <div class="pb-stat-group cards-count" title="Cartas Únicas">
+                <span id="header-collection">0</span>
+                <span class="pb-card-icon">🟨</span>
+            </div>
+            <button class="pb-sound-btn" id="btn-sound-toggle" title="Sonido">🔊</button>
+            <button class="pb-theme-btn" id="btn-theme-toggle" title="Modo Oscuro / Claro">🌓 <span class="theme-btn-lbl">Modo</span></button>
+        </div>
+    </div>
 
     <!-- Contenido Principal -->
     <main class="main-container">
 
+        <!-- PESTAÑA: HOME HUB (ESTILO PACYBITS 20 OFICIAL) -->
+        <section id="view-home" class="tab-view active">
+            <div class="pb-hub-container">
+
+                <!-- 1. BANNER ENTER DRAFT -->
+                <div class="pb-banner-card draft-banner" id="hub-btn-draft">
+                    <div class="pb-card-tag left-tag">ENTER DRAFT</div>
+                    <div class="pb-big-number">27</div>
+                    <div class="pb-banner-bg-img"></div>
+                    <div class="pb-banner-overlay"></div>
+                    <div class="pb-banner-text-brand">PACYBITS</div>
+                </div>
+
+                <!-- 2. BANNER OPEN PACKS -->
+                <div class="pb-banner-card packs-banner" id="hub-btn-store">
+                    <div class="pb-card-tag left-tag">OPEN PACKS</div>
+                    <div class="pb-card-tag right-tag cyan">FREE SURPRISE PACK</div>
+                    <div class="pb-banner-bg-img packs-img"></div>
+                    <div class="pb-banner-overlay"></div>
+                    <div class="pb-banner-text-sub">FUT 27 SPECIAL EDITION</div>
+                </div>
+
+                <!-- 3. FILA DOBLE: SBC & VERSUS AI -->
+                <div class="pb-hub-row-split">
+                    <!-- SBC CARD -->
+                    <div class="pb-tile-card sbc-tile" id="hub-btn-sbc">
+                        <div class="pb-card-tag left-tag">SBC</div>
+                        <div class="pb-card-tag right-tag red">NEW SBC</div>
+                        <div class="pb-sbc-cards-preview">
+                            <div class="pb-mini-shield live left">LIVE</div>
+                            <div class="pb-mini-shield new center">NEW</div>
+                            <div class="pb-mini-shield live right">LIVE</div>
+                        </div>
+                        <div class="pb-sbc-progress-row">
+                            <div class="pb-sbc-counter">78 / 125</div>
+                            <div class="pb-sbc-progress-bar">
+                                <div class="pb-sbc-bar-fill" style="width: 62%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VERSUS AI / MATCH CARD -->
+                    <div class="pb-tile-card versus-tile" id="hub-btn-versus">
+                        <div class="pb-card-tag left-tag">VERSUS AI</div>
+                        <div class="pb-tile-crest">
+                            <div class="pb-crest-inner">VS<span>AI</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. FILA DOBLE: DAILY OBJECTIVES & STORE LIGHTNING / LATEST PLAYERS -->
+                <div class="pb-hub-row-split">
+                    <!-- DAILY OBJECTIVES -->
+                    <div class="pb-tile-card obj-tile" id="hub-btn-objectives">
+                        <div class="pb-card-tag left-tag">DAILY OBJECTIVES</div>
+                        <div class="pb-obj-content">
+                            <div class="pb-obj-timer">
+                                <span class="pb-clock-ico">⏱️</span>
+                                <div>
+                                    <div class="pb-time-val">19 Hours</div>
+                                    <div class="pb-time-lbl">Remaining</div>
+                                </div>
+                            </div>
+                            <div class="pb-obj-day-circle">
+                                <div class="pb-day-txt">DAY 1</div>
+                                <div class="pb-prog-txt">0/3</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STORE LIGHTNING ROUND -->
+                    <div class="pb-tile-card store-tile" id="hub-btn-store-lightning">
+                        <div class="pb-card-tag left-tag">STORE</div>
+                        <div class="pb-store-cards-fan">
+                            <div class="fan-card gold">27</div>
+                            <div class="fan-card totw">TOTW</div>
+                            <div class="fan-card special">⚡</div>
+                        </div>
+                        <div class="pb-lightning-badge">
+                            LIGHTNING ROUND ⚡
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. FILA INFERIOR: LATEST PLAYERS & MI CLUB -->
+                <div class="pb-hub-row-split">
+                    <!-- LATEST PLAYERS / ÁLBUM -->
+                    <div class="pb-tile-card latest-tile" id="hub-btn-latest">
+                        <div class="pb-card-tag left-tag">LATEST PLAYERS</div>
+                        <div class="pb-card-tag right-tag blue">NEW</div>
+                        <div class="pb-cards-trio">
+                            <div class="trio-card purple"></div>
+                            <div class="trio-card blue"></div>
+                            <div class="trio-card totw"></div>
+                        </div>
+                    </div>
+
+                    <!-- MI CLUB / COLECCIÓN -->
+                    <div class="pb-tile-card club-tile" id="hub-btn-club">
+                        <div class="pb-card-tag left-tag">MY CLUB</div>
+                        <div class="pb-club-stats-preview">
+                            <div class="pb-club-stat-num" id="hub-collection-pct">0%</div>
+                            <div class="pb-club-stat-sub">Colección Completada</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. FILA DÚO: DUPLICATES & ACHIEVEMENTS -->
+                <div class="pb-hub-row-split">
+                    <!-- REPETIDAS -->
+                    <div class="pb-tile-card dups-tile" id="hub-btn-dups">
+                        <div class="pb-card-tag left-tag">DUPLICATES</div>
+                        <div class="pb-card-tag right-tag cyan" id="hub-dups-badge">0 CARTAS</div>
+                        <div class="pb-tile-crest">
+                            <div class="pb-crest-inner">🔄<span>DUPS</span></div>
+                        </div>
+                    </div>
+
+                    <!-- LOGROS / RECOMPENSAS -->
+                    <div class="pb-tile-card rewards-tile" id="hub-btn-rewards">
+                        <div class="pb-card-tag left-tag">ACHIEVEMENTS</div>
+                        <div class="pb-card-tag right-tag gold">REWARDS</div>
+                        <div class="pb-tile-crest">
+                            <div class="pb-crest-inner">🏆<span>LOGROS</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <!-- PESTAÑA: TIENDA DE SOBRES -->
-        <section id="view-store" class="tab-view active">
+        <section id="view-store" class="tab-view">
             <div class="store-hero">
                 <h1>TIENDA DE SOBRES FC 27</h1>
                 <p>Abre sobres estilo PacyBits clásico con animaciones de Walkout y guarda tu colección automáticamente.</p>
             </div>
 
+            <!-- Selector de Tienda vs Mis Sobres Guardados vs Hall of FUT -->
+            <div class="store-subtabs">
+                <button class="store-subtab-btn active" id="btn-store-market">
+                    🛒 Comprar Sobres
+                </button>
+                <button class="store-subtab-btn" id="btn-store-my-packs">
+                    🎁 Tus Sobres <span class="badge" id="my-packs-badge">0</span>
+                </button>
+                <button class="store-subtab-btn hof-tab" id="btn-store-hof" style="border-color: #a855f7; color: #d8b4fe;">
+                    🏛️ Tienda Hall of FUT 🟣
+                </button>
+            </div>
+
+            <!-- Contenedor 1: Tienda General de Sobres -->
             <div class="packs-grid" id="packs-container">
                 <!-- Se inyecta dinámicamente desde app.js -->
+            </div>
+
+            <!-- Contenedor 2: Mis Sobres Guardados (Recompensas / Logros) -->
+            <div class="my-packs-section" id="my-packs-container" style="display: none;">
+                <div class="my-packs-empty" id="my-packs-empty-msg">
+                    <div style="font-size: 48px; margin-bottom: 12px;">📦</div>
+                    <h3>No tienes sobres guardados</h3>
+                    <p>Completa <strong>Logros</strong> de la colección o juega al <strong>FUT Draft</strong> para ganar sobres gratis aquí.</p>
+                </div>
+                <div class="packs-grid" id="my-packs-grid">
+                    <!-- Sobres ganados que el usuario puede abrir gratis -->
+                </div>
+            </div>
+
+            <!-- Contenedor 3: Tienda Especial Hall of FUT -->
+            <div class="hof-store-section" id="hof-store-container" style="display: none;">
+                <div class="hof-banner">
+                    <div class="hof-banner-content">
+                        <h2>🏛️ TIENDA EXCLUSIVA HALL OF FUT</h2>
+                        <p>Completa las plantillas enteras de cualquier club en tu Colección para ganar <strong>Fichas Moradas Especiales (🟣)</strong> y canjear las leyendas históricas de Ultimate Team.</p>
+                        <div class="hof-balance-badge">
+                            Tu saldo: <span id="hof-tokens-balance" style="font-weight: 900; font-size: 22px; color: #f3e8ff;">0</span> <span style="font-size: 20px;">🟣</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hof-cards-grid" id="hof-cards-grid">
+                    <!-- Inyectado dinámicamente -->
+                </div>
             </div>
         </section>
 
@@ -94,9 +269,12 @@
                     </div>
                     <div class="draft-stat-chip chem">
                         <span class="lbl">QUÍMICA</span>
-                        <span class="val" id="draft-total-chem">0 / 33</span>
+                        <span class="val" id="draft-total-chem">0 / 100</span>
                     </div>
                     <div class="draft-actions-bar">
+                        <button class="btn-summary primary" id="btn-play-match" style="display: none; background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
+                            ⚽ ¡Jugar Partido vs IA!
+                        </button>
                         <button class="btn-summary primary" id="btn-finish-draft" style="display: none;">
                             🏆 Reclamar Recompensa
                         </button>
@@ -113,6 +291,9 @@
                         <div class="pitch-half-line"></div>
                         <div class="pitch-penalty-area top"></div>
                         <div class="pitch-penalty-area bottom"></div>
+
+                        <!-- Capa SVG de enlaces de química clásica (verde / amarillo / rojo) -->
+                        <svg class="pitch-chem-lines" id="pitch-chem-svg" xmlns="http://www.w3.org/2000/svg"></svg>
 
                         <!-- 11 Slots de Jugadores Titulares -->
                         <div class="pitch-slots-layer" id="pitch-starters-slots"></div>
@@ -148,6 +329,7 @@
             <div class="album-controls">
                 <div class="filter-group" id="rarity-filters">
                     <button class="filter-btn active" data-rarity="all">Todas</button>
+                    <button class="filter-btn" data-rarity="hall_of_fut" style="border-color: #a855f7; color: #c084fc;">Hall of FUT 🟣</button>
                     <button class="filter-btn" data-rarity="gold_rare">Oro</button>
                     <button class="filter-btn" data-rarity="totw">TOTW</button>
                     <button class="filter-btn" data-rarity="icon">Iconos</button>
@@ -165,12 +347,24 @@
                         <option value="POR">Porteros</option>
                     </select>
 
+                    <select class="search-box" id="ownership-filter" style="min-width: 130px;">
+                        <option value="all">Colección: Todas</option>
+                        <option value="owned">En mi Club (Desbloqueadas)</option>
+                        <option value="missing">Faltantes (Siluetas)</option>
+                    </select>
+
                     <input type="text" class="search-box" id="album-search" placeholder="🔍 Buscar jugador o club...">
                 </div>
             </div>
 
             <div class="cards-gallery-grid" id="album-gallery">
                 <!-- Se inyecta desde app.js -->
+            </div>
+
+            <div id="album-pagination" style="display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 24px; padding-bottom: 20px;">
+                <button class="filter-btn" id="btn-album-prev" style="padding: 10px 20px; font-size: 14px;">⬅ Anterior</button>
+                <span id="album-page-indicator" style="font-weight: 700; color: var(--text-secondary); font-size: 14px;">Página 1 de 1</span>
+                <button class="filter-btn" id="btn-album-next" style="padding: 10px 20px; font-size: 14px;">Siguiente ➡</button>
             </div>
         </section>
 
@@ -191,23 +385,166 @@
             </div>
         </section>
 
+        <!-- PESTAÑA: DESAFÍOS SBC (SQUAD BUILDING CHALLENGES) -->
+        <section id="view-sbc" class="tab-view">
+            <!-- VISTA 1: LISTADO DE DESAFÍOS DISPONIBLES -->
+            <div id="sbc-list-view">
+                <div class="store-hero">
+                    <h1>🧩 SQUAD BUILDING CHALLENGES (SBC)</h1>
+                    <p>Entrega plantillas usando <strong>únicamente tus cartas repetidas</strong> que cumplan los requisitos tácticos para desbloquear <strong>Sobres de Icono</strong>, jugadores especiales y recompensas exclusivas.</p>
+                </div>
+
+                <div class="sbc-challenges-grid" id="sbc-challenges-container">
+                    <!-- Tarjetas de desafíos SBC -->
+                </div>
+            </div>
+
+            <!-- VISTA 2: ESPACIO DE CONSTRUCCIÓN Y ENTREGA DE UN SBC ESPECÍFICO -->
+            <div id="sbc-builder-view" style="display: none;">
+                <!-- Barra superior del desafío -->
+                <div class="sbc-builder-header">
+                    <button class="filter-btn" id="btn-sbc-back">⬅ Volver a Desafíos</button>
+                    <div class="sbc-challenge-title-box">
+                        <h2 id="sbc-active-title">DESAFÍO: MEJORA DE ICONO ASEGURADO</h2>
+                        <p id="sbc-active-desc">Entrega un equipo con los requisitos solicitados usando tus repetidas.</p>
+                    </div>
+                    <div class="sbc-reward-pill" id="sbc-active-reward-badge">
+                        🎁 Sobre Iconos & Héroes
+                    </div>
+                </div>
+
+                <!-- Panel central: Requisitos + Campo Táctico -->
+                <div class="sbc-workspace-grid">
+                    <!-- Lista de Requisitos en Tiempo Real -->
+                    <div class="sbc-reqs-card">
+                        <div class="sbc-reqs-header">
+                            <h3>📋 REQUISITOS DEL DESAFÍO</h3>
+                            <span class="sub" id="sbc-reqs-status">0 / 4 cumplidos</span>
+                        </div>
+                        <div class="sbc-reqs-list" id="sbc-reqs-list">
+                            <!-- Items de requisitos con checks interactivos -->
+                        </div>
+
+                        <div class="sbc-stats-summary">
+                            <div class="draft-stat-chip rating" style="flex: 1; padding: 10px;">
+                                <span class="lbl">MEDIA ACTUAL</span>
+                                <span class="val" id="sbc-current-rating">0</span>
+                            </div>
+                            <div class="draft-stat-chip chem" style="flex: 1; padding: 10px;">
+                                <span class="lbl">QUÍMICA ACTUAL</span>
+                                <span class="val" id="sbc-current-chem">0 / 100</span>
+                            </div>
+                        </div>
+
+                        <div class="sbc-notice-box">
+                            ⚠️ <strong>Regla Estricta:</strong> Solo puedes colocar jugadores que tengas en tu <strong>Pila de Repetidas</strong>. Al enviar el desafío, las cartas entregadas se descontarán de tus repetidas de forma permanente.
+                        </div>
+
+                        <button class="btn-summary primary" id="btn-submit-sbc" style="width: 100%; justify-content: center; font-size: 16px; padding: 15px; margin-top: 15px;" disabled>
+                            🔒 Requisitos Incompletos
+                        </button>
+                        <button class="btn-summary secondary" id="btn-clear-sbc" style="width: 100%; justify-content: center; font-size: 13px; margin-top: 8px;">
+                            🗑️ Vaciar Plantilla
+                        </button>
+                    </div>
+
+                    <!-- Terreno de juego con slots interactivos para colocar repetidas -->
+                    <div class="sbc-pitch-column">
+                        <div class="pitch-container" style="margin-bottom: 0;">
+                            <div class="pitch-field" id="sbc-pitch-field" style="max-width: 650px;">
+                                <div class="pitch-center-circle"></div>
+                                <div class="pitch-half-line"></div>
+                                <div class="pitch-penalty-area top"></div>
+                                <div class="pitch-penalty-area bottom"></div>
+
+                                <!-- Capa SVG de enlaces de química clásica para SBC -->
+                                <svg class="pitch-chem-lines" id="sbc-chem-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+
+                                <!-- Slots de jugadores en el SBC -->
+                                <div class="pitch-slots-layer" id="sbc-pitch-slots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- PESTAÑA: RECOMPENSAS Y LOGROS -->
         <section id="view-rewards" class="tab-view">
             <div class="store-hero">
-                <h1>RECOMPENSAS Y RETOS</h1>
-                <p>Consigue monedas adicionales gratis para seguir abriendo sobres.</p>
+                <h1>🏆 LOGROS Y RECOMPENSAS</h1>
+                <p>Completa las colecciones completas de cada rareza (Oro, Plata, Bronce, TOTW, Iconos y Héroes) para desbloquear sobres exclusivos y monedas millonarias.</p>
             </div>
 
-            <div style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;" id="rewards-list">
-                <!-- Lista de recompensas y botón de monedas gratis -->
+            <div style="max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;" id="rewards-list">
+                <!-- Tarjetas interactivas de logros y recompensas -->
             </div>
         </section>
 
     </main>
 
+    <!-- MODAL SELECCIONAR CARTA REPETIDA PARA SBC -->
+    <div class="draft-pick-modal" id="sbc-pick-modal">
+        <div class="draft-pick-dialog" style="max-width: 960px;">
+            <div class="draft-pick-header">
+                <div>
+                    <h2 id="sbc-pick-title">SELECCIONAR JUGADOR REPETIDO</h2>
+                    <p id="sbc-pick-subtitle">Elige una carta de tu pila de repetidas para colocar en esta posición</p>
+                </div>
+                <button class="close-detail-btn" id="btn-close-sbc-pick">✕</button>
+            </div>
+
+            <!-- Filtros rápidos para repetidas y cartas del club -->
+            <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+                <input type="text" class="search-box" id="sbc-dup-search" placeholder="🔍 Buscar por nombre o club..." style="flex: 1;">
+                <select class="search-box" id="sbc-source-filter" style="min-width: 150px;">
+                    <option value="all_club">Todas las cartas del Club</option>
+                    <option value="dups_only">Solo Repetidas</option>
+                </select>
+                <select class="search-box" id="sbc-dup-pos-filter" style="min-width: 140px;">
+                    <option value="all">Todas las Posiciones</option>
+                    <option value="matching">Posición Compatible</option>
+                    <option value="POR">Porteros (POR)</option>
+                    <option value="DEF">Defensas (DEF)</option>
+                    <option value="MED">Centrocampistas (MED)</option>
+                    <option value="DEL">Delanteros (DEL)</option>
+                </select>
+                <select class="search-box" id="sbc-dup-rarity-filter" style="min-width: 140px;">
+                    <option value="all">Todas las Rarezas</option>
+                    <option value="gold_rare">Oro Único</option>
+                    <option value="totw">TOTW / Especial</option>
+                    <option value="silver">Plata</option>
+                    <option value="bronze">Bronce</option>
+                </select>
+            </div>
+
+            <!-- Galería de cartas repetidas disponibles -->
+            <div class="sbc-dups-selection-grid" id="sbc-dups-selection-grid">
+                <!-- Cartas repetidas interactivas -->
+            </div>
+        </div>
+    </div>
+
     <!-- CINEMÁTICA DE WALKOUT -->
     <div class="walkout-overlay" id="walkout-modal">
         <div class="stadium-beams"></div>
+
+        <!-- Animación de división vertical del sobre (Mitad Izquierda / Mitad Derecha) -->
+        <div class="pack-split-wrapper" id="pack-split-wrapper">
+            <div class="pack-half pack-half-left" id="pack-half-left">
+                <div class="pack-half-inner" id="pack-half-left-content">
+                    <div class="pack-half-foil"></div>
+                    <div class="pack-half-title" id="pack-split-title-left">FC 27</div>
+                </div>
+            </div>
+            <div class="pack-glow-line" id="pack-glow-line"></div>
+            <div class="pack-half pack-half-right" id="pack-half-right">
+                <div class="pack-half-inner" id="pack-half-right-content">
+                    <div class="pack-half-foil"></div>
+                    <div class="pack-half-title" id="pack-split-title-right">PACK</div>
+                </div>
+            </div>
+        </div>
 
         <div class="walkout-stage">
             <div class="walkout-clues" id="walkout-clues">
@@ -310,7 +647,7 @@
                 </div>
                 <div class="draft-stat-chip chem" style="flex: 1; padding: 12px;">
                     <span class="lbl">QUÍMICA</span>
-                    <span class="val" id="reward-final-chem">0 / 33</span>
+                    <span class="val" id="reward-final-chem">0 / 100</span>
                 </div>
                 <div class="draft-stat-chip coins" style="flex: 1; padding: 12px; border-color: rgba(251, 191, 36, 0.4);">
                     <span class="lbl">PREMIO MONEDAS</span>
@@ -325,6 +662,89 @@
             <button class="btn-summary primary" id="btn-claim-draft-reward" style="width: 100%; justify-content: center; font-size: 16px; padding: 14px;">
                 ¡Reclamar Monedas y Jugar Otro! 💰
             </button>
+        </div>
+    </div>
+
+    <!-- MODAL DE PARTIDO SIMULADO MINUTO A MINUTO VS IA -->
+    <div class="draft-pick-modal" id="draft-match-modal">
+        <div class="draft-pick-dialog match-dialog" style="max-width: 780px; width: 95%;">
+            <!-- Encabezado del partido -->
+            <div class="match-modal-header">
+                <div class="match-stage-title">⚽ FUT DRAFT MATCHDAY - VS CLUB DE ÉLITE</div>
+                <button class="close-detail-btn" id="btn-close-match-modal" style="display: none;">✕</button>
+            </div>
+
+            <!-- Marcador en Vivo -->
+            <div class="match-scoreboard-card">
+                <!-- Equipo Usuario -->
+                <div class="match-team-col home">
+                    <div class="match-team-badge user-badge">⭐</div>
+                    <div class="match-team-name" id="match-user-name">MI DRAFT FC</div>
+                    <div class="match-team-meta" id="match-user-stats">Media 88 • Chem 33</div>
+                </div>
+
+                <!-- Centro: Marcador y Minuto -->
+                <div class="match-center-col">
+                    <div class="match-live-indicator">
+                        <span class="pulse-dot"></span> <span id="match-time-text">0'</span>
+                    </div>
+                    <div class="match-score-display">
+                        <span id="match-score-user">0</span>
+                        <span class="match-score-sep">-</span>
+                        <span id="match-score-rival">0</span>
+                    </div>
+                    <div class="match-half-label" id="match-period-text">PRIMERA PARTE</div>
+                </div>
+
+                <!-- Equipo Rival IA -->
+                <div class="match-team-col away">
+                    <div class="match-team-badge rival-badge" id="match-rival-badge">🦁</div>
+                    <div class="match-team-name" id="match-rival-name">MANCHESTER CITY</div>
+                    <div class="match-team-meta" id="match-rival-stats">Media 89 • IA Élite</div>
+                </div>
+            </div>
+
+            <!-- Barra de posesión y presión en vivo -->
+            <div class="match-momentum-container">
+                <div class="momentum-label-bar">
+                    <span>Dominio del Partido</span>
+                    <span id="match-momentum-pct">50% - 50%</span>
+                </div>
+                <div class="match-momentum-bar">
+                    <div class="momentum-fill home" id="match-momentum-user" style="width: 50%;"></div>
+                    <div class="momentum-fill away" id="match-momentum-rival" style="width: 50%;"></div>
+                </div>
+            </div>
+
+            <!-- Feed de Comentarios y Eventos en Directo -->
+            <div class="match-feed-section">
+                <div class="match-feed-header">
+                    <span>📡 RETRANSMISIÓN MINUTO A MINUTO</span>
+                    <span class="match-speed-controls">
+                        <button class="match-speed-btn active" data-speed="normal">1x</button>
+                        <button class="match-speed-btn" data-speed="fast">2x</button>
+                        <button class="match-speed-btn" data-speed="turbo">Instantáneo ⚡</button>
+                    </span>
+                </div>
+                <div class="match-events-list" id="match-events-list">
+                    <!-- Eventos minuto a minuto se inyectan dinámicamente -->
+                </div>
+            </div>
+
+            <!-- Pantalla de Resultado / Recompensa Final del Partido -->
+            <div class="match-finish-banner" id="match-finish-banner" style="display: none;">
+                <div class="match-finish-icon" id="match-finish-icon">🏆</div>
+                <h3 class="match-finish-title" id="match-finish-title">¡VICTORIA ÉPICA!</h3>
+                <p class="match-finish-msg" id="match-finish-msg">¡Has derrotado al rival de la IA! Reclama tu recompensa exclusiva de 50.000 monedas.</p>
+                <div class="match-finish-reward" id="match-finish-reward-box">
+                    <div class="pack-badge" style="background: #8b5cf6; color: white;">PREMIO EXCLUSIVO DE PARTIDO</div>
+                    <div class="reward-title">🎁 Mega Sobre Top Players (Valor 50.000)</div>
+                    <div class="reward-bonus">+ 25.000 Monedas directas a tu Club</div>
+                </div>
+                <button class="btn-summary primary" id="btn-collect-match-reward" style="font-size: 16px; padding: 14px 28px; width: 100%; justify-content: center;">
+                    ¡Cobrar Recompensas y Guardar Sobre! 🎁
+                </button>
+            </div>
         </div>
     </div>
 

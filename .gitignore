@@ -1,0 +1,23 @@
+# Python & PyInstaller
+__pycache__/
+*.py[cod]
+*.class
+*.spec
+build/
+dist/
+pacibyts/build/
+pacibyts/dist/
+
+# System & OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Save game local
+# pacibyts/pacybits_fc27_save.json

@@ -265,7 +265,69 @@ HOF_PLAYERS = [
     }
 ]
 
-TOTW_COUNT = 55
+# Lista estricta de TOTWs oficiales que salieron en el juego oficial de EA SPORTS FC
+# NUNCA generar TOTWs automáticos para jugadores que no han salido en TOTW oficial (como Kevin De Bruyne, Rodri, etc.)
+OFFICIAL_TOTW_MAP = {
+    # TOTW 1
+    158023: {"ovr": 89, "face": ""},  # Lionel Messi (Inter Miami)
+    232656: {"ovr": 88, "face": ""},  # Theo Hernández (AC Milan)
+    231443: {"ovr": 87, "face": ""},  # Ousmane Dembélé (Paris Saint-Germain)
+    165153: {"ovr": 87, "face": ""},  # Karim Benzema (Al-Ittihad)
+    232580: {"ovr": 87, "face": ""},  # Gabriel (Arsenal)
+    247635: {"ovr": 86, "face": ""},  # Khvicha Kvaratskhelia (Napoli)
+    277643: {"ovr": 84, "face": "assets/faces/totw_yamal.webp"},  # Lamine Yamal (FC Barcelona)
+    247679: {"ovr": 84, "face": ""},  # Victor Boniface (Bayer Leverkusen)
+    251852: {"ovr": 82, "face": ""},  # Karim Adeyemi (Borussia Dortmund)
+    215316: {"ovr": 82, "face": ""},  # Gerónimo Rulli (Marseille)
+    244778: {"ovr": 82, "face": ""},  # Francisco Trincão (Sporting CP)
+
+    # TOTW 2
+    238794: {"ovr": 91, "face": "assets/faces/totw_vinicius.webp"},  # Vini Jr. (Real Madrid)
+    256630: {"ovr": 89, "face": ""},  # Florian Wirtz (Bayer Leverkusen)
+    200104: {"ovr": 88, "face": ""},  # Heung-min Son (Tottenham Hotspur)
+    239580: {"ovr": 87, "face": ""},  # Bremer (Juventus)
+    233419: {"ovr": 86, "face": ""},  # Raphinha (FC Barcelona)
+    241084: {"ovr": 86, "face": ""},  # Luis Díaz (Liverpool)
+    247827: {"ovr": 84, "face": ""},  # Michael Olise (Bayern München)
+
+    # TOTW 3
+    231478: {"ovr": 90, "face": ""},  # Lautaro Martínez (Inter)
+    257534: {"ovr": 86, "face": "assets/faces/totw_palmer.webp"},  # Cole Palmer (Chelsea)
+    240130: {"ovr": 86, "face": ""},  # Éder Militão (Real Madrid)
+    251566: {"ovr": 86, "face": ""},  # Gabriel Martinelli (Arsenal)
+    264453: {"ovr": 84, "face": ""},  # Micky van de Ven (Tottenham Hotspur)
+    243630: {"ovr": 84, "face": ""},  # Jonathan David (LOSC Lille)
+    256675: {"ovr": 82, "face": ""},  # Omar Marmoush (Eintracht Frankfurt)
+
+    # TOTW 4
+    239053: {"ovr": 89, "face": ""},  # Federico Valverde (Real Madrid)
+    188545: {"ovr": 89, "face": ""},  # Robert Lewandowski (FC Barcelona)
+    246669: {"ovr": 88, "face": ""},  # Bukayo Saka (Arsenal)
+    208722: {"ovr": 86, "face": ""},  # Sadio Mané (Al Nassr)
+    207410: {"ovr": 85, "face": ""},  # Mateo Kovačić (Manchester City)
+    192505: {"ovr": 84, "face": ""},  # Romelu Lukaku (Napoli)
+    241850: {"ovr": 84, "face": ""},  # Mateo Retegui (Atalanta)
+    205186: {"ovr": 84, "face": ""},  # Paulo Gazzaniga (Girona)
+
+    # TOTW 5
+    215441: {"ovr": 86, "face": ""},  # Serhou Guirassy (Borussia Dortmund)
+    207421: {"ovr": 85, "face": ""},  # Leandro Trossard (Arsenal)
+    236772: {"ovr": 84, "face": ""},  # Dominik Szoboszlai (Liverpool)
+    233096: {"ovr": 84, "face": ""},  # Denzel Dumfries (Inter)
+
+    # TOTW 6
+    202126: {"ovr": 91, "face": ""},  # Harry Kane (Bayern München)
+    251854: {"ovr": 87, "face": ""},  # Pedri (FC Barcelona)
+    241852: {"ovr": 85, "face": ""},  # Moussa Diaby (Al Ittihad)
+    251517: {"ovr": 85, "face": ""},  # Joško Gvardiol (Manchester City)
+    204638: {"ovr": 85, "face": ""},  # Willi Orbán (RB Leipzig)
+    201399: {"ovr": 85, "face": ""},  # Mauro Icardi (Galatasaray)
+    213648: {"ovr": 83, "face": ""},  # Pierre-Emile Højbjerg (Marseille)
+
+    # TOTWs reales adicionales
+    246430: {"ovr": 85, "face": ""},  # Dušan Vlahović (Juventus)
+    241651: {"ovr": 86, "face": ""},  # Viktor Gyökeres (Sporting CP)
+}
 
 
 def main():
@@ -301,23 +363,12 @@ def main():
 
     print(f"Jugadores leídos de SQLite: {len(rows)}")
 
-    # 4. Generar TOTWs para los mejores jugadores reales
-    totw_ids = set()
-    totw_count = 0
-    for row in rows:
-        if totw_count >= TOTW_COUNT:
-            break
-        pid = row["player_id"]
-        # Solo hombres y mujeres con rating >= 84
-        if row["overall_rating"] >= 84 and str(pid) not in special_ids:
-            totw_ids.add(pid)
-            totw_count += 1
-
     players_js = []
     # Añadir primero especiales (Iconos, Héroes, Hall of FUT)
     for s in all_special:
         players_js.append(s)
 
+    totw_generated = 0
     # 5. Añadir jugadores de SQLite
     for row in rows:
         pid = row["player_id"]
@@ -357,18 +408,22 @@ def main():
         }
         players_js.append(player_obj)
 
-        # Si corresponde, versión TOTW
-        if pid in totw_ids:
-            boost = 1 if row["overall_rating"] >= 88 else 2
+        # Generar carta TOTW ÚNICAMENTE si está en OFFICIAL_TOTW_MAP
+        if pid in OFFICIAL_TOTW_MAP and str(pid) not in special_ids:
+            totw_info = OFFICIAL_TOTW_MAP[pid]
+            totw_rating = totw_info["ovr"]
+            boost = max(1, totw_rating - row["overall_rating"])
             totw_stats = {
                 k: min(99, v + boost) for k, v in base_stats.items()
             }
+            totw_face = totw_info.get("face") or row["face_url"]
+
             totw_player = {
                 "id": f"{pid}_totw",
                 "basePlayerId": pid,
-                "name": player_name,
+                "name": f"{player_name} TOTW",
                 "fullName": row["full_name"],
-                "rating": min(99, row["overall_rating"] + boost),
+                "rating": totw_rating,
                 "cardType": "totw",
                 "pos": row["position_es"],
                 "gender": row["gender"] if "gender" in row.keys() else "Men's Football",
@@ -379,183 +434,81 @@ def main():
                 },
                 "club": club_data,
                 "stats": totw_stats,
-                "faceUrl": row["face_url"],
+                "faceUrl": totw_face,
                 "quickSell": int(row["quick_sell"] * 1.8 + 5000)
             }
             players_js.append(totw_player)
+            totw_generated += 1
 
+    print(f"Total cartas TOTW oficiales añadidas: {totw_generated}")
     print(f"Total cartas listas para database.js: {len(players_js)}")
 
     # 6. Escribir database.js
     players_json_str = json.dumps(players_js, ensure_ascii=False, indent=2)
+    hof_json_str = json.dumps(HOF_PLAYERS, ensure_ascii=False, indent=2)
 
-    # Configuración de sobres oficial de Pacybits FC 27
+    # Configuración de sobres oficial esperada por app.js (formato Array)
     packs_config_str = """
-const PACKS_CONFIG = {
-  free: {
-    id: "free",
-    name: "Sobre Gratis",
-    cost: 0,
-    costType: "coins",
-    cardCount: 3,
-    description: "Sobre gratuito diario. 3 cartas de cualquier calidad.",
-    color: "#6b7280",
-    glowColor: "rgba(107, 114, 128, 0.4)",
-    minRating: 50,
-    maxRating: 84,
-    probabilities: {
-      bronze: 0.50,
-      silver: 0.35,
-      gold_rare: 0.15,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
+const PACKS_CONFIG = [
+    {
+        id: "pack_free",
+        name: "Sobre Gratis",
+        price: 0,
+        cardsCount: 9,
+        color: "#10b981",
+        description: "¡9 cartas gratis! Probabilidades muy bajas para cartas de élite, ideal para empezar.",
+        guaranteed: "9 Cartas (Bronce / Plata / Oro Común)",
+        weights: { bronze: 0.65, silver: 0.28, gold_rare: 0.068, totw: 0.0019, hero: 0.0001, icon: 0.0000 },
+        badgeText: "GRATIS (9 CARTAS)"
+    },
+    {
+        id: "pack_gold",
+        name: "Sobre Oro",
+        price: 5000,
+        cardsCount: 9,
+        color: "#fbbf24",
+        description: "9 cartas con presencia balanceada de jugadores Oro Únicos.",
+        guaranteed: "9 Cartas (Garantiza cartas Oro)",
+        weights: { bronze: 0.15, silver: 0.35, gold_rare: 0.46, totw: 0.035, hero: 0.004, icon: 0.001 },
+        badgeText: "ESTÁNDAR (9 CARTAS)"
+    },
+    {
+        id: "pack_gold_premium",
+        name: "Oro Premium",
+        price: 15000,
+        cardsCount: 9,
+        color: "#f59e0b",
+        description: "9 cartas de alta calidad con gran mayoría de jugadores Oro y Walkouts.",
+        guaranteed: "9 Cartas (Altas Medias)",
+        weights: { bronze: 0.03, silver: 0.12, gold_rare: 0.74, totw: 0.08, hero: 0.022, icon: 0.008 },
+        badgeText: "POPULAR (9 CARTAS)"
+    },
+    {
+        id: "pack_mega_top",
+        name: "Mega Sobre Top Players",
+        price: 50000,
+        cardsCount: 9,
+        color: "#8b5cf6",
+        description: "¡9 cartas de primer nivel! Probabilidades muy altas de Walkouts (86+), TOTW e Iconos.",
+        guaranteed: "9 Cartas Oro Único + Walkouts",
+        weights: { bronze: 0.0, silver: 0.0, gold_rare: 0.73, totw: 0.18, hero: 0.06, icon: 0.03 },
+        badgeText: "86+ WALKOUT (9 CARTAS)"
+    },
+    {
+        id: "pack_icon_legends",
+        name: "Sobre Iconos & Héroes",
+        price: 150000,
+        cardsCount: 5,
+        color: "#ec4899",
+        description: "El sobre legendario exclusivo de 5 cartas. ¡Garantiza al menos un Icono o Héroe!",
+        guaranteed: "1 Icono / Héroe 100% Asegurado",
+        weights: { bronze: 0.0, silver: 0.0, gold_rare: 0.35, totw: 0.25, hero: 0.25, icon: 0.15 },
+        badgeText: "LEGENDARIO (5 CARTAS)"
     }
-  },
-  bronze: {
-    id: "bronze",
-    name: "Sobre Bronce",
-    cost: 500,
-    costType: "coins",
-    cardCount: 3,
-    description: "3 cartas de bronce garantizadas.",
-    color: "#cd7f32",
-    glowColor: "rgba(205, 127, 50, 0.4)",
-    minRating: 50,
-    maxRating: 64,
-    probabilities: {
-      bronze: 0.90,
-      silver: 0.10,
-      gold_rare: 0.00,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
-    }
-  },
-  silver: {
-    id: "silver",
-    name: "Sobre Plata",
-    cost: 2500,
-    costType: "coins",
-    cardCount: 4,
-    description: "4 cartas de plata con posibilidad de oro.",
-    color: "#c0c0c0",
-    glowColor: "rgba(192, 192, 192, 0.4)",
-    minRating: 65,
-    maxRating: 77,
-    probabilities: {
-      bronze: 0.05,
-      silver: 0.80,
-      gold_rare: 0.15,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
-    }
-  },
-  gold: {
-    id: "gold",
-    name: "Sobre Oro",
-    cost: 5000,
-    costType: "coins",
-    cardCount: 5,
-    description: "5 cartas de oro. Ideal para empezar tu colecci\u00f3n.",
-    color: "#eab308",
-    glowColor: "rgba(234, 179, 8, 0.4)",
-    minRating: 75,
-    maxRating: 84,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.05,
-      gold_rare: 0.92,
-      totw: 0.02,
-      hero: 0.008,
-      icon: 0.002
-    }
-  },
-  premium_gold: {
-    id: "premium_gold",
-    name: "Sobre Oro Premium",
-    cost: 15000,
-    costType: "coins",
-    cardCount: 5,
-    description: "5 cartas con al menos un oro +80 garantizado.",
-    color: "#f59e0b",
-    glowColor: "rgba(245, 158, 11, 0.5)",
-    minRating: 78,
-    maxRating: 91,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.88,
-      totw: 0.08,
-      hero: 0.03,
-      icon: 0.01
-    }
-  },
-  totw_pack: {
-    id: "totw_pack",
-    name: "Sobre TOTW Garantizado",
-    cost: 45000,
-    costType: "coins",
-    cardCount: 3,
-    description: "\u00a1Al menos 1 carta TOTW garantizada!",
-    color: "#0f172a",
-    glowColor: "rgba(245, 158, 11, 0.7)",
-    minRating: 80,
-    maxRating: 94,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.50,
-      totw: 0.45,
-      hero: 0.035,
-      icon: 0.015
-    }
-  },
-  special: {
-    id: "special",
-    name: "Sobre Especial",
-    cost: 50,
-    costType: "points",
-    cardCount: 5,
-    description: "Alta probabilidad de jugadores de \u00e9lite y especiales.",
-    color: "#a855f7",
-    glowColor: "rgba(168, 85, 247, 0.5)",
-    minRating: 83,
-    maxRating: 95,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.65,
-      totw: 0.22,
-      hero: 0.09,
-      icon: 0.04
-    }
-  },
-  mega_pack: {
-    id: "mega_pack",
-    name: "Mega Sobre",
-    cost: 100,
-    costType: "points",
-    cardCount: 8,
-    description: "8 cartas de calidad extrema. Probabilidad m\u00e1xima de Iconos y H\u00e9roes.",
-    color: "#ec4899",
-    glowColor: "rgba(236, 72, 153, 0.6)",
-    minRating: 84,
-    maxRating: 98,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.50,
-      totw: 0.25,
-      hero: 0.15,
-      icon: 0.10
-    }
-  }
-};
+];
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = { PLAYERS_DB, PACKS_CONFIG };
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { PLAYERS_DB, PACKS_CONFIG, HOF_PLAYERS };
 }
 """
 
@@ -563,6 +516,9 @@ if (typeof module !== "undefined" && module.exports) {
         f.write("// Base de datos autogenerada para Pacybits FC 27\n")
         f.write("const PLAYERS_DB = ")
         f.write(players_json_str)
+        f.write(";\n\n")
+        f.write("const HOF_PLAYERS = ")
+        f.write(hof_json_str)
         f.write(";\n\n")
         f.write(packs_config_str.strip())
         f.write("\n")

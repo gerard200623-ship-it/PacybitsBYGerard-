@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.class
 *.spec
+*.exe
 build/
 dist/
 pacibyts/build/

@@ -2754,35 +2754,6 @@ const PLAYERS_DB = [
     "quickSell": 12000
   },
   {
-    "id": "231747_totw",
-    "basePlayerId": 231747,
-    "name": "Kylian Mbappé",
-    "fullName": "Kylian Mbappé",
-    "rating": 92,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 98,
-      "sho": 91,
-      "pas": 81,
-      "dri": 93,
-      "def": 37,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231747.png?padding=0.7",
-    "quickSell": 26600
-  },
-  {
     "id": 231866,
     "name": "Rodri",
     "fullName": "Rodrigo Hernández Cascante",
@@ -2811,35 +2782,6 @@ const PLAYERS_DB = [
     "quickSell": 12000
   },
   {
-    "id": "231866_totw",
-    "basePlayerId": 231866,
-    "name": "Rodri",
-    "fullName": "Rodrigo Hernández Cascante",
-    "rating": 92,
-    "cardType": "totw",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 67,
-      "sho": 81,
-      "pas": 87,
-      "dri": 85,
-      "def": 88,
-      "phy": 86
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231866.png?padding=0.7",
-    "quickSell": 26600
-  },
-  {
     "id": 239085,
     "name": "Erling Haaland",
     "fullName": "Erling Haaland",
@@ -2859,42 +2801,13 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 88,
       "sho": 92,
-      "pas": 65,
+      "pas": 70,
       "dri": 81,
       "def": 45,
       "phy": 88
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239085.png?padding=0.7",
     "quickSell": 12000
-  },
-  {
-    "id": "239085_totw",
-    "basePlayerId": 239085,
-    "name": "Erling Haaland",
-    "fullName": "Erling Haaland",
-    "rating": 92,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Noruega",
-      "code": "no"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 89,
-      "sho": 93,
-      "pas": 66,
-      "dri": 82,
-      "def": 46,
-      "phy": 89
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239085.png?padding=0.7",
-    "quickSell": 26600
   },
   {
     "id": 241667,
@@ -2925,35 +2838,6 @@ const PLAYERS_DB = [
     "quickSell": 12000
   },
   {
-    "id": "241667_totw",
-    "basePlayerId": 241667,
-    "name": "Aitana Bonmatí",
-    "fullName": "Aitana Bonmatí Conca",
-    "rating": 92,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 87,
-      "pas": 87,
-      "dri": 92,
-      "def": 78,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241667.png?padding=0.7",
-    "quickSell": 26600
-  },
-  {
     "id": 192985,
     "name": "Kevin De Bruyne",
     "fullName": "Kevin De Bruyne",
@@ -2976,39 +2860,10 @@ const PLAYERS_DB = [
       "pas": 94,
       "dri": 87,
       "def": 65,
-      "phy": 75
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192985.png?padding=0.7",
     "quickSell": 12000
-  },
-  {
-    "id": "192985_totw",
-    "basePlayerId": 192985,
-    "name": "Kevin De Bruyne",
-    "fullName": "Kevin De Bruyne",
-    "rating": 91,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Bélgica",
-      "code": "be"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 68,
-      "sho": 88,
-      "pas": 95,
-      "dri": 88,
-      "def": 66,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192985.png?padding=0.7",
-    "quickSell": 26600
   },
   {
     "id": 202126,
@@ -3041,7 +2896,7 @@ const PLAYERS_DB = [
   {
     "id": "202126_totw",
     "basePlayerId": 202126,
-    "name": "Harry Kane",
+    "name": "Harry Kane TOTW",
     "fullName": "Harry Kane",
     "rating": 91,
     "cardType": "totw",
@@ -3096,35 +2951,6 @@ const PLAYERS_DB = [
     "quickSell": 12000
   },
   {
-    "id": "227102_totw",
-    "basePlayerId": 227102,
-    "name": "Caroline Graham Hansen",
-    "fullName": "Caroline Graham Hansen",
-    "rating": 91,
-    "cardType": "totw",
-    "pos": "ED",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "Noruega",
-      "code": "no"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 90,
-      "sho": 88,
-      "pas": 89,
-      "dri": 91,
-      "def": 48,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227102.png?padding=0.7",
-    "quickSell": 26600
-  },
-  {
     "id": 227203,
     "name": "Alexia Putellas",
     "fullName": "Alexia Putellas Segura",
@@ -3151,35 +2977,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227203.png?padding=0.7",
     "quickSell": 12000
-  },
-  {
-    "id": "227203_totw",
-    "basePlayerId": 227203,
-    "name": "Alexia Putellas",
-    "fullName": "Alexia Putellas Segura",
-    "rating": 91,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 90,
-      "pas": 91,
-      "dri": 92,
-      "def": 73,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227203.png?padding=0.7",
-    "quickSell": 26600
   },
   {
     "id": 238794,
@@ -3212,7 +3009,7 @@ const PLAYERS_DB = [
   {
     "id": "238794_totw",
     "basePlayerId": 238794,
-    "name": "Vini Jr.",
+    "name": "Vini Jr. TOTW",
     "fullName": "Vinícius José de Oliveira Júnior",
     "rating": 91,
     "cardType": "totw",
@@ -3235,7 +3032,7 @@ const PLAYERS_DB = [
       "def": 30,
       "phy": 70
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p238794.png?padding=0.7",
+    "faceUrl": "assets/faces/totw_vinicius.webp",
     "quickSell": 26600
   },
   {
@@ -3267,35 +3064,6 @@ const PLAYERS_DB = [
     "quickSell": 12000
   },
   {
-    "id": "252371_totw",
-    "basePlayerId": 252371,
-    "name": "Jude Bellingham",
-    "fullName": "Jude Bellingham",
-    "rating": 91,
-    "cardType": "totw",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 88,
-      "pas": 84,
-      "dri": 89,
-      "def": 79,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p252371.png?padding=0.7",
-    "quickSell": 26600
-  },
-  {
     "id": 192119,
     "name": "Thibaut Courtois",
     "fullName": "Thibaut Courtois",
@@ -3318,39 +3086,38 @@ const PLAYERS_DB = [
       "pas": 76,
       "dri": 90,
       "def": 88,
-      "phy": 88
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192119.png?padding=0.7",
     "quickSell": 8000
   },
   {
-    "id": "192119_totw",
-    "basePlayerId": 192119,
-    "name": "Thibaut Courtois",
-    "fullName": "Thibaut Courtois",
-    "rating": 90,
-    "cardType": "totw",
+    "id": 192448,
+    "name": "Marc-André ter Stegen",
+    "fullName": "Marc-André ter Stegen",
+    "rating": 89,
+    "cardType": "gold_rare",
     "pos": "POR",
     "gender": "Men's Football",
     "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Bélgica",
-      "code": "be"
+      "name": "Alemania",
+      "code": "de"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "FC Barcelona",
+      "id": 81
     },
     "stats": {
       "pac": 86,
-      "sho": 90,
-      "pas": 77,
+      "sho": 85,
+      "pas": 89,
       "dri": 91,
-      "def": 89,
-      "phy": 89
+      "def": 86,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192119.png?padding=0.7",
-    "quickSell": 19400
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192448.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 203376,
@@ -3370,44 +3137,15 @@ const PLAYERS_DB = [
       "id": 64
     },
     "stats": {
-      "pac": 72,
+      "pac": 78,
       "sho": 60,
-      "pas": 71,
+      "pas": 72,
       "dri": 72,
       "def": 89,
       "phy": 86
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p203376.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "203376_totw",
-    "basePlayerId": 203376,
-    "name": "Virgil van Dijk",
-    "fullName": "Virgil van Dijk",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Holland",
-      "code": "es"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 73,
-      "sho": 61,
-      "pas": 72,
-      "dri": 73,
-      "def": 90,
-      "phy": 87
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p203376.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 209331,
@@ -3438,35 +3176,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "209331_totw",
-    "basePlayerId": 209331,
-    "name": "Mohamed Salah",
-    "fullName": "Mohamed Salah",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Egipto",
-      "code": "eg"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 90,
-      "sho": 88,
-      "pas": 83,
-      "dri": 89,
-      "def": 46,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209331.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 212622,
     "name": "Joshua Kimmich",
     "fullName": "Joshua Kimmich",
@@ -3484,44 +3193,15 @@ const PLAYERS_DB = [
       "id": 5
     },
     "stats": {
-      "pac": 72,
+      "pac": 70,
       "sho": 74,
-      "pas": 89,
+      "pas": 88,
       "dri": 84,
-      "def": 83,
-      "phy": 79
+      "def": 82,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212622.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "212622_totw",
-    "basePlayerId": 212622,
-    "name": "Joshua Kimmich",
-    "fullName": "Joshua Kimmich",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 73,
-      "sho": 75,
-      "pas": 90,
-      "dri": 85,
-      "def": 84,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212622.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 212831,
@@ -3543,42 +3223,13 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 86,
       "sho": 85,
-      "pas": 86,
+      "pas": 85,
       "dri": 89,
       "def": 90,
-      "phy": 90
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212831.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "212831_totw",
-    "basePlayerId": 212831,
-    "name": "Alisson",
-    "fullName": "Alisson Ramses Becker",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 87,
-      "sho": 86,
-      "pas": 87,
-      "dri": 90,
-      "def": 91,
-      "phy": 91
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212831.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 230621,
@@ -3598,44 +3249,15 @@ const PLAYERS_DB = [
       "id": 524
     },
     "stats": {
-      "pac": 90,
-      "sho": 83,
-      "pas": 79,
-      "dri": 89,
-      "def": 85,
-      "phy": 84
+      "pac": 89,
+      "sho": 84,
+      "pas": 78,
+      "dri": 90,
+      "def": 87,
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230621.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "230621_totw",
-    "basePlayerId": 230621,
-    "name": "Gianluigi Donnarumma",
-    "fullName": "Gianluigi Donnarumma",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Italia",
-      "code": "it"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 91,
-      "sho": 84,
-      "pas": 80,
-      "dri": 90,
-      "def": 86,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230621.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 231478,
@@ -3657,8 +3279,8 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 82,
       "sho": 88,
-      "pas": 75,
-      "dri": 84,
+      "pas": 76,
+      "dri": 86,
       "def": 48,
       "phy": 84
     },
@@ -3668,7 +3290,7 @@ const PLAYERS_DB = [
   {
     "id": "231478_totw",
     "basePlayerId": 231478,
-    "name": "Lautaro Martínez",
+    "name": "Lautaro Martínez TOTW",
     "fullName": "Lautaro Martínez",
     "rating": 90,
     "cardType": "totw",
@@ -3686,8 +3308,8 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 83,
       "sho": 89,
-      "pas": 76,
-      "dri": 85,
+      "pas": 77,
+      "dri": 87,
       "def": 49,
       "phy": 85
     },
@@ -3723,35 +3345,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "236479_totw",
-    "basePlayerId": 236479,
-    "name": "Mapi León",
-    "fullName": "María Pilar León Cebrián",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 76,
-      "sho": 69,
-      "pas": 80,
-      "dri": 77,
-      "def": 91,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236479.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 237288,
     "name": "Mariona",
     "fullName": "María Francesca Caldentey Oliver",
@@ -3778,35 +3371,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237288.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "237288_totw",
-    "basePlayerId": 237288,
-    "name": "Mariona",
-    "fullName": "María Francesca Caldentey Oliver",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 79,
-      "sho": 85,
-      "pas": 87,
-      "dri": 91,
-      "def": 77,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237288.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 237289,
@@ -3837,35 +3401,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "237289_totw",
-    "basePlayerId": 237289,
-    "name": "Patri Guijarro",
-    "fullName": "Patricia Guijarro Gutiérrez",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "MCD",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 79,
-      "sho": 83,
-      "pas": 84,
-      "dri": 88,
-      "def": 87,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237289.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 246219,
     "name": "Khadija Shaw",
     "fullName": "Khadija Shaw",
@@ -3892,35 +3427,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246219.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "246219_totw",
-    "basePlayerId": 246219,
-    "name": "Khadija Shaw",
-    "fullName": "Khadija Shaw",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Jamaica",
-      "code": "jm"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 90,
-      "pas": 72,
-      "dri": 82,
-      "def": 33,
-      "phy": 86
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246219.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 258980,
@@ -3951,35 +3457,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "258980_totw",
-    "basePlayerId": 258980,
-    "name": "Alessia Russo",
-    "fullName": "Alessia Russo",
-    "rating": 90,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 89,
-      "pas": 71,
-      "dri": 88,
-      "def": 40,
-      "phy": 74
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p258980.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 158023,
     "name": "Lionel Messi",
     "fullName": "Lionel Messi",
@@ -3999,7 +3476,7 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 79,
       "sho": 85,
-      "pas": 90,
+      "pas": 87,
       "dri": 92,
       "def": 33,
       "phy": 64
@@ -4010,7 +3487,7 @@ const PLAYERS_DB = [
   {
     "id": "158023_totw",
     "basePlayerId": 158023,
-    "name": "Lionel Messi",
+    "name": "Lionel Messi TOTW",
     "fullName": "Lionel Messi",
     "rating": 89,
     "cardType": "totw",
@@ -4028,7 +3505,7 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 80,
       "sho": 86,
-      "pas": 91,
+      "pas": 88,
       "dri": 93,
       "def": 34,
       "phy": 65
@@ -4054,10 +3531,10 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 74,
+      "pac": 75,
       "sho": 88,
       "pas": 79,
-      "dri": 85,
+      "dri": 86,
       "def": 44,
       "phy": 82
     },
@@ -4067,7 +3544,7 @@ const PLAYERS_DB = [
   {
     "id": "188545_totw",
     "basePlayerId": 188545,
-    "name": "Robert Lewandowski",
+    "name": "Robert Lewandowski TOTW",
     "fullName": "Robert Lewandowski",
     "rating": 89,
     "cardType": "totw",
@@ -4083,10 +3560,10 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 75,
+      "pac": 76,
       "sho": 89,
       "pas": 80,
-      "dri": 86,
+      "dri": 87,
       "def": 45,
       "phy": 83
     },
@@ -4115,40 +3592,11 @@ const PLAYERS_DB = [
       "sho": 88,
       "pas": 87,
       "dri": 87,
-      "def": 72,
+      "def": 60,
       "phy": 73
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p194765.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "194765_totw",
-    "basePlayerId": 194765,
-    "name": "Antoine Griezmann",
-    "fullName": "Antoine Griezmann",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 89,
-      "pas": 88,
-      "dri": 88,
-      "def": 73,
-      "phy": 74
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p194765.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 200389,
@@ -4168,44 +3616,15 @@ const PLAYERS_DB = [
       "id": 78
     },
     "stats": {
-      "pac": 85,
-      "sho": 90,
-      "pas": 78,
-      "dri": 87,
-      "def": 86,
-      "phy": 86
+      "pac": 84,
+      "sho": 88,
+      "pas": 76,
+      "dri": 88,
+      "def": 88,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200389.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "200389_totw",
-    "basePlayerId": 200389,
-    "name": "Jan Oblak",
-    "fullName": "Jan Oblak",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Eslovenia",
-      "code": "si"
-    },
-    "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 91,
-      "pas": 79,
-      "dri": 88,
-      "def": 87,
-      "phy": 87
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200389.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 205452,
@@ -4228,41 +3647,12 @@ const PLAYERS_DB = [
       "pac": 82,
       "sho": 55,
       "pas": 71,
-      "dri": 68,
+      "dri": 69,
       "def": 86,
       "phy": 86
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205452.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "205452_totw",
-    "basePlayerId": 205452,
-    "name": "Antonio Rüdiger",
-    "fullName": "Antonio Rüdiger",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 56,
-      "pas": 72,
-      "dri": 69,
-      "def": 87,
-      "phy": 87
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205452.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 210257,
@@ -4282,44 +3672,15 @@ const PLAYERS_DB = [
       "id": 65
     },
     "stats": {
-      "pac": 83,
+      "pac": 86,
       "sho": 82,
-      "pas": 91,
-      "dri": 83,
-      "def": 83,
+      "pas": 93,
+      "dri": 86,
+      "def": 86,
       "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210257.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "210257_totw",
-    "basePlayerId": 210257,
-    "name": "Ederson",
-    "fullName": "Ederson Santana de Moraes",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 83,
-      "pas": 92,
-      "dri": 84,
-      "def": 84,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210257.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 218667,
@@ -4339,44 +3700,15 @@ const PLAYERS_DB = [
       "id": 65
     },
     "stats": {
-      "pac": 70,
-      "sho": 79,
+      "pac": 69,
+      "sho": 78,
       "pas": 86,
       "dri": 92,
       "def": 69,
-      "phy": 78
+      "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p218667.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "218667_totw",
-    "basePlayerId": 218667,
-    "name": "Bernardo Silva",
-    "fullName": "Bernardo Mota Carvalho e Silva",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 71,
-      "sho": 80,
-      "pas": 87,
-      "dri": 93,
-      "def": 70,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p218667.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 226893,
@@ -4404,34 +3736,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226893.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "226893_totw",
-    "basePlayerId": 226893,
-    "name": "Debinha",
-    "fullName": "Débora C. de Oliveira",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MCO",
-    "gender": "Women's Football",
-    "league": "NWSL",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "KC Current"
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 80,
-      "pas": 87,
-      "dri": 92,
-      "def": 47,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226893.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 227190,
@@ -4462,35 +3766,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "227190_totw",
-    "basePlayerId": 227190,
-    "name": "Irene Paredes",
-    "fullName": "Irene Paredes Hernández",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 53,
-      "pas": 68,
-      "dri": 69,
-      "def": 89,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227190.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 227323,
     "name": "Guro Reiten",
     "fullName": "Guro Reiten",
@@ -4517,35 +3792,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227323.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "227323_totw",
-    "basePlayerId": 227323,
-    "name": "Guro Reiten",
-    "fullName": "Guro Reiten",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MI",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Noruega",
-      "code": "no"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 89,
-      "sho": 83,
-      "pas": 86,
-      "dri": 88,
-      "def": 61,
-      "phy": 70
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227323.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 227361,
@@ -4575,89 +3821,32 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "227361_totw",
-    "basePlayerId": 227361,
-    "name": "Kadidiatou Diani",
-    "fullName": "Kadidiatou Diani",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "ED",
-    "gender": "Women's Football",
-    "league": "Arkema PL",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "OL Lyonnes"
-    },
-    "stats": {
-      "pac": 93,
-      "sho": 86,
-      "pas": 82,
-      "dri": 89,
-      "def": 57,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227361.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
-    "id": 232580,
-    "name": "Gabriel",
-    "fullName": "Gabriel dos S. Magalhães",
+    "id": 235073,
+    "name": "Gregor Kobel",
+    "fullName": "Gregor Kobel",
     "rating": 88,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Bundesliga",
     "nation": {
-      "name": "Brasil",
-      "code": "br"
+      "name": "Suiza",
+      "code": "ch"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Borussia Dortmund",
+      "id": 4
     },
     "stats": {
-      "pac": 64,
-      "sho": 44,
-      "pas": 64,
-      "dri": 65,
-      "def": 88,
-      "phy": 84
+      "pac": 87,
+      "sho": 84,
+      "pas": 74,
+      "dri": 89,
+      "def": 86,
+      "phy": 80
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232580.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": "232580_totw",
-    "basePlayerId": 232580,
-    "name": "Gabriel",
-    "fullName": "Gabriel dos S. Magalhães",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 65,
-      "sho": 45,
-      "pas": 65,
-      "dri": 66,
-      "def": 89,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232580.png?padding=0.7",
-    "quickSell": 19400
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235073.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 237692,
@@ -4680,41 +3869,12 @@ const PLAYERS_DB = [
       "pac": 86,
       "sho": 86,
       "pas": 87,
-      "dri": 90,
-      "def": 57,
+      "dri": 89,
+      "def": 56,
       "phy": 64
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237692.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "237692_totw",
-    "basePlayerId": 237692,
-    "name": "Phil Foden",
-    "fullName": "Phil Foden",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 87,
-      "sho": 87,
-      "pas": 88,
-      "dri": 91,
-      "def": 58,
-      "phy": 65
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237692.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 239053,
@@ -4738,7 +3898,7 @@ const PLAYERS_DB = [
       "sho": 82,
       "pas": 84,
       "dri": 84,
-      "def": 82,
+      "def": 81,
       "phy": 84
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239053.png?padding=0.7",
@@ -4747,7 +3907,7 @@ const PLAYERS_DB = [
   {
     "id": "239053_totw",
     "basePlayerId": 239053,
-    "name": "Federico Valverde",
+    "name": "Federico Valverde TOTW",
     "fullName": "Federico Valverde",
     "rating": 89,
     "cardType": "totw",
@@ -4767,7 +3927,7 @@ const PLAYERS_DB = [
       "sho": 83,
       "pas": 85,
       "dri": 85,
-      "def": 83,
+      "def": 82,
       "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239053.png?padding=0.7",
@@ -4794,41 +3954,12 @@ const PLAYERS_DB = [
       "pac": 67,
       "sho": 39,
       "pas": 70,
-      "dri": 69,
+      "dri": 68,
       "def": 89,
       "phy": 87
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239818.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "239818_totw",
-    "basePlayerId": 239818,
-    "name": "Rúben Dias",
-    "fullName": "Rúben Santos Gato Alves Dias",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 68,
-      "sho": 40,
-      "pas": 71,
-      "dri": 70,
-      "def": 90,
-      "phy": 88
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239818.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 241846,
@@ -4859,35 +3990,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "241846_totw",
-    "basePlayerId": 241846,
-    "name": "Ewa Pajor",
-    "fullName": "Ewa Pajor",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Liga F Moeve",
-    "nation": {
-      "name": "Polonia",
-      "code": "pl"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 88,
-      "sho": 89,
-      "pas": 65,
-      "dri": 89,
-      "def": 23,
-      "phy": 72
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241846.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 245956,
     "name": "Christiane Endler",
     "fullName": "Christiane Endler",
@@ -4913,34 +4015,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p245956.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "245956_totw",
-    "basePlayerId": 245956,
-    "name": "Christiane Endler",
-    "fullName": "Christiane Endler",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Women's Football",
-    "league": "Arkema PL",
-    "nation": {
-      "name": "Chile",
-      "code": "cl"
-    },
-    "club": {
-      "name": "OL Lyonnes"
-    },
-    "stats": {
-      "pac": 89,
-      "sho": 83,
-      "pas": 85,
-      "dri": 90,
-      "def": 90,
-      "phy": 90
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p245956.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 246272,
@@ -4970,34 +4044,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "246272_totw",
-    "basePlayerId": 246272,
-    "name": "Marie Katoto",
-    "fullName": "Marie Katoto",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Arkema PL",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "OL Lyonnes"
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 88,
-      "pas": 78,
-      "dri": 85,
-      "def": 40,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246272.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 256630,
     "name": "Florian Wirtz",
     "fullName": "Florian Wirtz",
@@ -5019,7 +4065,7 @@ const PLAYERS_DB = [
       "sho": 81,
       "pas": 86,
       "dri": 89,
-      "def": 53,
+      "def": 52,
       "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256630.png?padding=0.7",
@@ -5028,7 +4074,7 @@ const PLAYERS_DB = [
   {
     "id": "256630_totw",
     "basePlayerId": 256630,
-    "name": "Florian Wirtz",
+    "name": "Florian Wirtz TOTW",
     "fullName": "Florian Wirtz",
     "rating": 89,
     "cardType": "totw",
@@ -5048,7 +4094,7 @@ const PLAYERS_DB = [
       "sho": 82,
       "pas": 87,
       "dri": 90,
-      "def": 54,
+      "def": 53,
       "phy": 69
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256630.png?padding=0.7",
@@ -5082,34 +4128,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "264012_totw",
-    "basePlayerId": 264012,
-    "name": "Sophia Wilson",
-    "fullName": "Sophia Wilson",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "NWSL",
-    "nation": {
-      "name": "Estados Unidos",
-      "code": "us"
-    },
-    "club": {
-      "name": "Portland Thorns"
-    },
-    "stats": {
-      "pac": 93,
-      "sho": 88,
-      "pas": 80,
-      "dri": 90,
-      "def": 46,
-      "phy": 82
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264012.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 177683,
     "name": "Yann Sommer",
     "fullName": "Yann Sommer",
@@ -5127,44 +4145,15 @@ const PLAYERS_DB = [
       "id": 108
     },
     "stats": {
-      "pac": 83,
-      "sho": 82,
-      "pas": 85,
-      "dri": 89,
-      "def": 87,
-      "phy": 87
+      "pac": 85,
+      "sho": 84,
+      "pas": 80,
+      "dri": 88,
+      "def": 86,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p177683.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "177683_totw",
-    "basePlayerId": 177683,
-    "name": "Yann Sommer",
-    "fullName": "Yann Sommer",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Suiza",
-      "code": "ch"
-    },
-    "club": {
-      "name": "Inter",
-      "id": 108
-    },
-    "stats": {
-      "pac": 85,
-      "sho": 84,
-      "pas": 87,
-      "dri": 91,
-      "def": 89,
-      "phy": 89
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p177683.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 186942,
@@ -5184,44 +4173,15 @@ const PLAYERS_DB = [
       "id": 65
     },
     "stats": {
-      "pac": 64,
+      "pac": 62,
       "sho": 80,
       "pas": 86,
-      "dri": 84,
+      "dri": 85,
       "def": 74,
       "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p186942.png?padding=0.7",
     "quickSell": 3000
-  },
-  {
-    "id": "186942_totw",
-    "basePlayerId": 186942,
-    "name": "İlkay Gündoğan",
-    "fullName": "İlkay Gündoğan",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 66,
-      "sho": 82,
-      "pas": 88,
-      "dri": 86,
-      "def": 76,
-      "phy": 74
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p186942.png?padding=0.7",
-    "quickSell": 10400
   },
   {
     "id": 190871,
@@ -5241,44 +4201,72 @@ const PLAYERS_DB = [
       "id": "al_hilal"
     },
     "stats": {
-      "pac": 86,
+      "pac": 84,
       "sho": 81,
-      "pas": 84,
+      "pas": 86,
       "dri": 92,
-      "def": 37,
-      "phy": 60
+      "def": 36,
+      "phy": 58
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p190871.png?padding=0.7",
     "quickSell": 2500
   },
   {
-    "id": "190871_totw",
-    "basePlayerId": 190871,
-    "name": "Neymar Jr",
-    "fullName": "Neymar da Silva Santos Júnior",
-    "rating": 89,
+    "id": 200104,
+    "name": "Heung Min Son",
+    "fullName": "Heung Min Son",
+    "rating": 87,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "MLS",
+    "nation": {
+      "name": "Corea del Sur",
+      "code": "kr"
+    },
+    "club": {
+      "name": "Tottenham Hotspur",
+      "id": 73
+    },
+    "stats": {
+      "pac": 87,
+      "sho": 89,
+      "pas": 82,
+      "dri": 84,
+      "def": 42,
+      "phy": 70
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200104.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": "200104_totw",
+    "basePlayerId": 200104,
+    "name": "Heung Min Son TOTW",
+    "fullName": "Heung Min Son",
+    "rating": 88,
     "cardType": "totw",
     "pos": "EI",
     "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
+    "league": "MLS",
     "nation": {
-      "name": "Brasil",
-      "code": "br"
+      "name": "Corea del Sur",
+      "code": "kr"
     },
     "club": {
-      "name": "Al Hilal",
-      "id": "al_hilal"
+      "name": "Tottenham Hotspur",
+      "id": 73
     },
     "stats": {
       "pac": 88,
-      "sho": 83,
-      "pas": 86,
-      "dri": 94,
-      "def": 39,
-      "phy": 62
+      "sho": 90,
+      "pas": 83,
+      "dri": 85,
+      "def": 43,
+      "phy": 71
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p190871.png?padding=0.7",
-    "quickSell": 9500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200104.png?padding=0.7",
+    "quickSell": 14000
   },
   {
     "id": 207865,
@@ -5301,41 +4289,40 @@ const PLAYERS_DB = [
       "pac": 78,
       "sho": 56,
       "pas": 75,
-      "dri": 74,
-      "def": 89,
+      "dri": 77,
+      "def": 88,
       "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207865.png?padding=0.7",
     "quickSell": 8000
   },
   {
-    "id": "207865_totw",
-    "basePlayerId": 207865,
-    "name": "Marquinhos",
-    "fullName": "Marcos Aoás Corrêa",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DFC",
+    "id": 211110,
+    "name": "Paulo Dybala",
+    "fullName": "Paulo Dybala",
+    "rating": 87,
+    "cardType": "gold_rare",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Brasil",
-      "code": "br"
+      "name": "Argentina",
+      "code": "ar"
     },
     "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
+      "name": "Roma",
+      "id": 100
     },
     "stats": {
       "pac": 80,
-      "sho": 58,
-      "pas": 77,
-      "dri": 76,
-      "def": 91,
-      "phy": 82
+      "sho": 85,
+      "pas": 86,
+      "dri": 89,
+      "def": 40,
+      "phy": 60
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207865.png?padding=0.7",
-    "quickSell": 19400
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p211110.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 212198,
@@ -5366,92 +4353,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "212198_totw",
-    "basePlayerId": 212198,
-    "name": "Bruno Fernandes",
-    "fullName": "Bruno Miguel Borges Fernandes",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Manchester United",
-      "id": 66
-    },
-    "stats": {
-      "pac": 69,
-      "sho": 85,
-      "pas": 91,
-      "dri": 85,
-      "def": 67,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212198.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
-    "id": 215441,
-    "name": "Serhou Guirassy",
-    "fullName": "Serhou Guirassy",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Guinea",
-      "code": "gn"
-    },
-    "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 88,
-      "pas": 76,
-      "dri": 83,
-      "def": 45,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215441.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": "215441_totw",
-    "basePlayerId": 215441,
-    "name": "Serhou Guirassy",
-    "fullName": "Serhou Guirassy",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Guinea",
-      "code": "gn"
-    },
-    "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
-    },
-    "stats": {
-      "pac": 74,
-      "sho": 90,
-      "pas": 78,
-      "dri": 85,
-      "def": 47,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215441.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 215698,
     "name": "Mike Maignan",
     "fullName": "Mike Maignan",
@@ -5469,101 +4370,15 @@ const PLAYERS_DB = [
       "id": 98
     },
     "stats": {
-      "pac": 84,
+      "pac": 85,
       "sho": 83,
-      "pas": 85,
-      "dri": 88,
-      "def": 84,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215698.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": "215698_totw",
-    "basePlayerId": 215698,
-    "name": "Mike Maignan",
-    "fullName": "Mike Maignan",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "AC Milan",
-      "id": 98
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 85,
-      "pas": 87,
-      "dri": 90,
-      "def": 86,
-      "phy": 86
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215698.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
-    "id": 220901,
-    "name": "David Raya",
-    "fullName": "David Raya Martin",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 84,
-      "pas": 87,
-      "dri": 87,
-      "def": 85,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220901.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": "220901_totw",
-    "basePlayerId": 220901,
-    "name": "David Raya",
-    "fullName": "David Raya Martin",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 88,
-      "sho": 86,
-      "pas": 89,
+      "pas": 86,
       "dri": 89,
-      "def": 87,
-      "phy": 87
+      "def": 85,
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220901.png?padding=0.7",
-    "quickSell": 19400
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215698.png?padding=0.7",
+    "quickSell": 8000
   },
   {
     "id": 222665,
@@ -5583,44 +4398,15 @@ const PLAYERS_DB = [
       "id": 57
     },
     "stats": {
-      "pac": 68,
-      "sho": 79,
+      "pac": 74,
+      "sho": 81,
       "pas": 88,
-      "dri": 87,
-      "def": 67,
-      "phy": 65
+      "dri": 88,
+      "def": 64,
+      "phy": 66
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222665.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "222665_totw",
-    "basePlayerId": 222665,
-    "name": "Martin Ødegaard",
-    "fullName": "Martin Ødegaard",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Noruega",
-      "code": "no"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 70,
-      "sho": 81,
-      "pas": 90,
-      "dri": 89,
-      "def": 69,
-      "phy": 67
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222665.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 224232,
@@ -5640,44 +4426,15 @@ const PLAYERS_DB = [
       "id": 108
     },
     "stats": {
-      "pac": 80,
+      "pac": 79,
       "sho": 78,
       "pas": 84,
       "dri": 86,
-      "def": 81,
-      "phy": 76
+      "def": 78,
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p224232.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "224232_totw",
-    "basePlayerId": 224232,
-    "name": "Nicolò Barella",
-    "fullName": "Nicolò Barella",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Italia",
-      "code": "it"
-    },
-    "club": {
-      "name": "Inter",
-      "id": 108
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 80,
-      "pas": 86,
-      "dri": 88,
-      "def": 83,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p224232.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 227125,
@@ -5708,35 +4465,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "227125_totw",
-    "basePlayerId": 227125,
-    "name": "Sam Kerr",
-    "fullName": "Sam Kerr",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Australia",
-      "code": "au"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 89,
-      "pas": 76,
-      "dri": 91,
-      "def": 44,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227125.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 227246,
     "name": "Lucy Bronze",
     "fullName": "Lucy Bronze",
@@ -5763,35 +4491,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227246.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": "227246_totw",
-    "basePlayerId": 227246,
-    "name": "Lucy Bronze",
-    "fullName": "Lucy Bronze",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "LD",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 73,
-      "sho": 70,
-      "pas": 84,
-      "dri": 82,
-      "def": 89,
-      "phy": 89
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227246.png?padding=0.7",
-    "quickSell": 19400
   },
   {
     "id": 227310,
@@ -5821,34 +4520,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": "227310_totw",
-    "basePlayerId": 227310,
-    "name": "Ada Hegerberg",
-    "fullName": "Ada Hegerberg",
-    "rating": 89,
-    "cardType": "totw",
-    "pos": "DEL",
-    "gender": "Women's Football",
-    "league": "Arkema PL",
-    "nation": {
-      "name": "Noruega",
-      "code": "no"
-    },
-    "club": {
-      "name": "OL Lyonnes"
-    },
-    "stats": {
-      "pac": 74,
-      "sho": 88,
-      "pas": 78,
-      "dri": 87,
-      "def": 41,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227310.png?padding=0.7",
-    "quickSell": 19400
-  },
-  {
     "id": 228702,
     "name": "Frenkie de Jong",
     "fullName": "Frenkie de Jong",
@@ -5867,11 +4538,11 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 82,
-      "sho": 71,
-      "pas": 85,
+      "sho": 69,
+      "pas": 86,
       "dri": 87,
-      "def": 78,
-      "phy": 77
+      "def": 77,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228702.png?padding=0.7",
     "quickSell": 8000
@@ -5976,14 +4647,128 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 90,
-      "sho": 85,
+      "sho": 86,
       "pas": 66,
       "dri": 81,
       "def": 42,
-      "phy": 83
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232293.png?padding=0.7",
     "quickSell": 8000
+  },
+  {
+    "id": 232580,
+    "name": "Gabriel",
+    "fullName": "Gabriel dos S. Magalhães",
+    "rating": 87,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Arsenal",
+      "id": 57
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 38,
+      "pas": 64,
+      "dri": 68,
+      "def": 87,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232580.png?padding=0.7",
+    "quickSell": 8000
+  },
+  {
+    "id": "232580_totw",
+    "basePlayerId": 232580,
+    "name": "Gabriel TOTW",
+    "fullName": "Gabriel dos S. Magalhães",
+    "rating": 87,
+    "cardType": "totw",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Arsenal",
+      "id": 57
+    },
+    "stats": {
+      "pac": 69,
+      "sho": 39,
+      "pas": 65,
+      "dri": 69,
+      "def": 88,
+      "phy": 85
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232580.png?padding=0.7",
+    "quickSell": 19400
+  },
+  {
+    "id": 232656,
+    "name": "Theo Hernández",
+    "fullName": "Theo Hernández",
+    "rating": 87,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "AC Milan",
+      "id": 98
+    },
+    "stats": {
+      "pac": 95,
+      "sho": 73,
+      "pas": 78,
+      "dri": 84,
+      "def": 80,
+      "phy": 88
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232656.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "232656_totw",
+    "basePlayerId": 232656,
+    "name": "Theo Hernández TOTW",
+    "fullName": "Theo Hernández",
+    "rating": 88,
+    "cardType": "totw",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "AC Milan",
+      "id": 98
+    },
+    "stats": {
+      "pac": 96,
+      "sho": 74,
+      "pas": 79,
+      "dri": 85,
+      "def": 81,
+      "phy": 89
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232656.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 233662,
@@ -6031,12 +4816,12 @@ const PLAYERS_DB = [
       "id": 57
     },
     "stats": {
-      "pac": 72,
-      "sho": 73,
-      "pas": 84,
-      "dri": 80,
-      "def": 83,
-      "phy": 83
+      "pac": 74,
+      "sho": 71,
+      "pas": 81,
+      "dri": 79,
+      "def": 86,
+      "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234378.png?padding=0.7",
     "quickSell": 8000
@@ -6060,10 +4845,10 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 74,
-      "sho": 46,
-      "pas": 75,
-      "dri": 76,
-      "def": 88,
+      "sho": 40,
+      "pas": 76,
+      "dri": 74,
+      "def": 87,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237383.png?padding=0.7",
@@ -6098,62 +4883,6 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": 239837,
-    "name": "Alexis Mac Allister",
-    "fullName": "Alexis Mac Allister",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 66,
-      "sho": 82,
-      "pas": 85,
-      "dri": 85,
-      "def": 78,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239837.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": 241486,
-    "name": "Jules Koundé",
-    "fullName": "Jules Koundé",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 47,
-      "pas": 74,
-      "dri": 79,
-      "def": 86,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241486.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
     "id": 243715,
     "name": "William Saliba",
     "fullName": "William Saliba",
@@ -6172,11 +4901,11 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 82,
-      "sho": 39,
+      "sho": 40,
       "pas": 70,
-      "dri": 76,
+      "dri": 74,
       "def": 87,
-      "phy": 82
+      "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243715.png?padding=0.7",
     "quickSell": 8000
@@ -6260,66 +4989,39 @@ const PLAYERS_DB = [
       "pas": 83,
       "dri": 87,
       "def": 65,
-      "phy": 76
+      "phy": 75
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246669.png?padding=0.7",
     "quickSell": 8000
   },
   {
-    "id": 247635,
-    "name": "Khvicha Kvaratskhelia",
-    "fullName": "Khvicha Kvaratskhelia",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "EI",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Georgia",
-      "code": "ge"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 80,
-      "pas": 83,
-      "dri": 88,
-      "def": 58,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247635.png?padding=0.7",
-    "quickSell": 8000
-  },
-  {
-    "id": 256079,
-    "name": "Moisés Caicedo",
-    "fullName": "Moisés Caicedo",
-    "rating": 87,
-    "cardType": "gold_rare",
-    "pos": "MCD",
+    "id": "246669_totw",
+    "basePlayerId": 246669,
+    "name": "Bukayo Saka TOTW",
+    "fullName": "Bukayo Saka",
+    "rating": 88,
+    "cardType": "totw",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Ecuador",
-      "code": "ec"
+      "name": "Inglaterra",
+      "code": "gb-eng"
     },
     "club": {
-      "name": "Chelsea",
-      "id": 61
+      "name": "Arsenal",
+      "id": 57
     },
     "stats": {
-      "pac": 71,
-      "sho": 64,
-      "pas": 78,
-      "dri": 81,
-      "def": 84,
-      "phy": 82
+      "pac": 87,
+      "sho": 84,
+      "pas": 84,
+      "dri": 88,
+      "def": 66,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256079.png?padding=0.7",
-    "quickSell": 8000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246669.png?padding=0.7",
+    "quickSell": 19400
   },
   {
     "id": 256790,
@@ -6339,12 +5041,12 @@ const PLAYERS_DB = [
       "id": 5
     },
     "stats": {
-      "pac": 84,
-      "sho": 81,
-      "pas": 81,
+      "pac": 85,
+      "sho": 79,
+      "pas": 82,
       "dri": 90,
-      "def": 65,
-      "phy": 64
+      "def": 42,
+      "phy": 60
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256790.png?padding=0.7",
     "quickSell": 8000
@@ -6456,7 +5158,7 @@ const PLAYERS_DB = [
       "pas": 75,
       "dri": 80,
       "def": 34,
-      "phy": 74
+      "phy": 75
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p20801.png?padding=0.7",
     "quickSell": 5000
@@ -6482,39 +5184,124 @@ const PLAYERS_DB = [
       "pac": 76,
       "sho": 86,
       "pas": 81,
-      "dri": 85,
-      "def": 39,
+      "dri": 86,
+      "def": 38,
       "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p165153.png?padding=0.7",
     "quickSell": 5000
   },
   {
-    "id": 192448,
-    "name": "Marc-André ter Stegen",
-    "fullName": "Marc-André ter Stegen",
+    "id": "165153_totw",
+    "basePlayerId": 165153,
+    "name": "Karim Benzema TOTW",
+    "fullName": "Karim Benzema",
+    "rating": 87,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Al Ittihad",
+      "id": "al_ittihad"
+    },
+    "stats": {
+      "pac": 77,
+      "sho": 87,
+      "pas": 82,
+      "dri": 87,
+      "def": 39,
+      "phy": 77
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p165153.png?padding=0.7",
+    "quickSell": 14000
+  },
+  {
+    "id": 167495,
+    "name": "Manuel Neuer",
+    "fullName": "Manuel Neuer",
     "rating": 86,
     "cardType": "gold_rare",
     "pos": "POR",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Bundesliga",
     "nation": {
       "name": "Alemania",
       "code": "de"
     },
     "club": {
-      "name": "FC Barcelona",
-      "id": 81
+      "name": "Bayern München",
+      "id": 5
     },
     "stats": {
-      "pac": 84,
-      "sho": 84,
-      "pas": 89,
+      "pac": 83,
+      "sho": 85,
+      "pas": 88,
       "dri": 85,
-      "def": 84,
-      "phy": 84
+      "def": 86,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192448.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p167495.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 177003,
+    "name": "Luka Modrić",
+    "fullName": "Luka Modrić",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Croacia",
+      "code": "hr"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 70,
+      "sho": 75,
+      "pas": 89,
+      "dri": 87,
+      "def": 72,
+      "phy": 65
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p177003.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 204963,
+    "name": "Carvajal",
+    "fullName": "Daniel Carvajal Ramos",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 81,
+      "sho": 56,
+      "pas": 79,
+      "dri": 81,
+      "def": 83,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204963.png?padding=0.7",
     "quickSell": 5000
   },
   {
@@ -6535,43 +5322,43 @@ const PLAYERS_DB = [
       "id": 108
     },
     "stats": {
-      "pac": 71,
+      "pac": 68,
       "sho": 81,
-      "pas": 87,
-      "dri": 82,
-      "def": 81,
-      "phy": 73
+      "pas": 88,
+      "dri": 84,
+      "def": 76,
+      "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208128.png?padding=0.7",
     "quickSell": 5000
   },
   {
-    "id": 211110,
-    "name": "Paulo Dybala",
-    "fullName": "Paulo Dybala",
+    "id": 210035,
+    "name": "Grimaldo",
+    "fullName": "Alejandro Grimaldo García",
     "rating": 86,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "LI",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Bundesliga",
     "nation": {
-      "name": "Argentina",
-      "code": "ar"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "AS Roma",
-      "id": 100
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 80,
-      "sho": 85,
-      "pas": 84,
-      "dri": 87,
-      "def": 41,
-      "phy": 64
+      "pac": 84,
+      "sho": 80,
+      "pas": 87,
+      "dri": 84,
+      "def": 78,
+      "phy": 70
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p211110.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210035.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 213331,
@@ -6591,15 +5378,43 @@ const PLAYERS_DB = [
       "id": 3
     },
     "stats": {
-      "pac": 76,
-      "sho": 38,
-      "pas": 64,
-      "dri": 68,
+      "pac": 75,
+      "sho": 40,
+      "pas": 68,
+      "dri": 66,
       "def": 86,
-      "phy": 84
+      "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213331.png?padding=0.7",
     "quickSell": 8000
+  },
+  {
+    "id": 227013,
+    "name": "Fridolina Rolfö",
+    "fullName": "Fridolina Rolfö",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Women's Football",
+    "league": "Barclays WSL",
+    "nation": {
+      "name": "Suecia",
+      "code": "se"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 82,
+      "pas": 83,
+      "dri": 85,
+      "def": 78,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227013.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 231281,
@@ -6615,16 +5430,16 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "Liverpool",
+      "id": 64
     },
     "stats": {
       "pac": 76,
-      "sho": 72,
-      "pas": 89,
+      "sho": 75,
+      "pas": 90,
       "dri": 80,
       "def": 80,
-      "phy": 74
+      "phy": 73
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231281.png?padding=0.7",
     "quickSell": 5000
@@ -6647,43 +5462,44 @@ const PLAYERS_DB = [
       "id": 524
     },
     "stats": {
-      "pac": 90,
-      "sho": 77,
-      "pas": 80,
+      "pac": 92,
+      "sho": 78,
+      "pas": 82,
       "dri": 89,
       "def": 36,
-      "phy": 56
+      "phy": 58
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231443.png?padding=0.7",
     "quickSell": 5000
   },
   {
-    "id": 235073,
-    "name": "Gregor Kobel",
-    "fullName": "Gregor Kobel",
-    "rating": 86,
-    "cardType": "gold_rare",
-    "pos": "POR",
+    "id": "231443_totw",
+    "basePlayerId": 231443,
+    "name": "Ousmane Dembélé TOTW",
+    "fullName": "Ousmane Dembélé",
+    "rating": 87,
+    "cardType": "totw",
+    "pos": "ED",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "Ligue 1 McDonald's",
     "nation": {
-      "name": "Suiza",
-      "code": "ch"
+      "name": "Francia",
+      "code": "fr"
     },
     "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
+      "name": "Paris Saint-Germain",
+      "id": 524
     },
     "stats": {
-      "pac": 87,
-      "sho": 83,
-      "pas": 64,
-      "dri": 87,
-      "def": 86,
-      "phy": 86
+      "pac": 93,
+      "sho": 79,
+      "pas": 83,
+      "dri": 90,
+      "def": 37,
+      "phy": 59
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235073.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231443.png?padding=0.7",
+    "quickSell": 14000
   },
   {
     "id": 237197,
@@ -6713,60 +5529,89 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 237678,
-    "name": "Ibrahima Konaté",
-    "fullName": "Ibrahima Konaté",
+    "id": 239580,
+    "name": "Bremer",
+    "fullName": "Gleison Bremer Silva Nascimento",
     "rating": 86,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Francia",
-      "code": "fr"
+      "name": "Brasil",
+      "code": "br"
     },
     "club": {
-      "name": "Liverpool",
-      "id": 64
+      "name": "Juventus",
+      "id": 109
     },
     "stats": {
-      "pac": 77,
-      "sho": 34,
-      "pas": 63,
-      "dri": 69,
-      "def": 86,
+      "pac": 81,
+      "sho": 50,
+      "pas": 58,
+      "dri": 64,
+      "def": 87,
       "phy": 85
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237678.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239580.png?padding=0.7",
     "quickSell": 5000
   },
   {
-    "id": 240638,
-    "name": "Tijjani Reijnders",
-    "fullName": "Tijjani Reijnders",
+    "id": "239580_totw",
+    "basePlayerId": 239580,
+    "name": "Bremer TOTW",
+    "fullName": "Gleison Bremer Silva Nascimento",
+    "rating": 87,
+    "cardType": "totw",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Juventus",
+      "id": 109
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 51,
+      "pas": 59,
+      "dri": 65,
+      "def": 88,
+      "phy": 86
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239580.png?padding=0.7",
+    "quickSell": 14000
+  },
+  {
+    "id": 239837,
+    "name": "Alexis Mac Allister",
+    "fullName": "Alexis Mac Allister",
     "rating": 86,
     "cardType": "gold_rare",
     "pos": "MC",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Argentina",
+      "code": "ar"
     },
     "club": {
-      "name": "Manchester City",
-      "id": 65
+      "name": "Liverpool",
+      "id": 64
     },
     "stats": {
-      "pac": 79,
-      "sho": 79,
-      "pas": 82,
+      "pac": 72,
+      "sho": 80,
+      "pas": 85,
       "dri": 85,
       "def": 77,
-      "phy": 77
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240638.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239837.png?padding=0.7",
+    "quickSell": 8000
   },
   {
     "id": 241096,
@@ -6782,7 +5627,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 79,
@@ -6793,6 +5639,62 @@ const PLAYERS_DB = [
       "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241096.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": 241721,
+    "name": "Rafael Leão",
+    "fullName": "Rafael da Conceição Leão",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "AC Milan",
+      "id": 98
+    },
+    "stats": {
+      "pac": 93,
+      "sho": 81,
+      "pas": 76,
+      "dri": 87,
+      "def": 28,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241721.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 243812,
+    "name": "Rodrygo",
+    "fullName": "Rodrygo Silva de Goes",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 89,
+      "sho": 83,
+      "pas": 81,
+      "dri": 88,
+      "def": 32,
+      "phy": 64
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243812.png?padding=0.7",
     "quickSell": 5000
   },
   {
@@ -6824,6 +5726,63 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
+    "id": 247635,
+    "name": "Khvicha Kvaratskhelia",
+    "fullName": "Khvicha Kvaratskhelia",
+    "rating": 86,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Georgia",
+      "code": "ge"
+    },
+    "club": {
+      "name": "Napoli",
+      "id": 113
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 82,
+      "pas": 81,
+      "dri": 88,
+      "def": 42,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247635.png?padding=0.7",
+    "quickSell": 8000
+  },
+  {
+    "id": "247635_totw",
+    "basePlayerId": 247635,
+    "name": "Khvicha Kvaratskhelia TOTW",
+    "fullName": "Khvicha Kvaratskhelia",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Georgia",
+      "code": "ge"
+    },
+    "club": {
+      "name": "Napoli",
+      "id": 113
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 83,
+      "pas": 82,
+      "dri": 89,
+      "def": 43,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247635.png?padding=0.7",
+    "quickSell": 19400
+  },
+  {
     "id": 247851,
     "name": "Bruno Guimarães",
     "fullName": "Bruno Guimarães Moura",
@@ -6837,7 +5796,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 66,
@@ -6897,14 +5857,43 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 78,
-      "sho": 69,
+      "sho": 70,
       "pas": 84,
       "dri": 88,
-      "def": 68,
-      "phy": 73
+      "def": 70,
+      "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251854.png?padding=0.7",
     "quickSell": 5000
+  },
+  {
+    "id": "251854_totw",
+    "basePlayerId": 251854,
+    "name": "Pedri TOTW",
+    "fullName": "Pedro González López",
+    "rating": 87,
+    "cardType": "totw",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 79,
+      "sho": 71,
+      "pas": 85,
+      "dri": 89,
+      "def": 71,
+      "phy": 69
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251854.png?padding=0.7",
+    "quickSell": 14000
   },
   {
     "id": 253436,
@@ -7044,34 +6033,6 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 185122,
-    "name": "Péter Gulácsi",
-    "fullName": "Péter Gulácsi",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Hungría",
-      "code": "hu"
-    },
-    "club": {
-      "name": "RB Leipzig",
-      "id": 721
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 83,
-      "pas": 74,
-      "dri": 84,
-      "def": 87,
-      "phy": 87
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p185122.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
     "id": 193080,
     "name": "De Gea",
     "fullName": "David De Gea Quintana",
@@ -7112,44 +6073,18 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Sunderland"
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 47,
-      "sho": 75,
-      "pas": 85,
-      "dri": 74,
-      "def": 78,
+      "pac": 50,
+      "sho": 76,
+      "pas": 83,
+      "dri": 76,
+      "def": 80,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p199503.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 200104,
-    "name": "Heung Min Son",
-    "fullName": "Heung Min Son",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "EI",
-    "gender": "Men's Football",
-    "league": "MLS",
-    "nation": {
-      "name": "Corea del Sur",
-      "code": "kr"
-    },
-    "club": {
-      "name": "LAFC"
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 84,
-      "pas": 81,
-      "dri": 83,
-      "def": 42,
-      "phy": 73
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200104.png?padding=0.7",
     "quickSell": 5000
   },
   {
@@ -7181,60 +6116,59 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 204525,
-    "name": "Iñigo Martínez",
-    "fullName": "Iñigo Martínez Berridi",
+    "id": 204485,
+    "name": "Riyad Mahrez",
+    "fullName": "Riyad Mahrez",
     "rating": 85,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "ROSHN Saudi League",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Argelia",
+      "code": "dz"
     },
     "club": {
-      "name": "Al Nassr",
-      "id": "al_nassr"
+      "name": "Al Ahli"
     },
     "stats": {
-      "pac": 71,
-      "sho": 57,
-      "pas": 72,
-      "dri": 68,
-      "def": 85,
-      "phy": 80
+      "pac": 78,
+      "sho": 80,
+      "pas": 81,
+      "dri": 88,
+      "def": 35,
+      "phy": 58
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204525.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204485.png?padding=0.7",
+    "quickSell": 3000
   },
   {
-    "id": 204963,
-    "name": "Carvajal",
-    "fullName": "Daniel Carvajal Ramos",
+    "id": 212194,
+    "name": "Julian Brandt",
+    "fullName": "Julian Brandt",
     "rating": 85,
     "cardType": "gold_rare",
-    "pos": "LD",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Bundesliga",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Alemania",
+      "code": "de"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "Borussia Dortmund",
+      "id": 4
     },
     "stats": {
-      "pac": 80,
-      "sho": 58,
-      "pas": 79,
-      "dri": 81,
-      "def": 81,
-      "phy": 79
+      "pac": 76,
+      "sho": 80,
+      "pas": 85,
+      "dri": 86,
+      "def": 56,
+      "phy": 68
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204963.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212194.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 215914,
@@ -7254,15 +6188,43 @@ const PLAYERS_DB = [
       "id": "al_ittihad"
     },
     "stats": {
-      "pac": 77,
-      "sho": 65,
-      "pas": 73,
+      "pac": 74,
+      "sho": 66,
+      "pas": 75,
       "dri": 80,
       "def": 85,
-      "phy": 79
+      "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215914.png?padding=0.7",
     "quickSell": 5000
+  },
+  {
+    "id": 216267,
+    "name": "Andrew Robertson",
+    "fullName": "Andrew Robertson",
+    "rating": 85,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Escocia",
+      "code": "gb-sct"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 61,
+      "pas": 82,
+      "dri": 80,
+      "def": 81,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216267.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 216393,
@@ -7293,60 +6255,60 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 226268,
-    "name": "Federico Dimarco",
-    "fullName": "Federico Dimarco",
+    "id": 220697,
+    "name": "James Maddison",
+    "fullName": "James Maddison",
     "rating": 85,
     "cardType": "gold_rare",
-    "pos": "LI",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Premier League",
     "nation": {
-      "name": "Italia",
-      "code": "it"
+      "name": "Inglaterra",
+      "code": "gb-eng"
     },
     "club": {
-      "name": "Inter",
-      "id": 108
+      "name": "Tottenham Hotspur",
+      "id": 73
     },
     "stats": {
-      "pac": 80,
-      "sho": 78,
-      "pas": 84,
-      "dri": 82,
-      "def": 79,
-      "phy": 77
+      "pac": 72,
+      "sho": 81,
+      "pas": 86,
+      "dri": 85,
+      "def": 54,
+      "phy": 65
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226268.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220697.png?padding=0.7",
+    "quickSell": 3000
   },
   {
-    "id": 226271,
-    "name": "Fabián Ruiz",
-    "fullName": "Fabián Ruiz Peña",
+    "id": 222492,
+    "name": "Leroy Sané",
+    "fullName": "Leroy Sané",
     "rating": 85,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "ED",
     "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
+    "league": "Trendyol Süper Lig",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Alemania",
+      "code": "de"
     },
     "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
+      "name": "Bayern München",
+      "id": 5
     },
     "stats": {
-      "pac": 61,
-      "sho": 77,
-      "pas": 80,
-      "dri": 81,
-      "def": 75,
-      "phy": 72
+      "pac": 90,
+      "sho": 82,
+      "pas": 79,
+      "dri": 86,
+      "def": 38,
+      "phy": 70
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226271.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222492.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 226302,
@@ -7541,34 +6503,6 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 228093,
-    "name": "Marcus Thuram",
-    "fullName": "Marcus Thuram",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Inter",
-      "id": 108
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 83,
-      "pas": 76,
-      "dri": 82,
-      "def": 50,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228093.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
     "id": 229391,
     "name": "Palhinha",
     "fullName": "João Maria Palhinha Gonçalves",
@@ -7587,42 +6521,14 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 65,
-      "sho": 64,
-      "pas": 71,
-      "dri": 73,
+      "sho": 62,
+      "pas": 74,
+      "dri": 75,
       "def": 86,
-      "phy": 87
+      "phy": 88
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229391.png?padding=0.7",
     "quickSell": 3000
-  },
-  {
-    "id": 229558,
-    "name": "Dayot Upamecano",
-    "fullName": "Dayot Upamecano",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 77,
-      "sho": 45,
-      "pas": 64,
-      "dri": 73,
-      "def": 84,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229558.png?padding=0.7",
-    "quickSell": 5000
   },
   {
     "id": 230869,
@@ -7697,15 +6603,44 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 91,
-      "sho": 81,
-      "pas": 82,
+      "pac": 89,
+      "sho": 82,
+      "pas": 81,
       "dri": 86,
+      "def": 52,
+      "phy": 73
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233419.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": "233419_totw",
+    "basePlayerId": 233419,
+    "name": "Raphinha TOTW",
+    "fullName": "Raphael Dias Belloli",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 90,
+      "sho": 83,
+      "pas": 82,
+      "dri": 87,
       "def": 53,
       "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233419.png?padding=0.7",
-    "quickSell": 5000
+    "quickSell": 14000
   },
   {
     "id": 233731,
@@ -7764,116 +6699,61 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 234236,
-    "name": "Patrik Schick",
-    "fullName": "Patrik Schick",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "República Checa",
-      "code": "cz"
-    },
-    "club": {
-      "name": "Leverkusen",
-      "id": 3
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 83,
-      "pas": 71,
-      "dri": 81,
-      "def": 38,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234236.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 235212,
-    "name": "Achraf Hakimi",
-    "fullName": "Achraf Hakimi",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Marruecos",
-      "code": "ma"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 92,
-      "sho": 76,
-      "pas": 80,
-      "dri": 81,
-      "def": 76,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235212.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 237238,
-    "name": "Scott McTominay",
-    "fullName": "Scott McTominay",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Escocia",
-      "code": "gb-sct"
-    },
-    "club": {
-      "name": "SSC Napoli",
-      "id": 113
-    },
-    "stats": {
-      "pac": 76,
-      "sho": 82,
-      "pas": 77,
-      "dri": 80,
-      "def": 80,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237238.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 239580,
-    "name": "Bremer",
-    "fullName": "Gleison Bremer Silva Nascimento",
+    "id": 240130,
+    "name": "Éder Militão",
+    "fullName": "Éder Gabriel Militão",
     "rating": 85,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "LALIGA EA SPORTS",
     "nation": {
       "name": "Brasil",
       "code": "br"
     },
     "club": {
-      "name": "Juventus",
-      "id": 109
+      "name": "Real Madrid",
+      "id": 86
     },
     "stats": {
-      "pac": 82,
+      "pac": 85,
       "sho": 50,
-      "pas": 58,
-      "dri": 66,
-      "def": 86,
-      "phy": 80
+      "pas": 71,
+      "dri": 70,
+      "def": 85,
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239580.png?padding=0.7",
-    "quickSell": 5000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240130.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "240130_totw",
+    "basePlayerId": 240130,
+    "name": "Éder Militão TOTW",
+    "fullName": "Éder Gabriel Militão",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 51,
+      "pas": 72,
+      "dri": 71,
+      "def": 86,
+      "phy": 83
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240130.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 241084,
@@ -7881,7 +6761,7 @@ const PLAYERS_DB = [
     "fullName": "Luis Díaz",
     "rating": 85,
     "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "Bundesliga",
     "nation": {
@@ -7889,19 +6769,104 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Bayern München",
-      "id": 5
+      "name": "Liverpool",
+      "id": 64
     },
     "stats": {
-      "pac": 88,
-      "sho": 81,
+      "pac": 90,
+      "sho": 80,
       "pas": 76,
       "dri": 87,
-      "def": 45,
-      "phy": 75
+      "def": 40,
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241084.png?padding=0.7",
     "quickSell": 5000
+  },
+  {
+    "id": "241084_totw",
+    "basePlayerId": 241084,
+    "name": "Luis Díaz TOTW",
+    "fullName": "Luis Díaz",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Colombia",
+      "code": "co"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 91,
+      "sho": 81,
+      "pas": 77,
+      "dri": 88,
+      "def": 41,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241084.png?padding=0.7",
+    "quickSell": 14000
+  },
+  {
+    "id": 241486,
+    "name": "Jules Koundé",
+    "fullName": "Jules Koundé",
+    "rating": 85,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 45,
+      "pas": 75,
+      "dri": 78,
+      "def": 86,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241486.png?padding=0.7",
+    "quickSell": 8000
+  },
+  {
+    "id": 241637,
+    "name": "Aurélien Tchouaméni",
+    "fullName": "Aurélien Tchouaméni",
+    "rating": 85,
+    "cardType": "gold_rare",
+    "pos": "MCD",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 72,
+      "pas": 81,
+      "dri": 81,
+      "def": 83,
+      "phy": 83
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241637.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 242830,
@@ -7917,46 +6882,18 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Chelsea",
-      "id": 61
+      "name": "FC Barcelona",
+      "id": 81
     },
     "stats": {
-      "pac": 64,
-      "sho": 46,
-      "pas": 81,
-      "dri": 79,
-      "def": 79,
-      "phy": 74
+      "pac": 65,
+      "sho": 62,
+      "pas": 85,
+      "dri": 82,
+      "def": 82,
+      "phy": 75
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242830.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 243014,
-    "name": "Bryan Mbeumo",
-    "fullName": "Bryan Mbeumo",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Camerún",
-      "code": "cm"
-    },
-    "club": {
-      "name": "Manchester United",
-      "id": 66
-    },
-    "stats": {
-      "pac": 88,
-      "sho": 84,
-      "pas": 79,
-      "dri": 84,
-      "def": 49,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243014.png?padding=0.7",
     "quickSell": 5000
   },
   {
@@ -7988,34 +6925,6 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 243812,
-    "name": "Rodrygo",
-    "fullName": "Rodrygo Silva de Goes",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 88,
-      "sho": 80,
-      "pas": 79,
-      "dri": 87,
-      "def": 31,
-      "phy": 64
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243812.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
     "id": 244260,
     "name": "Dani Olmo",
     "fullName": "Daniel Olmo Carvajal",
@@ -8033,12 +6942,12 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 73,
-      "sho": 79,
-      "pas": 83,
-      "dri": 87,
-      "def": 50,
-      "phy": 56
+      "pac": 78,
+      "sho": 81,
+      "pas": 84,
+      "dri": 86,
+      "def": 51,
+      "phy": 65
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244260.png?padding=0.7",
     "quickSell": 5000
@@ -8183,34 +7092,6 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 246104,
-    "name": "Ryan Gravenberch",
-    "fullName": "Ryan Gravenberch",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Holland",
-      "code": "es"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 76,
-      "sho": 76,
-      "pas": 81,
-      "dri": 85,
-      "def": 81,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246104.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
     "id": 246191,
     "name": "Julián Alvarez",
     "fullName": "Julián Alvarez",
@@ -8229,9 +7110,9 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 85,
-      "sho": 85,
+      "sho": 83,
       "pas": 80,
-      "dri": 85,
+      "dri": 84,
       "def": 55,
       "phy": 78
     },
@@ -8284,15 +7165,43 @@ const PLAYERS_DB = [
       "id": 4
     },
     "stats": {
-      "pac": 74,
-      "sho": 60,
-      "pas": 75,
-      "dri": 73,
+      "pac": 78,
+      "sho": 58,
+      "pas": 74,
+      "dri": 74,
       "def": 85,
-      "phy": 82
+      "phy": 84
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247819.png?padding=0.7",
     "quickSell": 5000
+  },
+  {
+    "id": 253163,
+    "name": "Ronald Araujo",
+    "fullName": "Ronald Araujo",
+    "rating": 85,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Uruguay",
+      "code": "uy"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 51,
+      "pas": 65,
+      "dri": 63,
+      "def": 85,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p253163.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 255253,
@@ -8312,11 +7221,11 @@ const PLAYERS_DB = [
       "id": 524
     },
     "stats": {
-      "pac": 73,
-      "sho": 76,
-      "pas": 83,
-      "dri": 87,
-      "def": 73,
+      "pac": 78,
+      "sho": 74,
+      "pas": 82,
+      "dri": 86,
+      "def": 74,
       "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p255253.png?padding=0.7",
@@ -8368,15 +7277,44 @@ const PLAYERS_DB = [
       "id": 61
     },
     "stats": {
-      "pac": 76,
+      "pac": 78,
       "sho": 82,
-      "pas": 85,
+      "pas": 83,
       "dri": 86,
-      "def": 48,
-      "phy": 64
+      "def": 54,
+      "phy": 66
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257534.png?padding=0.7",
     "quickSell": 8000
+  },
+  {
+    "id": "257534_totw",
+    "basePlayerId": 257534,
+    "name": "Cole Palmer TOTW",
+    "fullName": "Cole Palmer",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Chelsea",
+      "id": 61
+    },
+    "stats": {
+      "pac": 79,
+      "sho": 83,
+      "pas": 84,
+      "dri": 87,
+      "def": 55,
+      "phy": 67
+    },
+    "faceUrl": "assets/faces/totw_palmer.webp",
+    "quickSell": 19400
   },
   {
     "id": 261733,
@@ -8420,7 +7358,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -8558,46 +7496,17 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "Chelsea",
-      "id": 61
+      "name": "San Diego Wave"
     },
     "stats": {
-      "pac": 80,
-      "sho": 51,
+      "pac": 78,
+      "sho": 38,
       "pas": 70,
-      "dri": 74,
-      "def": 85,
-      "phy": 79
+      "dri": 72,
+      "def": 87,
+      "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p267382.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 271421,
-    "name": "Désiré Doué",
-    "fullName": "Désiré Doué",
-    "rating": 85,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 80,
-      "pas": 77,
-      "dri": 90,
-      "def": 55,
-      "phy": 74
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p271421.png?padding=0.7",
     "quickSell": 5000
   },
   {
@@ -8683,34 +7592,6 @@ const PLAYERS_DB = [
     "quickSell": 5000
   },
   {
-    "id": 167495,
-    "name": "Manuel Neuer",
-    "fullName": "Manuel Neuer",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 81,
-      "pas": 90,
-      "dri": 81,
-      "def": 86,
-      "phy": 86
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p167495.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 186153,
     "name": "Wojciech Szczęsny",
     "fullName": "Wojciech Szczęsny",
@@ -8728,43 +7609,100 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 82,
-      "sho": 83,
-      "pas": 75,
-      "dri": 84,
+      "pac": 83,
+      "sho": 82,
+      "pas": 73,
+      "dri": 85,
       "def": 84,
-      "phy": 84
+      "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p186153.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 197781,
-    "name": "Isco",
-    "fullName": "Francisco Román Alarcón Suárez",
+    "id": 190941,
+    "name": "Lukáš Hrádecký",
+    "fullName": "Lukáš Hrádecký",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Ligue 1 McDonald's",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Finlandia",
+      "code": "fi"
     },
     "club": {
-      "name": "Real Betis",
-      "id": 90
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 66,
-      "sho": 79,
-      "pas": 85,
+      "pac": 83,
+      "sho": 81,
+      "pas": 75,
       "dri": 85,
-      "def": 59,
-      "phy": 60
+      "def": 83,
+      "phy": 75
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p197781.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p190941.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 192505,
+    "name": "Romelu Lukaku",
+    "fullName": "Romelu Lukaku",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Bélgica",
+      "code": "be"
+    },
+    "club": {
+      "name": "Napoli",
+      "id": 113
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 84,
+      "pas": 74,
+      "dri": 76,
+      "def": 38,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192505.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": "192505_totw",
+    "basePlayerId": 192505,
+    "name": "Romelu Lukaku TOTW",
+    "fullName": "Romelu Lukaku",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Bélgica",
+      "code": "be"
+    },
+    "club": {
+      "name": "Napoli",
+      "id": 113
+    },
+    "stats": {
+      "pac": 79,
+      "sho": 85,
+      "pas": 75,
+      "dri": 77,
+      "def": 39,
+      "phy": 85
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192505.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 198176,
@@ -8823,61 +7761,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 204485,
-    "name": "Riyad Mahrez",
-    "fullName": "Riyad Mahrez",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MD",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Argelia",
-      "code": "dz"
-    },
-    "club": {
-      "name": "Al Ahli"
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 80,
-      "pas": 81,
-      "dri": 88,
-      "def": 39,
-      "phy": 63
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204485.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 204638,
-    "name": "Willi Orban",
-    "fullName": "Willi Orban",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Hungría",
-      "code": "hu"
-    },
-    "club": {
-      "name": "RB Leipzig",
-      "id": 721
-    },
-    "stats": {
-      "pac": 57,
-      "sho": 40,
-      "pas": 56,
-      "dri": 56,
-      "def": 86,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204638.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 204935,
     "name": "Jordan Pickford",
     "fullName": "Jordan Pickford",
@@ -8906,6 +7789,63 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 208722,
+    "name": "Sadio Mané",
+    "fullName": "Sadio Mané",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Senegal",
+      "code": "sn"
+    },
+    "club": {
+      "name": "Al Nassr",
+      "id": "al_nassr"
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 82,
+      "pas": 78,
+      "dri": 85,
+      "def": 44,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208722.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "208722_totw",
+    "basePlayerId": 208722,
+    "name": "Sadio Mané TOTW",
+    "fullName": "Sadio Mané",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Senegal",
+      "code": "sn"
+    },
+    "club": {
+      "name": "Al Nassr",
+      "id": "al_nassr"
+    },
+    "stats": {
+      "pac": 87,
+      "sho": 84,
+      "pas": 80,
+      "dri": 87,
+      "def": 46,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208722.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 209981,
     "name": "Yassine Bounou",
     "fullName": "Yassine Bounou",
@@ -8927,39 +7867,11 @@ const PLAYERS_DB = [
       "sho": 82,
       "pas": 76,
       "dri": 86,
-      "def": 82,
-      "phy": 80
+      "def": 83,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209981.png?padding=0.7",
     "quickSell": 8000
-  },
-  {
-    "id": 210035,
-    "name": "Grimaldo",
-    "fullName": "Alejandro Grimaldo García",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MI",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Leverkusen",
-      "id": 3
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 73,
-      "pas": 87,
-      "dri": 85,
-      "def": 74,
-      "phy": 67
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210035.png?padding=0.7",
-    "quickSell": 3000
   },
   {
     "id": 210514,
@@ -8979,12 +7891,12 @@ const PLAYERS_DB = [
       "id": "al_hilal"
     },
     "stats": {
-      "pac": 83,
-      "sho": 73,
+      "pac": 84,
+      "sho": 72,
       "pas": 84,
       "dri": 84,
       "def": 78,
-      "phy": 74
+      "phy": 71
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210514.png?padding=0.7",
     "quickSell": 3000
@@ -9003,19 +7915,104 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Inter Miami",
-      "id": "inter_miami"
+      "name": "Atlético de Madrid",
+      "id": 78
     },
     "stats": {
-      "pac": 75,
+      "pac": 76,
       "sho": 78,
       "pas": 83,
       "dri": 83,
       "def": 76,
-      "phy": 83
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212616.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 213345,
+    "name": "Kingsley Coman",
+    "fullName": "Kingsley Coman",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 89,
+      "sho": 75,
+      "pas": 78,
+      "dri": 86,
+      "def": 30,
+      "phy": 64
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213345.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 215441,
+    "name": "Serhou Guirassy",
+    "fullName": "Serhou Guirassy",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Guinea",
+      "code": "gn"
+    },
+    "club": {
+      "name": "Borussia Dortmund",
+      "id": 4
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 84,
+      "pas": 71,
+      "dri": 80,
+      "def": 38,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215441.png?padding=0.7",
+    "quickSell": 8000
+  },
+  {
+    "id": "215441_totw",
+    "basePlayerId": 215441,
+    "name": "Serhou Guirassy TOTW",
+    "fullName": "Serhou Guirassy",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Guinea",
+      "code": "gn"
+    },
+    "club": {
+      "name": "Borussia Dortmund",
+      "id": 4
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 86,
+      "pas": 73,
+      "dri": 82,
+      "def": 40,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215441.png?padding=0.7",
+    "quickSell": 19400
   },
   {
     "id": 220502,
@@ -9031,7 +8028,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 88,
@@ -9045,32 +8043,32 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 220697,
-    "name": "James Maddison",
-    "fullName": "James Maddison",
+    "id": 220901,
+    "name": "David Raya",
+    "fullName": "David Raya Martin",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "POR",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
+      "name": "Arsenal",
+      "id": 57
     },
     "stats": {
-      "pac": 67,
-      "sho": 81,
-      "pas": 86,
+      "pac": 83,
+      "sho": 82,
+      "pas": 80,
       "dri": 85,
-      "def": 58,
-      "phy": 64
+      "def": 83,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220697.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220901.png?padding=0.7",
+    "quickSell": 8000
   },
   {
     "id": 221697,
@@ -9101,34 +8099,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 222077,
-    "name": "Manuel Locatelli",
-    "fullName": "Manuel Locatelli",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Italia",
-      "code": "it"
-    },
-    "club": {
-      "name": "Juventus",
-      "id": 109
-    },
-    "stats": {
-      "pac": 63,
-      "sho": 69,
-      "pas": 80,
-      "dri": 76,
-      "def": 81,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222077.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 223848,
     "name": "Sergej Milinković-Savić",
     "fullName": "Sergej Milinković-Savić",
@@ -9146,12 +8116,12 @@ const PLAYERS_DB = [
       "id": "al_hilal"
     },
     "stats": {
-      "pac": 62,
+      "pac": 68,
       "sho": 80,
-      "pas": 81,
+      "pas": 82,
       "dri": 81,
       "def": 78,
-      "phy": 88
+      "phy": 84
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p223848.png?padding=0.7",
     "quickSell": 3000
@@ -9174,12 +8144,12 @@ const PLAYERS_DB = [
       "id": "al_hilal"
     },
     "stats": {
-      "pac": 57,
-      "sho": 75,
-      "pas": 87,
-      "dri": 77,
-      "def": 77,
-      "phy": 76
+      "pac": 68,
+      "sho": 76,
+      "pas": 85,
+      "dri": 78,
+      "def": 78,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p224293.png?padding=0.7",
     "quickSell": 3000
@@ -9202,43 +8172,43 @@ const PLAYERS_DB = [
       "id": 57
     },
     "stats": {
-      "pac": 68,
+      "pac": 70,
       "sho": 78,
-      "pas": 80,
+      "pas": 81,
       "dri": 81,
-      "def": 82,
-      "phy": 82
+      "def": 80,
+      "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p225193.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 226161,
-    "name": "Marcos Llorente",
-    "fullName": "Marcos Llorente Moreno",
+    "id": 226268,
+    "name": "Federico Dimarco",
+    "fullName": "Federico Dimarco",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "LD",
+    "pos": "LI",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Italia",
+      "code": "it"
     },
     "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
+      "name": "Inter",
+      "id": 108
     },
     "stats": {
-      "pac": 89,
-      "sho": 79,
-      "pas": 78,
-      "dri": 81,
-      "def": 78,
-      "phy": 82
+      "pac": 82,
+      "sho": 78,
+      "pas": 85,
+      "dri": 82,
+      "def": 76,
+      "phy": 72
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226161.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226268.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 226851,
@@ -9254,45 +8224,18 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Inter",
+      "id": 108
     },
     "stats": {
       "pac": 75,
-      "sho": 67,
-      "pas": 76,
-      "dri": 75,
-      "def": 86,
-      "phy": 79
+      "sho": 68,
+      "pas": 77,
+      "dri": 76,
+      "def": 84,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226851.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 227013,
-    "name": "Fridolina Rolfö",
-    "fullName": "Fridolina Rolfö",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Women's Football",
-    "league": "Barclays WSL",
-    "nation": {
-      "name": "Suecia",
-      "code": "se"
-    },
-    "club": {
-      "name": "Manchester United",
-      "id": 66
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 81,
-      "pas": 81,
-      "dri": 82,
-      "def": 81,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227013.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9321,6 +8264,34 @@ const PLAYERS_DB = [
       "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227119.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 227127,
+    "name": "Álex Remiro",
+    "fullName": "Alejandro Remiro Gargallo",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Real Sociedad",
+      "id": 92
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 82,
+      "pas": 78,
+      "dri": 85,
+      "def": 84,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227127.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9365,16 +8336,15 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "OL Lyonnes"
     },
     "stats": {
-      "pac": 77,
-      "sho": 81,
-      "pas": 84,
-      "dri": 86,
-      "def": 74,
-      "phy": 73
+      "pac": 72,
+      "sho": 78,
+      "pas": 83,
+      "dri": 83,
+      "def": 76,
+      "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227327.png?padding=0.7",
     "quickSell": 3000
@@ -9407,12 +8377,68 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 228093,
+    "name": "Marcus Thuram",
+    "fullName": "Marcus Thuram",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Inter",
+      "id": 108
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 80,
+      "pas": 75,
+      "dri": 83,
+      "def": 44,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228093.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": 229558,
+    "name": "Dayot Upamecano",
+    "fullName": "Dayot Upamecano",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 44,
+      "pas": 64,
+      "dri": 68,
+      "def": 84,
+      "phy": 83
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229558.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
     "id": 230899,
     "name": "Ademola Lookman",
     "fullName": "Ademola Lookman",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "Serie A Enilive",
     "nation": {
@@ -9420,15 +8446,16 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
-      "pac": 86,
-      "sho": 84,
-      "pas": 73,
-      "dri": 88,
-      "def": 32,
-      "phy": 67
+      "pac": 88,
+      "sho": 83,
+      "pas": 77,
+      "dri": 86,
+      "def": 34,
+      "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230899.png?padding=0.7",
     "quickSell": 3000
@@ -9447,74 +8474,74 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
-      "pac": 62,
-      "sho": 76,
-      "pas": 80,
-      "dri": 82,
-      "def": 81,
-      "phy": 71
+      "pac": 72,
+      "sho": 75,
+      "pas": 82,
+      "dri": 83,
+      "def": 80,
+      "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231521.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 232656,
-    "name": "Theo Hernández",
-    "fullName": "Theo Hernández",
+    "id": 232411,
+    "name": "Christopher Nkunku",
+    "fullName": "Christopher Nkunku",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "LI",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
+    "league": "Serie A Enilive",
     "nation": {
       "name": "Francia",
       "code": "fr"
     },
     "club": {
-      "name": "Al Hilal",
-      "id": "al_hilal"
+      "name": "Chelsea",
+      "id": 61
     },
     "stats": {
-      "pac": 90,
-      "sho": 76,
-      "pas": 78,
-      "dri": 83,
-      "def": 79,
-      "phy": 83
+      "pac": 82,
+      "sho": 82,
+      "pas": 83,
+      "dri": 87,
+      "def": 65,
+      "phy": 68
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232656.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232411.png?padding=0.7",
+    "quickSell": 1500
   },
   {
-    "id": 233096,
-    "name": "Denzel Dumfries",
-    "fullName": "Denzel Dumfries",
+    "id": 232488,
+    "name": "Cristian Romero",
+    "fullName": "Cristian Romero",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "LD",
+    "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Premier League",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Argentina",
+      "code": "ar"
     },
     "club": {
-      "name": "Inter",
-      "id": 108
+      "name": "Tottenham Hotspur",
+      "id": 73
     },
     "stats": {
-      "pac": 84,
-      "sho": 70,
-      "pas": 75,
-      "dri": 79,
-      "def": 79,
+      "pac": 74,
+      "sho": 48,
+      "pas": 62,
+      "dri": 66,
+      "def": 85,
       "phy": 84
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233096.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232488.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9545,34 +8572,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 234396,
-    "name": "Alphonso Davies",
-    "fullName": "Alphonso Davies",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Canadá",
-      "code": "ca"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 94,
-      "sho": 66,
-      "pas": 78,
-      "dri": 85,
-      "def": 74,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234396.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 234577,
     "name": "Diogo Costa",
     "fullName": "Diogo Meireles Costa",
@@ -9586,19 +8585,47 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
-      "pac": 83,
-      "sho": 78,
-      "pas": 82,
+      "pac": 84,
+      "sho": 82,
+      "pas": 80,
       "dri": 86,
       "def": 83,
-      "phy": 83
+      "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234577.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 235212,
+    "name": "Achraf Hakimi",
+    "fullName": "Achraf Hakimi",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Marruecos",
+      "code": "ma"
+    },
+    "club": {
+      "name": "Sporting CP",
+      "id": 1903
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 85,
+      "pas": 73,
+      "dri": 81,
+      "def": 42,
+      "phy": 89
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235212.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 235243,
@@ -9629,6 +8656,63 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 236772,
+    "name": "Dominik Szoboszlai",
+    "fullName": "Dominik Szoboszlai",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 84,
+      "pas": 85,
+      "dri": 84,
+      "def": 58,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236772.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "236772_totw",
+    "basePlayerId": 236772,
+    "name": "Dominik Szoboszlai TOTW",
+    "fullName": "Dominik Szoboszlai",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 83,
+      "sho": 85,
+      "pas": 86,
+      "dri": 85,
+      "def": 59,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236772.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 238470,
     "name": "Sara Doorsoun",
     "fullName": "Sara Doorsoun",
@@ -9653,34 +8737,6 @@ const PLAYERS_DB = [
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p238470.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 239231,
-    "name": "Marc Cucurella",
-    "fullName": "Marc Cucurella Saseta",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 75,
-      "sho": 64,
-      "pas": 79,
-      "dri": 80,
-      "def": 82,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239231.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9725,46 +8781,45 @@ const PLAYERS_DB = [
       "code": "au"
     },
     "club": {
-      "name": "Chelsea",
-      "id": 61
+      "name": "OL Lyonnes"
     },
     "stats": {
-      "pac": 82,
-      "sho": 51,
-      "pas": 79,
-      "dri": 77,
-      "def": 82,
-      "phy": 79
+      "pac": 88,
+      "sho": 54,
+      "pas": 74,
+      "dri": 78,
+      "def": 80,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240030.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 240130,
-    "name": "Éder Militão",
-    "fullName": "Éder Gabriel Militão",
+    "id": 240091,
+    "name": "Guglielmo Vicario",
+    "fullName": "Guglielmo Vicario",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Premier League",
     "nation": {
-      "name": "Brasil",
-      "code": "br"
+      "name": "Italia",
+      "code": "it"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "Tottenham Hotspur",
+      "id": 73
     },
     "stats": {
-      "pac": 82,
-      "sho": 50,
-      "pas": 69,
-      "dri": 71,
-      "def": 85,
-      "phy": 82
+      "pac": 85,
+      "sho": 80,
+      "pas": 76,
+      "dri": 88,
+      "def": 82,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240130.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240091.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9792,34 +8847,6 @@ const PLAYERS_DB = [
       "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240717.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 241637,
-    "name": "Aurélien Tchouaméni",
-    "fullName": "Aurélien Tchouaméni",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 71,
-      "sho": 69,
-      "pas": 79,
-      "dri": 78,
-      "def": 81,
-      "phy": 82
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241637.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9851,59 +8878,60 @@ const PLAYERS_DB = [
     "quickSell": 8000
   },
   {
-    "id": 241721,
-    "name": "Rafael Leão",
-    "fullName": "Rafael da Conceição Leão",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "EI",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "AC Milan",
-      "id": 98
-    },
-    "stats": {
-      "pac": 93,
-      "sho": 78,
-      "pas": 80,
-      "dri": 86,
-      "def": 28,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241721.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 242516,
-    "name": "Cody Gakpo",
-    "fullName": "Cody Gakpo",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MI",
+    "id": "241651_totw",
+    "basePlayerId": 241651,
+    "name": "Viktor Gyökeres TOTW",
+    "fullName": "Viktor Gyökeres",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "DEL",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Suecia",
+      "code": "se"
     },
     "club": {
-      "name": "Liverpool",
-      "id": 64
+      "name": "Sporting CP",
+      "id": 1903
     },
     "stats": {
-      "pac": 83,
-      "sho": 82,
-      "pas": 80,
+      "pac": 90,
+      "sho": 87,
+      "pas": 75,
       "dri": 83,
-      "def": 47,
-      "phy": 74
+      "def": 44,
+      "phy": 91
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242516.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241651.png?padding=0.7",
+    "quickSell": 19400
+  },
+  {
+    "id": 242458,
+    "name": "Artem Dovbyk",
+    "fullName": "Artem Dovbyk",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Ucrania",
+      "code": "ua"
+    },
+    "club": {
+      "name": "Roma",
+      "id": 100
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 83,
+      "pas": 68,
+      "dri": 76,
+      "def": 38,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242458.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -9962,32 +8990,61 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 245367,
-    "name": "Xavi Simons",
-    "fullName": "Xavi Simons",
+    "id": 246430,
+    "name": "Dušan Vlahović",
+    "fullName": "Dušan Vlahović",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "DEL",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Serbia",
+      "code": "rs"
     },
     "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
+      "name": "Juventus",
+      "id": 109
+    },
+    "stats": {
+      "pac": 76,
+      "sho": 86,
+      "pas": 68,
+      "dri": 76,
+      "def": 30,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246430.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "246430_totw",
+    "basePlayerId": 246430,
+    "name": "Dušan Vlahović TOTW",
+    "fullName": "Dušan Vlahović",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Serbia",
+      "code": "rs"
+    },
+    "club": {
+      "name": "Juventus",
+      "id": 109
     },
     "stats": {
       "pac": 77,
-      "sho": 77,
-      "pas": 80,
-      "dri": 87,
-      "def": 61,
-      "phy": 70
+      "sho": 87,
+      "pas": 69,
+      "dri": 77,
+      "def": 31,
+      "phy": 81
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p245367.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246430.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 246774,
@@ -10018,34 +9075,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 247090,
-    "name": "Enzo Fernández",
-    "fullName": "Enzo Fernández",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 68,
-      "sho": 75,
-      "pas": 85,
-      "dri": 81,
-      "def": 73,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247090.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 247504,
     "name": "Mary Earps",
     "fullName": "Mary Earps",
@@ -10072,6 +9101,63 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247504.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 247679,
+    "name": "Victor Boniface",
+    "fullName": "Victor Boniface",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Nigeria",
+      "code": "ng"
+    },
+    "club": {
+      "name": "Bayer Leverkusen",
+      "id": 3
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 83,
+      "pas": 72,
+      "dri": 81,
+      "def": 38,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247679.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": "247679_totw",
+    "basePlayerId": 247679,
+    "name": "Victor Boniface TOTW",
+    "fullName": "Victor Boniface",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Nigeria",
+      "code": "ng"
+    },
+    "club": {
+      "name": "Bayer Leverkusen",
+      "id": 3
+    },
+    "stats": {
+      "pac": 81,
+      "sho": 84,
+      "pas": 73,
+      "dri": 82,
+      "def": 39,
+      "phy": 85
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247679.png?padding=0.7",
+    "quickSell": 7700
   },
   {
     "id": 247788,
@@ -10115,19 +9201,75 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Real Madrid",
-      "id": 86
+      "name": "VfL Wolfsburg"
     },
     "stats": {
-      "pac": 81,
+      "pac": 84,
       "sho": 82,
       "pas": 76,
-      "dri": 84,
-      "def": 85,
-      "phy": 85
+      "dri": 86,
+      "def": 84,
+      "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247789.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 247827,
+    "name": "Michael Olise",
+    "fullName": "Michael Olise",
+    "rating": 84,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 83,
+      "sho": 78,
+      "pas": 82,
+      "dri": 86,
+      "def": 48,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247827.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": "247827_totw",
+    "basePlayerId": 247827,
+    "name": "Michael Olise TOTW",
+    "fullName": "Michael Olise",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 79,
+      "pas": 83,
+      "dri": 87,
+      "def": 49,
+      "phy": 69
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247827.png?padding=0.7",
+    "quickSell": 14000
   },
   {
     "id": 248343,
@@ -10232,124 +9374,70 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 78,
-      "sho": 71,
-      "pas": 75,
-      "dri": 78,
-      "def": 84,
-      "phy": 82
+      "sho": 64,
+      "pas": 76,
+      "dri": 79,
+      "def": 83,
+      "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251517.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 252145,
-    "name": "Nuno Mendes",
-    "fullName": "Nuno Alexandre Tavares Mendes",
-    "rating": 84,
-    "cardType": "gold_rare",
+    "id": "251517_totw",
+    "basePlayerId": 251517,
+    "name": "Joško Gvardiol TOTW",
+    "fullName": "Joško Gvardiol",
+    "rating": 85,
+    "cardType": "totw",
     "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 94,
-      "sho": 69,
-      "pas": 77,
-      "dri": 81,
-      "def": 78,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p252145.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 252154,
-    "name": "Marco Carnesecchi",
-    "fullName": "Marco Carnesecchi",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Italia",
-      "code": "it"
-    },
-    "club": {
-      "name": "Bergamo Calcio"
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 83,
-      "pas": 71,
-      "dri": 86,
-      "def": 85,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p252154.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 256675,
-    "name": "Omar Marmoush",
-    "fullName": "Omar Marmoush",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "DEL",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Egipto",
-      "code": "eg"
+      "name": "Croacia",
+      "code": "hr"
     },
     "club": {
       "name": "Manchester City",
       "id": 65
     },
     "stats": {
-      "pac": 89,
-      "sho": 85,
-      "pas": 76,
-      "dri": 86,
-      "def": 34,
-      "phy": 71
+      "pac": 79,
+      "sho": 65,
+      "pas": 77,
+      "dri": 80,
+      "def": 84,
+      "phy": 84
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256675.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251517.png?padding=0.7",
+    "quickSell": 10400
   },
   {
-    "id": 257279,
-    "name": "Álex Baena",
-    "fullName": "Alejandro Baena Rodríguez",
+    "id": 253149,
+    "name": "Jeremie Frimpong",
+    "fullName": "Jeremie Frimpong",
     "rating": 84,
     "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "LD",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Premier League",
     "nation": {
-      "name": "España",
+      "name": "Holland",
       "code": "es"
     },
     "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 79,
-      "sho": 76,
-      "pas": 84,
-      "dri": 82,
-      "def": 65,
+      "pac": 94,
+      "sho": 74,
+      "pas": 80,
+      "dri": 85,
+      "def": 75,
       "phy": 68
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257279.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p253149.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -10381,62 +9469,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 262457,
-    "name": "Olga Carmona",
-    "fullName": "Olga Carmona García",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Women's Football",
-    "league": "Arkema PL",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 88,
-      "sho": 74,
-      "pas": 78,
-      "dri": 80,
-      "def": 79,
-      "phy": 74
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p262457.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 262621,
-    "name": "Giorgi Mamardashvili",
-    "fullName": "Giorgi Mamardashvili",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Georgia",
-      "code": "ge"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 81,
-      "pas": 72,
-      "dri": 84,
-      "def": 84,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p262621.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 263009,
     "name": "Hannah Hampton",
     "fullName": "Hannah Hampton",
@@ -10462,34 +9494,6 @@ const PLAYERS_DB = [
       "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p263009.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 264652,
-    "name": "Bradley Barcola",
-    "fullName": "Bradley Barcola",
-    "rating": 84,
-    "cardType": "gold_rare",
-    "pos": "EI",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 90,
-      "sho": 77,
-      "pas": 78,
-      "dri": 84,
-      "def": 39,
-      "phy": 66
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264652.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -10534,7 +9538,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -10732,42 +9736,71 @@ const PLAYERS_DB = [
       "id": 81
     },
     "stats": {
-      "pac": 87,
-      "sho": 79,
-      "pas": 83,
-      "dri": 87,
-      "def": 36,
-      "phy": 58
+      "pac": 86,
+      "sho": 78,
+      "pas": 81,
+      "dri": 86,
+      "def": 25,
+      "phy": 52
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p277643.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 177003,
-    "name": "Luka Modrić",
-    "fullName": "Luka Modrić",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MC",
+    "id": "277643_totw",
+    "basePlayerId": 277643,
+    "name": "Lamine Yamal TOTW",
+    "fullName": "Lamine Yamal Nasraoui Ebana",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "ED",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Croacia",
-      "code": "hr"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "AC Milan",
-      "id": 98
+      "name": "FC Barcelona",
+      "id": 81
     },
     "stats": {
-      "pac": 68,
-      "sho": 74,
-      "pas": 86,
-      "dri": 86,
-      "def": 70,
-      "phy": 62
+      "pac": 87,
+      "sho": 79,
+      "pas": 82,
+      "dri": 87,
+      "def": 26,
+      "phy": 53
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p177003.png?padding=0.7",
+    "faceUrl": "assets/faces/totw_yamal.webp",
+    "quickSell": 10400
+  },
+  {
+    "id": 183898,
+    "name": "Ángel Di María",
+    "fullName": "Ángel Di María",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "LPF",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Benfica",
+      "id": 234
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 80,
+      "pas": 84,
+      "dri": 86,
+      "def": 45,
+      "phy": 66
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p183898.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -10784,7 +9817,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 77,
@@ -10853,6 +9886,34 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 197781,
+    "name": "Isco",
+    "fullName": "Francisco Román Alarcón Suárez",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Real Betis",
+      "id": 90
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 80,
+      "pas": 84,
+      "dri": 87,
+      "def": 60,
+      "phy": 62
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p197781.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 199641,
     "name": "Matz Sels",
     "fullName": "Matz Sels",
@@ -10880,6 +9941,34 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 201024,
+    "name": "Kalidou Koulibaly",
+    "fullName": "Kalidou Koulibaly",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Senegal",
+      "code": "sn"
+    },
+    "club": {
+      "name": "Al Hilal",
+      "id": "al_hilal"
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 35,
+      "pas": 56,
+      "dri": 64,
+      "def": 84,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201024.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 201153,
     "name": "Morata",
     "fullName": "Álvaro Borja Morata Martín",
@@ -10897,15 +9986,157 @@ const PLAYERS_DB = [
       "id": 98
     },
     "stats": {
-      "pac": 82,
-      "sho": 81,
-      "pas": 72,
+      "pac": 81,
+      "sho": 82,
+      "pas": 74,
       "dri": 80,
-      "def": 36,
+      "def": 34,
       "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201153.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 201399,
+    "name": "Mauro Icardi",
+    "fullName": "Mauro Icardi",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Trendyol Süper Lig",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Galatasaray",
+      "id": 610
+    },
+    "stats": {
+      "pac": 70,
+      "sho": 86,
+      "pas": 72,
+      "dri": 79,
+      "def": 36,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201399.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": "201399_totw",
+    "basePlayerId": 201399,
+    "name": "Mauro Icardi TOTW",
+    "fullName": "Mauro Icardi",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Trendyol Süper Lig",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Galatasaray",
+      "id": 610
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 88,
+      "pas": 74,
+      "dri": 81,
+      "def": 38,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201399.png?padding=0.7",
+    "quickSell": 7700
+  },
+  {
+    "id": 203574,
+    "name": "John Stones",
+    "fullName": "John Stones",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Manchester City",
+      "id": 65
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 51,
+      "pas": 78,
+      "dri": 79,
+      "def": 84,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p203574.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 204638,
+    "name": "Willi Orban",
+    "fullName": "Willi Orban",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "RB Leipzig",
+      "id": 721
+    },
+    "stats": {
+      "pac": 58,
+      "sho": 44,
+      "pas": 60,
+      "dri": 62,
+      "def": 84,
+      "phy": 83
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204638.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "204638_totw",
+    "basePlayerId": 204638,
+    "name": "Willi Orban TOTW",
+    "fullName": "Willi Orban",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "RB Leipzig",
+      "id": 721
+    },
+    "stats": {
+      "pac": 60,
+      "sho": 46,
+      "pas": 62,
+      "dri": 64,
+      "def": 86,
+      "phy": 85
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204638.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 207410,
@@ -10925,15 +10156,44 @@ const PLAYERS_DB = [
       "id": 65
     },
     "stats": {
-      "pac": 67,
-      "sho": 74,
-      "pas": 81,
-      "dri": 83,
-      "def": 73,
-      "phy": 72
+      "pac": 72,
+      "sho": 69,
+      "pas": 83,
+      "dri": 87,
+      "def": 72,
+      "phy": 70
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207410.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": "207410_totw",
+    "basePlayerId": 207410,
+    "name": "Mateo Kovačić TOTW",
+    "fullName": "Mateo Kovačić",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Croacia",
+      "code": "hr"
+    },
+    "club": {
+      "name": "Manchester City",
+      "id": 65
+    },
+    "stats": {
+      "pac": 74,
+      "sho": 71,
+      "pas": 85,
+      "dri": 89,
+      "def": 74,
+      "phy": 72
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207410.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 207421,
@@ -10953,71 +10213,44 @@ const PLAYERS_DB = [
       "id": 57
     },
     "stats": {
-      "pac": 80,
-      "sho": 81,
-      "pas": 80,
+      "pac": 78,
+      "sho": 82,
+      "pas": 81,
       "dri": 85,
-      "def": 30,
-      "phy": 60
+      "def": 38,
+      "phy": 64
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207421.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 208722,
-    "name": "Sadio Mané",
-    "fullName": "Sadio Mané",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MI",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Senegal",
-      "code": "sn"
-    },
-    "club": {
-      "name": "Al Nassr",
-      "id": "al_nassr"
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 81,
-      "pas": 78,
-      "dri": 85,
-      "def": 44,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208722.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 208920,
-    "name": "Nathan Aké",
-    "fullName": "Nathan Aké",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DFC",
+    "id": "207421_totw",
+    "basePlayerId": 207421,
+    "name": "Leandro Trossard TOTW",
+    "fullName": "Leandro Trossard",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Bélgica",
+      "code": "be"
     },
     "club": {
-      "name": "Manchester City",
-      "id": 65
+      "name": "Arsenal",
+      "id": 57
     },
     "stats": {
-      "pac": 72,
-      "sho": 53,
-      "pas": 72,
-      "dri": 75,
-      "def": 84,
-      "phy": 74
+      "pac": 80,
+      "sho": 84,
+      "pas": 83,
+      "dri": 87,
+      "def": 40,
+      "phy": 66
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208920.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p207421.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 209989,
@@ -11033,101 +10266,46 @@ const PLAYERS_DB = [
       "code": "gh"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Arsenal",
+      "id": 57
     },
     "stats": {
-      "pac": 59,
-      "sho": 71,
-      "pas": 80,
-      "dri": 77,
-      "def": 80,
+      "pac": 65,
+      "sho": 72,
+      "pas": 81,
+      "dri": 80,
+      "def": 81,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209989.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 210008,
-    "name": "Adrien Rabiot",
-    "fullName": "Adrien Rabiot",
+    "id": 212218,
+    "name": "Aymeric Laporte",
+    "fullName": "Aymeric Laporte",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "AC Milan",
-      "id": 98
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 79,
-      "pas": 81,
-      "dri": 80,
-      "def": 77,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210008.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 212194,
-    "name": "Julian Brandt",
-    "fullName": "Julian Brandt",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
-    },
-    "stats": {
-      "pac": 74,
-      "sho": 78,
-      "pas": 83,
-      "dri": 84,
-      "def": 44,
-      "phy": 70
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212194.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 213345,
-    "name": "Kingsley Coman",
-    "fullName": "Kingsley Coman",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "DFC",
     "gender": "Men's Football",
     "league": "ROSHN Saudi League",
     "nation": {
-      "name": "Francia",
-      "code": "fr"
+      "name": "España",
+      "code": "es"
     },
     "club": {
       "name": "Al Nassr",
       "id": "al_nassr"
     },
     "stats": {
-      "pac": 87,
-      "sho": 75,
-      "pas": 79,
-      "dri": 87,
-      "def": 30,
-      "phy": 61
+      "pac": 64,
+      "sho": 50,
+      "pas": 72,
+      "dri": 69,
+      "def": 84,
+      "phy": 80
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213345.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212218.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -11144,7 +10322,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 86,
@@ -11186,32 +10365,32 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 216435,
-    "name": "Stanislav Lobotka",
-    "fullName": "Stanislav Lobotka",
+    "id": 216352,
+    "name": "Marcelo Brozović",
+    "fullName": "Marcelo Brozović",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "MCD",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "ROSHN Saudi League",
     "nation": {
-      "name": "Eslovaquia",
-      "code": "sk"
+      "name": "Croacia",
+      "code": "hr"
     },
     "club": {
-      "name": "SSC Napoli",
-      "id": 113
+      "name": "Al Nassr",
+      "id": "al_nassr"
     },
     "stats": {
-      "pac": 71,
-      "sho": 69,
-      "pas": 80,
-      "dri": 82,
-      "def": 76,
-      "phy": 71
+      "pac": 68,
+      "sho": 72,
+      "pas": 82,
+      "dri": 80,
+      "def": 80,
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216435.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216352.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 216460,
@@ -11231,23 +10410,23 @@ const PLAYERS_DB = [
       "id": 78
     },
     "stats": {
-      "pac": 73,
-      "sho": 46,
-      "pas": 60,
-      "dri": 62,
-      "def": 85,
+      "pac": 70,
+      "sho": 45,
+      "pas": 58,
+      "dri": 60,
+      "def": 84,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216460.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 217870,
-    "name": "Giovanni Di Lorenzo",
-    "fullName": "Giovanni Di Lorenzo",
+    "id": 222077,
+    "name": "Manuel Locatelli",
+    "fullName": "Manuel Locatelli",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "LD",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Serie A Enilive",
     "nation": {
@@ -11255,18 +10434,18 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
-      "id": 113
+      "name": "Juventus",
+      "id": 109
     },
     "stats": {
-      "pac": 84,
+      "pac": 65,
       "sho": 72,
-      "pas": 73,
-      "dri": 77,
-      "def": 79,
+      "pas": 81,
+      "dri": 78,
+      "def": 80,
       "phy": 80
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p217870.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222077.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -11287,10 +10466,10 @@ const PLAYERS_DB = [
       "id": 610
     },
     "stats": {
-      "pac": 76,
-      "sho": 72,
-      "pas": 78,
-      "dri": 81,
+      "pac": 74,
+      "sho": 68,
+      "pas": 77,
+      "dri": 80,
       "def": 81,
       "phy": 79
     },
@@ -11324,6 +10503,62 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p224371.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 226161,
+    "name": "Marcos Llorente",
+    "fullName": "Marcos Llorente Moreno",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Atlético de Madrid",
+      "id": 78
+    },
+    "stats": {
+      "pac": 89,
+      "sho": 78,
+      "pas": 80,
+      "dri": 81,
+      "def": 79,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226161.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 226271,
+    "name": "Fabián Ruiz",
+    "fullName": "Fabián Ruiz Peña",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Paris Saint-Germain",
+      "id": 524
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 78,
+      "pas": 83,
+      "dri": 82,
+      "def": 74,
+      "phy": 72
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226271.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 227069,
@@ -11378,34 +10613,6 @@ const PLAYERS_DB = [
       "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227072.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 227127,
-    "name": "Álex Remiro",
-    "fullName": "Alejandro Remiro Gargallo",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Real Sociedad",
-      "id": 92
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 78,
-      "pas": 80,
-      "dri": 84,
-      "def": 84,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227127.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -11537,98 +10744,42 @@ const PLAYERS_DB = [
       "id": 98
     },
     "stats": {
-      "pac": 85,
-      "sho": 79,
-      "pas": 80,
-      "dri": 84,
-      "def": 42,
-      "phy": 62
+      "pac": 87,
+      "sho": 80,
+      "pas": 79,
+      "dri": 85,
+      "def": 40,
+      "phy": 64
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p227796.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 228813,
-    "name": "Aleix García",
-    "fullName": "Aleix García Serrano",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Leverkusen",
-      "id": 3
-    },
-    "stats": {
-      "pac": 65,
-      "sho": 75,
-      "pas": 85,
-      "dri": 84,
-      "def": 75,
-      "phy": 66
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228813.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 229582,
-    "name": "Gianluca Mancini",
-    "fullName": "Gianluca Mancini",
+    "id": 229237,
+    "name": "Manuel Akanji",
+    "fullName": "Manuel Akanji",
     "rating": 83,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
     "league": "Serie A Enilive",
     "nation": {
-      "name": "Italia",
-      "code": "it"
+      "name": "Suiza",
+      "code": "ch"
     },
     "club": {
-      "name": "AS Roma",
-      "id": 100
+      "name": "Manchester City",
+      "id": 65
     },
     "stats": {
-      "pac": 70,
-      "sho": 50,
-      "pas": 57,
-      "dri": 64,
-      "def": 85,
-      "phy": 82
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229582.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 231936,
-    "name": "Benjamin White",
-    "fullName": "Benjamin White",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Arsenal",
-      "id": 57
-    },
-    "stats": {
-      "pac": 70,
-      "sho": 35,
-      "pas": 75,
-      "dri": 75,
+      "pac": 78,
+      "sho": 48,
+      "pas": 72,
+      "dri": 74,
       "def": 83,
-      "phy": 78
+      "phy": 80
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231936.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229237.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -11659,6 +10810,34 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 232756,
+    "name": "Fikayo Tomori",
+    "fullName": "Fikayo Tomori",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "AC Milan",
+      "id": 98
+    },
+    "stats": {
+      "pac": 83,
+      "sho": 40,
+      "pas": 62,
+      "dri": 68,
+      "def": 84,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232756.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 233486,
     "name": "Robin Le Normand",
     "fullName": "Robin Le Normand",
@@ -11676,10 +10855,10 @@ const PLAYERS_DB = [
       "id": 78
     },
     "stats": {
-      "pac": 69,
-      "sho": 35,
-      "pas": 64,
-      "dri": 62,
+      "pac": 72,
+      "sho": 42,
+      "pas": 65,
+      "dri": 68,
       "def": 84,
       "phy": 81
     },
@@ -11742,31 +10921,59 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 235794,
-    "name": "Eberechi Eze",
-    "fullName": "Eberechi Eze",
+    "id": 234396,
+    "name": "Alphonso Davies",
+    "fullName": "Alphonso Davies",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Canadá",
+      "code": "ca"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 95,
+      "sho": 68,
+      "pas": 78,
+      "dri": 84,
+      "def": 76,
+      "phy": 77
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234396.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 235790,
+    "name": "Kai Havertz",
+    "fullName": "Kai Havertz",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DEL",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
+      "name": "Alemania",
+      "code": "de"
     },
     "club": {
       "name": "Arsenal",
       "id": 57
     },
     "stats": {
-      "pac": 74,
+      "pac": 82,
       "sho": 80,
-      "pas": 81,
-      "dri": 87,
-      "def": 50,
-      "phy": 68
+      "pas": 79,
+      "dri": 82,
+      "def": 48,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235794.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235790.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -11790,9 +10997,9 @@ const PLAYERS_DB = [
       "pac": 88,
       "sho": 81,
       "pas": 76,
-      "dri": 84,
+      "dri": 85,
       "def": 48,
-      "phy": 71
+      "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235805.png?padding=0.7",
     "quickSell": 1500
@@ -11815,12 +11022,12 @@ const PLAYERS_DB = [
       "id": 109
     },
     "stats": {
-      "pac": 72,
-      "sho": 78,
+      "pac": 70,
+      "sho": 76,
       "pas": 82,
-      "dri": 83,
-      "def": 77,
-      "phy": 79
+      "dri": 81,
+      "def": 78,
+      "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236499.png?padding=0.7",
     "quickSell": 1500
@@ -11853,34 +11060,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 236772,
-    "name": "Dominik Szoboszlai",
-    "fullName": "Dominik Szoboszlai",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Hungría",
-      "code": "hu"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 79,
-      "sho": 82,
-      "pas": 84,
-      "dri": 82,
-      "def": 67,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236772.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 236987,
     "name": "Boubacar Kamara",
     "fullName": "Boubacar Kamara",
@@ -11909,6 +11088,34 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 237086,
+    "name": "Kim Min Jae",
+    "fullName": "Min Jae Kim",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Corea del Sur",
+      "code": "kr"
+    },
+    "club": {
+      "name": "Bayern München",
+      "id": 5
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 36,
+      "pas": 62,
+      "dri": 68,
+      "def": 84,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237086.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 237673,
     "name": "Kailen Sheridan",
     "fullName": "Kailen Sheridan",
@@ -11934,6 +11141,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237673.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 237678,
+    "name": "Ibrahima Konaté",
+    "fullName": "Ibrahima Konaté",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 35,
+      "pas": 58,
+      "dri": 68,
+      "def": 83,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237678.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 238095,
@@ -11991,40 +11226,12 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 240243,
-    "name": "Matheus Cunha",
-    "fullName": "Matheus Santos Carneiro da Cunha",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Manchester United",
-      "id": 66
-    },
-    "stats": {
-      "pac": 77,
-      "sho": 85,
-      "pas": 79,
-      "dri": 84,
-      "def": 44,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240243.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 240679,
     "name": "Teun Koopmeiners",
     "fullName": "Teun Koopmeiners",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "MCO",
     "gender": "Men's Football",
     "league": "Serie A Enilive",
     "nation": {
@@ -12036,11 +11243,11 @@ const PLAYERS_DB = [
       "id": 109
     },
     "stats": {
-      "pac": 71,
-      "sho": 83,
+      "pac": 72,
+      "sho": 82,
       "pas": 82,
       "dri": 80,
-      "def": 78,
+      "def": 76,
       "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240679.png?padding=0.7",
@@ -12052,7 +11259,7 @@ const PLAYERS_DB = [
     "fullName": "Pedro António Pereira Gonçalves",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "Liga Portugal",
     "nation": {
@@ -12064,69 +11271,14 @@ const PLAYERS_DB = [
       "id": 1903
     },
     "stats": {
-      "pac": 77,
+      "pac": 78,
       "sho": 82,
-      "pas": 83,
+      "pas": 81,
       "dri": 84,
-      "def": 63,
-      "phy": 68
+      "def": 65,
+      "phy": 71
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240950.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 241461,
-    "name": "Ferran Torres",
-    "fullName": "Ferran Torres García",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "EI",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 81,
-      "pas": 79,
-      "dri": 83,
-      "def": 35,
-      "phy": 68
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241461.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 241850,
-    "name": "Mateo Retegui",
-    "fullName": "Mateo Retegui",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Italia",
-      "code": "it"
-    },
-    "club": {
-      "name": "Al Qadsiah"
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 83,
-      "pas": 67,
-      "dri": 78,
-      "def": 37,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241850.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12148,41 +11300,70 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 94,
-      "sho": 75,
+      "sho": 76,
       "pas": 76,
       "dri": 85,
       "def": 42,
-      "phy": 55
+      "phy": 58
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241852.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 242458,
-    "name": "Artem Dovbyk",
-    "fullName": "Artem Dovbyk",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DEL",
+    "id": "241852_totw",
+    "basePlayerId": 241852,
+    "name": "Moussa Diaby TOTW",
+    "fullName": "Moussa Diaby",
+    "rating": 85,
+    "cardType": "totw",
+    "pos": "ED",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "ROSHN Saudi League",
     "nation": {
-      "name": "Ucrania",
-      "code": "ua"
+      "name": "Francia",
+      "code": "fr"
     },
     "club": {
-      "name": "AS Roma",
-      "id": 100
+      "name": "Al Ittihad",
+      "id": "al_ittihad"
     },
     "stats": {
-      "pac": 83,
-      "sho": 84,
-      "pas": 68,
-      "dri": 78,
-      "def": 34,
-      "phy": 79
+      "pac": 96,
+      "sho": 78,
+      "pas": 78,
+      "dri": 87,
+      "def": 44,
+      "phy": 60
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242458.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241852.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
+    "id": 242516,
+    "name": "Cody Gakpo",
+    "fullName": "Cody Gakpo",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 82,
+      "pas": 79,
+      "dri": 84,
+      "def": 44,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242516.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12199,7 +11380,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 91,
@@ -12210,6 +11392,34 @@ const PLAYERS_DB = [
       "phy": 71
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242964.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 243576,
+    "name": "Pedro Porro",
+    "fullName": "Pedro Antonio Porro Sauceda",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Tottenham Hotspur",
+      "id": 73
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 74,
+      "pas": 80,
+      "dri": 80,
+      "def": 77,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243576.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12226,16 +11436,16 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Juventus",
-      "id": 109
+      "name": "RB Leipzig",
+      "id": 721
     },
     "stats": {
-      "pac": 95,
+      "pac": 93,
       "sho": 81,
-      "pas": 69,
-      "dri": 81,
-      "def": 31,
-      "phy": 80
+      "pas": 68,
+      "dri": 80,
+      "def": 34,
+      "phy": 79
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243580.png?padding=0.7",
     "quickSell": 3000
@@ -12254,7 +11464,7 @@ const PLAYERS_DB = [
       "code": "xk"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -12269,31 +11479,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 244669,
-    "name": "Morten Hjulmand",
-    "fullName": "Morten Hjulmand",
+    "id": 245367,
+    "name": "Xavi Simons",
+    "fullName": "Xavi Simons",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "MCD",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Liga Portugal",
+    "league": "Premier League",
     "nation": {
-      "name": "Dinamarca",
-      "code": "dk"
+      "name": "Holland",
+      "code": "es"
     },
     "club": {
-      "name": "Sporting CP",
-      "id": 1903
+      "name": "RB Leipzig",
+      "id": 721
     },
     "stats": {
-      "pac": 70,
-      "sho": 76,
-      "pas": 78,
-      "dri": 77,
-      "def": 80,
-      "phy": 84
+      "pac": 82,
+      "sho": 78,
+      "pas": 80,
+      "dri": 86,
+      "def": 55,
+      "phy": 72
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244669.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p245367.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12325,6 +11535,34 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 247090,
+    "name": "Enzo Fernández",
+    "fullName": "Enzo Fernández",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Chelsea",
+      "id": 61
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 76,
+      "pas": 83,
+      "dri": 81,
+      "def": 76,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247090.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 247103,
     "name": "Dávid Hancko",
     "fullName": "Dávid Hancko",
@@ -12350,34 +11588,6 @@ const PLAYERS_DB = [
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247103.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 247394,
-    "name": "Dejan Kulusevski",
-    "fullName": "Dejan Kulusevski",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Suecia",
-      "code": "se"
-    },
-    "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
-    },
-    "stats": {
-      "pac": 74,
-      "sho": 79,
-      "pas": 84,
-      "dri": 85,
-      "def": 62,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247394.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12449,16 +11659,16 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Real Sociedad",
+      "id": 92
     },
     "stats": {
-      "pac": 66,
-      "sho": 67,
-      "pas": 79,
-      "dri": 79,
-      "def": 80,
-      "phy": 73
+      "pac": 68,
+      "sho": 65,
+      "pas": 78,
+      "dri": 78,
+      "def": 82,
+      "phy": 79
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p248148.png?padding=0.7",
     "quickSell": 3000
@@ -12481,12 +11691,12 @@ const PLAYERS_DB = [
       "id": 86
     },
     "stats": {
-      "pac": 80,
+      "pac": 81,
       "sho": 68,
       "pas": 81,
       "dri": 84,
-      "def": 78,
-      "phy": 80
+      "def": 81,
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p248243.png?padding=0.7",
     "quickSell": 3000
@@ -12519,96 +11729,97 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 251752,
-    "name": "Lucas Chevalier",
-    "fullName": "Lucas Chevalier",
+    "id": 251566,
+    "name": "Gabriel Martinelli",
+    "fullName": "Gabriel Teodoro Martinelli Silva",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "POR",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Arsenal",
+      "id": 57
+    },
+    "stats": {
+      "pac": 89,
+      "sho": 78,
+      "pas": 76,
+      "dri": 85,
+      "def": 45,
+      "phy": 70
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251566.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": "251566_totw",
+    "basePlayerId": 251566,
+    "name": "Gabriel Martinelli TOTW",
+    "fullName": "Gabriel Teodoro Martinelli Silva",
+    "rating": 86,
+    "cardType": "totw",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Arsenal",
+      "id": 57
+    },
+    "stats": {
+      "pac": 92,
+      "sho": 81,
+      "pas": 79,
+      "dri": 88,
+      "def": 48,
+      "phy": 73
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251566.png?padding=0.7",
+    "quickSell": 7700
+  },
+  {
+    "id": 252145,
+    "name": "Nuno Mendes",
+    "fullName": "Nuno Alexandre Tavares Mendes",
+    "rating": 83,
+    "cardType": "gold_rare",
+    "pos": "LI",
     "gender": "Men's Football",
     "league": "Ligue 1 McDonald's",
     "nation": {
-      "name": "Francia",
-      "code": "fr"
+      "name": "Portugal",
+      "code": "pt"
     },
     "club": {
       "name": "Paris Saint-Germain",
       "id": 524
     },
     "stats": {
-      "pac": 84,
-      "sho": 79,
-      "pas": 73,
-      "dri": 86,
-      "def": 80,
-      "phy": 80
+      "pac": 90,
+      "sho": 66,
+      "pas": 75,
+      "dri": 81,
+      "def": 77,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251752.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p252145.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 253149,
-    "name": "Jeremie Frimpong",
-    "fullName": "Jeremie Frimpong",
+    "id": 256079,
+    "name": "Moisés Caicedo",
+    "fullName": "Moisés Caicedo",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Holland",
-      "code": "es"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 94,
-      "sho": 62,
-      "pas": 74,
-      "dri": 84,
-      "def": 72,
-      "phy": 63
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p253149.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 253163,
-    "name": "Ronald Araujo",
-    "fullName": "Ronald Araujo",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Uruguay",
-      "code": "uy"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 80,
-      "sho": 53,
-      "pas": 63,
-      "dri": 61,
-      "def": 81,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p253163.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 256197,
-    "name": "Piero Hincapié",
-    "fullName": "Piero Hincapié",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
@@ -12616,47 +11827,19 @@ const PLAYERS_DB = [
       "code": "ec"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Chelsea",
+      "id": 61
     },
     "stats": {
-      "pac": 84,
-      "sho": 41,
-      "pas": 65,
-      "dri": 72,
-      "def": 84,
-      "phy": 82
+      "pac": 76,
+      "sho": 62,
+      "pas": 77,
+      "dri": 79,
+      "def": 82,
+      "phy": 81
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256197.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 257289,
-    "name": "Hugo Ekitiké",
-    "fullName": "Hugo Ekitiké",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Liverpool",
-      "id": 64
-    },
-    "stats": {
-      "pac": 86,
-      "sho": 78,
-      "pas": 69,
-      "dri": 85,
-      "def": 33,
-      "phy": 73
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257289.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256079.png?padding=0.7",
+    "quickSell": 8000
   },
   {
     "id": 258680,
@@ -12712,34 +11895,6 @@ const PLAYERS_DB = [
       "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259372.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 259532,
-    "name": "Joan García",
-    "fullName": "Joan García Pons",
-    "rating": 83,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "FC Barcelona",
-      "id": 81
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 82,
-      "pas": 77,
-      "dri": 86,
-      "def": 83,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259532.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12826,31 +11981,30 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 263578,
-    "name": "Balde",
-    "fullName": "Alejandro Balde Martínez",
+    "id": 262621,
+    "name": "Giorgi Mamardashvili",
+    "fullName": "Giorgi Mamardashvili",
     "rating": 83,
     "cardType": "gold_rare",
-    "pos": "LI",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Premier League",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Georgia",
+      "code": "ge"
     },
     "club": {
-      "name": "FC Barcelona",
-      "id": 81
+      "name": "Valencia"
     },
     "stats": {
-      "pac": 91,
-      "sho": 50,
-      "pas": 75,
-      "dri": 79,
-      "def": 78,
-      "phy": 67
+      "pac": 83,
+      "sho": 81,
+      "pas": 74,
+      "dri": 86,
+      "def": 83,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p263578.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p262621.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -12872,11 +12026,11 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 76,
-      "sho": 66,
+      "sho": 68,
       "pas": 78,
-      "dri": 85,
+      "dri": 84,
       "def": 68,
-      "phy": 70
+      "phy": 77
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264240.png?padding=0.7",
     "quickSell": 3000
@@ -12895,7 +12049,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -13102,31 +12256,60 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 183898,
-    "name": "Ángel Di María",
-    "fullName": "Ángel Di María",
+    "id": 180930,
+    "name": "Edin Džeko",
+    "fullName": "Edin Džeko",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "ED",
+    "pos": "DEL",
     "gender": "Men's Football",
-    "league": "LPF",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Argentina",
-      "code": "ar"
+      "name": "Bosnia y Herzegovina",
+      "code": "ba"
     },
     "club": {
-      "name": "Rosario Central"
+      "name": "Fenerbahce",
+      "id": 611
     },
     "stats": {
-      "pac": 73,
-      "sho": 80,
-      "pas": 85,
-      "dri": 85,
-      "def": 43,
-      "phy": 62
+      "pac": 60,
+      "sho": 83,
+      "pas": 75,
+      "dri": 76,
+      "def": 42,
+      "phy": 75
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p183898.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p180930.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 185122,
+    "name": "Péter Gulácsi",
+    "fullName": "Péter Gulácsi",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "RB Leipzig",
+      "id": 721
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 80,
+      "pas": 78,
+      "dri": 83,
+      "def": 82,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p185122.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 188335,
@@ -13142,7 +12325,7 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 59,
@@ -13154,6 +12337,61 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188335.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 188567,
+    "name": "Pierre-Emerick Aubameyang",
+    "fullName": "Pierre-Emerick Aubameyang",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Gabon",
+      "code": "ga"
+    },
+    "club": {
+      "name": "Al Qadsiah"
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 82,
+      "pas": 73,
+      "dri": 79,
+      "def": 36,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188567.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 188943,
+    "name": "Kevin Trapp",
+    "fullName": "Kevin Trapp",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 81,
+      "pas": 76,
+      "dri": 84,
+      "def": 82,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188943.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 189513,
@@ -13169,7 +12407,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 39,
@@ -13210,90 +12449,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 192318,
-    "name": "Mario Götze",
-    "fullName": "Mario Götze",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Frankfurt",
-      "id": 19
-    },
-    "stats": {
-      "pac": 60,
-      "sho": 75,
-      "pas": 85,
-      "dri": 85,
-      "def": 56,
-      "phy": 67
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192318.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 192366,
-    "name": "Nicolás Otamendi",
-    "fullName": "Nicolás Otamendi",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Liga Portugal",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "SL Benfica",
-      "id": 234
-    },
-    "stats": {
-      "pac": 60,
-      "sho": 57,
-      "pas": 64,
-      "dri": 62,
-      "def": 83,
-      "phy": 85
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192366.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 192505,
-    "name": "Romelu Lukaku",
-    "fullName": "Romelu Lukaku",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Bélgica",
-      "code": "be"
-    },
-    "club": {
-      "name": "Napoli",
-      "id": 113
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 82,
-      "pas": 72,
-      "dri": 74,
-      "def": 40,
-      "phy": 83
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192505.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 192984,
     "name": "Koen Casteels",
     "fullName": "Koen Casteels",
@@ -13311,14 +12466,42 @@ const PLAYERS_DB = [
     },
     "stats": {
       "pac": 82,
-      "sho": 79,
-      "pas": 74,
-      "dri": 85,
-      "def": 83,
-      "phy": 83
+      "sho": 81,
+      "pas": 76,
+      "dri": 83,
+      "def": 82,
+      "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192984.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": 193747,
+    "name": "Koke",
+    "fullName": "Jorge Resurrección",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Atlético de Madrid",
+      "id": 78
+    },
+    "stats": {
+      "pac": 65,
+      "sho": 72,
+      "pas": 83,
+      "dri": 79,
+      "def": 78,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p193747.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 197445,
@@ -13365,70 +12548,14 @@ const PLAYERS_DB = [
       "name": "Al Qadsiah"
     },
     "stats": {
-      "pac": 73,
-      "sho": 37,
+      "pac": 74,
+      "sho": 40,
       "pas": 68,
-      "dri": 71,
-      "def": 82,
+      "dri": 68,
+      "def": 83,
       "phy": 79
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200724.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 201024,
-    "name": "Kalidou Koulibaly",
-    "fullName": "Kalidou Koulibaly",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Senegal",
-      "code": "sn"
-    },
-    "club": {
-      "name": "Al Hilal",
-      "id": "al_hilal"
-    },
-    "stats": {
-      "pac": 74,
-      "sho": 48,
-      "pas": 62,
-      "dri": 65,
-      "def": 82,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201024.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 203574,
-    "name": "John Stones",
-    "fullName": "John Stones",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 64,
-      "sho": 58,
-      "pas": 74,
-      "dri": 75,
-      "def": 84,
-      "phy": 72
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p203574.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -13437,7 +12564,7 @@ const PLAYERS_DB = [
     "fullName": "Serge Gnabry",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "Bundesliga",
     "nation": {
@@ -13449,12 +12576,12 @@ const PLAYERS_DB = [
       "id": 5
     },
     "stats": {
-      "pac": 79,
-      "sho": 83,
+      "pac": 82,
+      "sho": 82,
       "pas": 78,
-      "dri": 84,
-      "def": 43,
-      "phy": 66
+      "dri": 82,
+      "def": 42,
+      "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p206113.png?padding=0.7",
     "quickSell": 3000
@@ -13492,7 +12619,7 @@ const PLAYERS_DB = [
     "fullName": "Emre Can",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Bundesliga",
     "nation": {
@@ -13504,12 +12631,12 @@ const PLAYERS_DB = [
       "id": 4
     },
     "stats": {
-      "pac": 77,
-      "sho": 76,
-      "pas": 72,
-      "dri": 74,
+      "pac": 74,
+      "sho": 74,
+      "pas": 76,
+      "dri": 78,
       "def": 82,
-      "phy": 84
+      "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208333.png?padding=0.7",
     "quickSell": 3000
@@ -13532,11 +12659,11 @@ const PLAYERS_DB = [
       "id": "al_ittihad"
     },
     "stats": {
-      "pac": 53,
-      "sho": 69,
-      "pas": 78,
-      "dri": 77,
-      "def": 81,
+      "pac": 62,
+      "sho": 65,
+      "pas": 76,
+      "dri": 76,
+      "def": 83,
       "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209499.png?padding=0.7",
@@ -13560,14 +12687,42 @@ const PLAYERS_DB = [
       "id": 5
     },
     "stats": {
-      "pac": 77,
-      "sho": 78,
+      "pac": 75,
+      "sho": 80,
       "pas": 80,
       "dri": 80,
-      "def": 80,
+      "def": 78,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209658.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 210008,
+    "name": "Adrien Rabiot",
+    "fullName": "Adrien Rabiot",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 76,
+      "sho": 77,
+      "pas": 80,
+      "dri": 81,
+      "def": 78,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210008.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -13584,7 +12739,8 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 51,
@@ -13638,7 +12794,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 64,
@@ -13707,86 +12864,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 212218,
-    "name": "Aymeric Laporte",
-    "fullName": "Aymeric Laporte",
+    "id": 212228,
+    "name": "Ivan Toney",
+    "fullName": "Ivan Toney",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "DEL",
     "gender": "Men's Football",
     "league": "ROSHN Saudi League",
     "nation": {
-      "name": "España",
-      "code": "es"
+      "name": "Inglaterra",
+      "code": "gb-eng"
     },
     "club": {
-      "name": "Al Nassr",
-      "id": "al_nassr"
+      "name": "Al Ahli"
     },
     "stats": {
-      "pac": 51,
-      "sho": 50,
-      "pas": 74,
-      "dri": 70,
-      "def": 83,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212218.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 213648,
-    "name": "Pierre-Emile Højbjerg",
-    "fullName": "Pierre-Emile Højbjerg",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Dinamarca",
-      "code": "dk"
-    },
-    "club": {
-      "name": "OM"
-    },
-    "stats": {
-      "pac": 49,
-      "sho": 73,
-      "pas": 78,
-      "dri": 74,
-      "def": 78,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213648.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 215316,
-    "name": "Gerónimo Rulli",
-    "fullName": "Gerónimo Rulli",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "OM"
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 77,
-      "pas": 80,
-      "dri": 83,
-      "def": 81,
+      "pac": 80,
+      "sho": 82,
+      "pas": 73,
+      "dri": 78,
+      "def": 48,
       "phy": 81
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215316.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212228.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 215333,
@@ -13816,31 +12918,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 216267,
-    "name": "Andrew Robertson",
-    "fullName": "Andrew Robertson",
+    "id": 216435,
+    "name": "Stanislav Lobotka",
+    "fullName": "Stanislav Lobotka",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "LI",
+    "pos": "MC",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Escocia",
-      "code": "gb-sct"
+      "name": "Eslovaquia",
+      "code": "sk"
     },
     "club": {
-      "name": "Liverpool",
-      "id": 64
+      "name": "Napoli",
+      "id": 113
     },
     "stats": {
       "pac": 74,
-      "sho": 61,
+      "sho": 66,
       "pas": 80,
-      "dri": 77,
-      "def": 79,
-      "phy": 75
+      "dri": 85,
+      "def": 77,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216267.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216435.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -13890,8 +12992,8 @@ const PLAYERS_DB = [
     "stats": {
       "pac": 82,
       "sho": 82,
-      "pas": 73,
-      "dri": 77,
+      "pas": 72,
+      "dri": 76,
       "def": 36,
       "phy": 84
     },
@@ -13899,60 +13001,60 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 220793,
-    "name": "Davinson Sánchez",
-    "fullName": "Davinson Sánchez",
+    "id": 217870,
+    "name": "Giovanni Di Lorenzo",
+    "fullName": "Giovanni Di Lorenzo",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Napoli",
+      "id": 113
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 68,
+      "pas": 76,
+      "dri": 78,
+      "def": 80,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p217870.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 220814,
+    "name": "Lucas Hernández",
+    "fullName": "Lucas Hernández",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
+    "league": "Ligue 1 McDonald's",
     "nation": {
-      "name": "Colombia",
-      "code": "co"
+      "name": "Francia",
+      "code": "fr"
     },
     "club": {
-      "name": "Galatasaray",
-      "id": 610
+      "name": "Paris Saint-Germain",
+      "id": 524
     },
     "stats": {
-      "pac": 82,
-      "sho": 58,
-      "pas": 63,
-      "dri": 73,
+      "pac": 76,
+      "sho": 54,
+      "pas": 72,
+      "dri": 72,
       "def": 82,
-      "phy": 88
+      "phy": 80
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220793.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 222492,
-    "name": "Leroy Sané",
-    "fullName": "Leroy Sané",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MD",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Galatasaray",
-      "id": 610
-    },
-    "stats": {
-      "pac": 87,
-      "sho": 81,
-      "pas": 78,
-      "dri": 85,
-      "def": 37,
-      "phy": 68
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222492.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220814.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 222737,
@@ -13996,7 +13098,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 74,
@@ -14023,7 +13126,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 83,
@@ -14050,16 +13154,16 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
-      "pac": 81,
-      "sho": 79,
+      "pac": 82,
+      "sho": 80,
       "pas": 74,
-      "dri": 85,
-      "def": 84,
-      "phy": 84
+      "dri": 84,
+      "def": 81,
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p225116.png?padding=0.7",
     "quickSell": 3000
@@ -14098,7 +13202,7 @@ const PLAYERS_DB = [
     "fullName": "Konrad Laimer",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "LD",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Bundesliga",
     "nation": {
@@ -14110,42 +13214,14 @@ const PLAYERS_DB = [
       "id": 5
     },
     "stats": {
-      "pac": 82,
-      "sho": 69,
+      "pac": 80,
+      "sho": 68,
       "pas": 76,
-      "dri": 75,
+      "dri": 78,
       "def": 81,
-      "phy": 76
+      "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p225375.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 226226,
-    "name": "Giovani Lo Celso",
-    "fullName": "Giovani Lo Celso",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "Real Betis",
-      "id": 90
-    },
-    "stats": {
-      "pac": 68,
-      "sho": 81,
-      "pas": 82,
-      "dri": 84,
-      "def": 68,
-      "phy": 71
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226226.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -14381,7 +13457,7 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -14479,59 +13555,59 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 229188,
-    "name": "Vangelis Pavlidis",
-    "fullName": "Vangelis Pavlidis",
+    "id": 228618,
+    "name": "Ferland Mendy",
+    "fullName": "Ferland Mendy",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "LI",
     "gender": "Men's Football",
-    "league": "Liga Portugal",
+    "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Grecia",
-      "code": "gr"
+      "name": "Francia",
+      "code": "fr"
     },
     "club": {
-      "name": "SL Benfica",
-      "id": 234
+      "name": "Real Madrid",
+      "id": 86
     },
     "stats": {
-      "pac": 79,
-      "sho": 82,
-      "pas": 71,
-      "dri": 80,
-      "def": 47,
-      "phy": 82
+      "pac": 91,
+      "sho": 64,
+      "pas": 75,
+      "dri": 78,
+      "def": 80,
+      "phy": 85
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229188.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228618.png?padding=0.7",
+    "quickSell": 1500
   },
   {
-    "id": 229237,
-    "name": "Manuel Akanji",
-    "fullName": "Manuel Akanji",
+    "id": 228813,
+    "name": "Aleix García",
+    "fullName": "Aleix García Serrano",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DFC",
+    "pos": "MC",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Bundesliga",
     "nation": {
-      "name": "Suiza",
-      "code": "ch"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "Inter",
-      "id": 108
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 74,
-      "sho": 48,
-      "pas": 69,
-      "dri": 73,
-      "def": 82,
-      "phy": 81
+      "pac": 68,
+      "sho": 74,
+      "pas": 82,
+      "dri": 80,
+      "def": 75,
+      "phy": 70
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229237.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228813.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -14548,7 +13624,8 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 80,
@@ -14590,31 +13667,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 229476,
-    "name": "Waldemar Anton",
-    "fullName": "Waldemar Anton",
+    "id": 229582,
+    "name": "Gianluca Mancini",
+    "fullName": "Gianluca Mancini",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Italia",
+      "code": "it"
     },
     "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
+      "name": "Roma",
+      "id": 100
     },
     "stats": {
-      "pac": 69,
-      "sho": 47,
-      "pas": 67,
-      "dri": 66,
-      "def": 84,
-      "phy": 84
+      "pac": 65,
+      "sho": 52,
+      "pas": 66,
+      "dri": 65,
+      "def": 83,
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229476.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229582.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -14623,7 +13700,7 @@ const PLAYERS_DB = [
     "fullName": "Mikel Oyarzabal Ugarte",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "LALIGA EA SPORTS",
     "nation": {
@@ -14635,42 +13712,14 @@ const PLAYERS_DB = [
       "id": 92
     },
     "stats": {
-      "pac": 77,
-      "sho": 83,
-      "pas": 81,
-      "dri": 82,
-      "def": 42,
-      "phy": 65
+      "pac": 78,
+      "sho": 82,
+      "pas": 80,
+      "dri": 81,
+      "def": 48,
+      "phy": 70
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230142.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 230872,
-    "name": "Mile Svilar",
-    "fullName": "Mile Svilar",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Serbia",
-      "code": "rs"
-    },
-    "club": {
-      "name": "AS Roma",
-      "id": 100
-    },
-    "stats": {
-      "pac": 80,
-      "sho": 80,
-      "pas": 77,
-      "dri": 85,
-      "def": 82,
-      "phy": 82
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230872.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -14679,7 +13728,7 @@ const PLAYERS_DB = [
     "fullName": "Brahim Díaz",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MD",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "LALIGA EA SPORTS",
     "nation": {
@@ -14691,99 +13740,71 @@ const PLAYERS_DB = [
       "id": 86
     },
     "stats": {
-      "pac": 82,
-      "sho": 74,
-      "pas": 79,
-      "dri": 85,
-      "def": 31,
-      "phy": 58
+      "pac": 84,
+      "sho": 76,
+      "pas": 78,
+      "dri": 86,
+      "def": 35,
+      "phy": 56
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231410.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 231416,
-    "name": "Dodi Lukébakio",
-    "fullName": "Dodi Lukébakio",
+    "id": 231936,
+    "name": "Benjamin White",
+    "fullName": "Benjamin White",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MD",
+    "pos": "LD",
     "gender": "Men's Football",
-    "league": "Liga Portugal",
+    "league": "Premier League",
     "nation": {
-      "name": "Bélgica",
-      "code": "be"
+      "name": "Inglaterra",
+      "code": "gb-eng"
     },
     "club": {
-      "name": "SL Benfica",
-      "id": 234
+      "name": "Arsenal",
+      "id": 57
     },
     "stats": {
-      "pac": 87,
-      "sho": 81,
-      "pas": 76,
-      "dri": 83,
-      "def": 31,
-      "phy": 64
+      "pac": 78,
+      "sho": 42,
+      "pas": 75,
+      "dri": 78,
+      "def": 82,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231416.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231936.png?padding=0.7",
     "quickSell": 3000
   },
   {
-    "id": 232488,
-    "name": "Cristian Romero",
-    "fullName": "Cristian Romero",
+    "id": 232363,
+    "name": "Milan Škriniar",
+    "fullName": "Milan Škriniar",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Trendyol Süper Lig",
     "nation": {
-      "name": "Argentina",
-      "code": "ar"
+      "name": "Eslovaquia",
+      "code": "sk"
     },
     "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
+      "name": "Paris Saint-Germain",
+      "id": 524
     },
     "stats": {
-      "pac": 66,
-      "sho": 48,
-      "pas": 62,
-      "dri": 65,
+      "pac": 68,
+      "sho": 40,
+      "pas": 58,
+      "dri": 68,
       "def": 83,
       "phy": 81
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232488.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 232639,
-    "name": "Ritsu Doan",
-    "fullName": "Ritsu Doan",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MD",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Japón",
-      "code": "jp"
-    },
-    "club": {
-      "name": "Frankfurt",
-      "id": 19
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 71,
-      "pas": 78,
-      "dri": 85,
-      "def": 41,
-      "phy": 64
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232639.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232363.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 233049,
@@ -14803,15 +13824,72 @@ const PLAYERS_DB = [
       "id": 61
     },
     "stats": {
-      "pac": 81,
+      "pac": 80,
       "sho": 74,
-      "pas": 79,
-      "dri": 88,
-      "def": 36,
-      "phy": 61
+      "pas": 80,
+      "dri": 87,
+      "def": 34,
+      "phy": 62
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233049.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 233096,
+    "name": "Denzel Dumfries",
+    "fullName": "Denzel Dumfries",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Inter",
+      "id": 108
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 68,
+      "pas": 74,
+      "dri": 78,
+      "def": 78,
+      "phy": 88
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233096.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "233096_totw",
+    "basePlayerId": 233096,
+    "name": "Denzel Dumfries TOTW",
+    "fullName": "Denzel Dumfries",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Inter",
+      "id": 108
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 70,
+      "pas": 76,
+      "dri": 80,
+      "def": 80,
+      "phy": 90
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233096.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 233150,
@@ -14925,59 +14003,32 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 234824,
-    "name": "Yoane Wissa",
-    "fullName": "Yoane Wissa",
+    "id": 234236,
+    "name": "Patrik Schick",
+    "fullName": "Patrik Schick",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "DEL",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Bundesliga",
     "nation": {
-      "name": "Congo DR",
-      "code": "cd"
+      "name": "República Checa",
+      "code": "cz"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 85,
+      "pac": 76,
       "sho": 82,
-      "pas": 70,
-      "dri": 80,
-      "def": 31,
-      "phy": 71
+      "pas": 72,
+      "dri": 79,
+      "def": 36,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234824.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 235410,
-    "name": "Youssef En-Nesyri",
-    "fullName": "Youssef En-Nesyri",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Marruecos",
-      "code": "ma"
-    },
-    "club": {
-      "name": "Fenerbahçe",
-      "id": 611
-    },
-    "stats": {
-      "pac": 79,
-      "sho": 81,
-      "pas": 65,
-      "dri": 75,
-      "def": 35,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235410.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234236.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 235659,
@@ -15007,32 +14058,60 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 235790,
-    "name": "Kai Havertz",
-    "fullName": "Kai Havertz",
+    "id": 235840,
+    "name": "Michele Di Gregorio",
+    "fullName": "Michele Di Gregorio",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Italia",
+      "code": "it"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Juventus",
+      "id": 109
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 81,
+      "pas": 74,
+      "dri": 85,
+      "def": 82,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235840.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 235944,
+    "name": "Brais Méndez",
+    "fullName": "Brais Méndez Portela",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Real Sociedad",
+      "id": 92
     },
     "stats": {
       "pac": 72,
-      "sho": 79,
-      "pas": 78,
+      "sho": 78,
+      "pas": 81,
       "dri": 81,
-      "def": 48,
-      "phy": 74
+      "def": 70,
+      "phy": 72
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235790.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235944.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 236015,
@@ -15062,33 +14141,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 236461,
-    "name": "Jean-Philippe Mateta",
-    "fullName": "Jean-Philippe Mateta",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Crystal Palace"
-    },
-    "stats": {
-      "pac": 75,
-      "sho": 84,
-      "pas": 70,
-      "dri": 77,
-      "def": 41,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236461.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 236496,
     "name": "Mattéo Guendouzi",
     "fullName": "Mattéo Guendouzi",
@@ -15102,7 +14154,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 72,
@@ -15113,34 +14166,6 @@ const PLAYERS_DB = [
       "phy": 77
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236496.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 236532,
-    "name": "Robin Koch",
-    "fullName": "Robin Koch",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Frankfurt",
-      "id": 19
-    },
-    "stats": {
-      "pac": 66,
-      "sho": 44,
-      "pas": 63,
-      "dri": 66,
-      "def": 83,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236532.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -15171,60 +14196,60 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 236703,
-    "name": "David Raum",
-    "fullName": "David Raum",
+    "id": 237238,
+    "name": "Scott McTominay",
+    "fullName": "Scott McTominay",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "LI",
+    "pos": "MC",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Escocia",
+      "code": "gb-sct"
     },
     "club": {
-      "name": "RB Leipzig",
-      "id": 721
+      "name": "Napoli",
+      "id": 113
     },
     "stats": {
-      "pac": 86,
-      "sho": 61,
-      "pas": 80,
-      "dri": 79,
-      "def": 74,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236703.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 237086,
-    "name": "Kim Min Jae",
-    "fullName": "Min Jae Kim",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Corea del Sur",
-      "code": "kr"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 73,
-      "sho": 33,
-      "pas": 58,
-      "dri": 63,
-      "def": 83,
+      "pac": 74,
+      "sho": 78,
+      "pas": 76,
+      "dri": 78,
+      "def": 78,
       "phy": 84
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237086.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237238.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
+    "id": 237679,
+    "name": "Randal Kolo Muani",
+    "fullName": "Randal Kolo Muani",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Paris Saint-Germain",
+      "id": 524
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 78,
+      "pas": 74,
+      "dri": 83,
+      "def": 40,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237679.png?padding=0.7",
+    "quickSell": 1500
   },
   {
     "id": 237681,
@@ -15232,7 +14257,7 @@ const PLAYERS_DB = [
     "fullName": "Takefusa Kubo",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MD",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "LALIGA EA SPORTS",
     "nation": {
@@ -15244,14 +14269,70 @@ const PLAYERS_DB = [
       "id": 92
     },
     "stats": {
-      "pac": 86,
+      "pac": 85,
       "sho": 77,
-      "pas": 78,
+      "pas": 79,
       "dri": 85,
-      "def": 40,
-      "phy": 64
+      "def": 44,
+      "phy": 60
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237681.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 238074,
+    "name": "Reece James",
+    "fullName": "Reece James",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Chelsea",
+      "id": 61
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 72,
+      "pas": 82,
+      "dri": 81,
+      "def": 80,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p238074.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 239231,
+    "name": "Marc Cucurella",
+    "fullName": "Marc Cucurella Saseta",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Chelsea",
+      "id": 61
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 62,
+      "pas": 77,
+      "dri": 79,
+      "def": 80,
+      "phy": 77
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239231.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -15283,59 +14364,32 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 240091,
-    "name": "Guglielmo Vicario",
-    "fullName": "Guglielmo Vicario",
+    "id": 240638,
+    "name": "Tijjani Reijnders",
+    "fullName": "Tijjani Reijnders",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "POR",
+    "pos": "MC",
     "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Italia",
-      "code": "it"
+      "name": "Holland",
+      "code": "es"
     },
     "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
+      "name": "AC Milan",
+      "id": 98
     },
     "stats": {
-      "pac": 83,
-      "sho": 78,
-      "pas": 78,
-      "dri": 84,
-      "def": 80,
-      "phy": 80
+      "pac": 78,
+      "sho": 76,
+      "pas": 80,
+      "dri": 83,
+      "def": 72,
+      "phy": 74
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240091.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 241159,
-    "name": "Marc Guéhi",
-    "fullName": "Marc Guéhi",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Crystal Palace"
-    },
-    "stats": {
-      "pac": 69,
-      "sho": 39,
-      "pas": 69,
-      "dri": 73,
-      "def": 83,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241159.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240638.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 241491,
@@ -15393,6 +14447,63 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 241850,
+    "name": "Mateo Retegui",
+    "fullName": "Mateo Retegui",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Atalanta",
+      "id": 102
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 82,
+      "pas": 64,
+      "dri": 76,
+      "def": 36,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241850.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "241850_totw",
+    "basePlayerId": 241850,
+    "name": "Mateo Retegui TOTW",
+    "fullName": "Mateo Retegui",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Atalanta",
+      "id": 102
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 84,
+      "pas": 66,
+      "dri": 78,
+      "def": 38,
+      "phy": 83
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241850.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 242024,
     "name": "Sofia Huerta",
     "fullName": "Sofia Huerta",
@@ -15433,16 +14544,16 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
-      "pac": 69,
-      "sho": 45,
-      "pas": 67,
-      "dri": 65,
-      "def": 84,
-      "phy": 79
+      "pac": 74,
+      "sho": 38,
+      "pas": 62,
+      "dri": 66,
+      "def": 83,
+      "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243241.png?padding=0.7",
     "quickSell": 3000
@@ -15461,15 +14572,16 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Beşiktaş"
+      "name": "Benfica",
+      "id": 234
     },
     "stats": {
-      "pac": 72,
-      "sho": 80,
-      "pas": 84,
-      "dri": 80,
-      "def": 70,
-      "phy": 79
+      "pac": 68,
+      "sho": 79,
+      "pas": 83,
+      "dri": 81,
+      "def": 72,
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243245.png?padding=0.7",
     "quickSell": 3000
@@ -15502,34 +14614,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 243576,
-    "name": "Pedro Porro",
-    "fullName": "Pedro Antonio Porro Sauceda",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 73,
-      "pas": 81,
-      "dri": 80,
-      "def": 77,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243576.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
     "id": 243630,
     "name": "Jonathan David",
     "fullName": "Jonathan David",
@@ -15543,19 +14627,46 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "Juventus",
-      "id": 109
+      "name": "LOSC Lille"
     },
     "stats": {
-      "pac": 81,
+      "pac": 82,
       "sho": 82,
-      "pas": 71,
+      "pas": 74,
       "dri": 80,
-      "def": 34,
-      "phy": 78
+      "def": 36,
+      "phy": 76
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243630.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": "243630_totw",
+    "basePlayerId": 243630,
+    "name": "Jonathan David TOTW",
+    "fullName": "Jonathan David",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Canadá",
+      "code": "ca"
+    },
+    "club": {
+      "name": "LOSC Lille"
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 84,
+      "pas": 76,
+      "dri": 82,
+      "def": 38,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243630.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 243775,
@@ -15585,59 +14696,59 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 244257,
-    "name": "Jonathan Burkardt",
-    "fullName": "Jonathan Burkardt",
+    "id": 244369,
+    "name": "Viktor Tsygankov",
+    "fullName": "Viktor Tsygankov",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "ED",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Ucrania",
+      "code": "ua"
     },
     "club": {
-      "name": "Frankfurt",
-      "id": 19
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
-      "pac": 83,
-      "sho": 82,
-      "pas": 67,
-      "dri": 81,
-      "def": 44,
-      "phy": 76
+      "pac": 80,
+      "sho": 78,
+      "pas": 80,
+      "dri": 82,
+      "def": 48,
+      "phy": 64
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244257.png?padding=0.7",
-    "quickSell": 3000
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244369.png?padding=0.7",
+    "quickSell": 1500
   },
   {
-    "id": 244778,
-    "name": "Trincão",
-    "fullName": "Francisco Trincão",
+    "id": 244669,
+    "name": "Morten Hjulmand",
+    "fullName": "Morten Hjulmand",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MCO",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Liga Portugal",
     "nation": {
-      "name": "Portugal",
-      "code": "pt"
+      "name": "Dinamarca",
+      "code": "dk"
     },
     "club": {
       "name": "Sporting CP",
       "id": 1903
     },
     "stats": {
-      "pac": 80,
-      "sho": 80,
-      "pas": 79,
-      "dri": 84,
-      "def": 40,
-      "phy": 71
+      "pac": 70,
+      "sho": 68,
+      "pas": 76,
+      "dri": 76,
+      "def": 82,
+      "phy": 83
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244778.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244669.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -15668,12 +14779,40 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 246104,
+    "name": "Ryan Gravenberch",
+    "fullName": "Ryan Gravenberch",
+    "rating": 82,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Liverpool",
+      "id": 64
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 72,
+      "pas": 79,
+      "dri": 83,
+      "def": 76,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246104.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
     "id": 246147,
     "name": "Mason Greenwood",
     "fullName": "Mason Greenwood",
     "rating": 82,
     "cardType": "gold_rare",
-    "pos": "MD",
+    "pos": "ED",
     "gender": "Men's Football",
     "league": "Ligue 1 McDonald's",
     "nation": {
@@ -15681,45 +14820,18 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
-      "pac": 83,
+      "pac": 85,
       "sho": 83,
       "pas": 77,
-      "dri": 83,
-      "def": 37,
-      "phy": 63
+      "dri": 82,
+      "def": 38,
+      "phy": 68
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246147.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 246430,
-    "name": "Dušan Vlahović",
-    "fullName": "Dušan Vlahović",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Serbia",
-      "code": "rs"
-    },
-    "club": {
-      "name": "Juventus",
-      "id": 109
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 84,
-      "pas": 69,
-      "dri": 77,
-      "def": 29,
-      "phy": 82
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246430.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -15778,86 +14890,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 247827,
-    "name": "Michael Olise",
-    "fullName": "Michael Olise",
+    "id": 247394,
+    "name": "Dejan Kulusevski",
+    "fullName": "Dejan Kulusevski",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "ED",
     "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Bayern München",
-      "id": 5
-    },
-    "stats": {
-      "pac": 80,
-      "sho": 77,
-      "pas": 82,
-      "dri": 85,
-      "def": 52,
-      "phy": 64
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247827.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
-    "id": 251470,
-    "name": "Charles De Ketelaere",
-    "fullName": "Charles De Ketelaere",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Bélgica",
-      "code": "be"
-    },
-    "club": {
-      "name": "Bergamo Calcio"
-    },
-    "stats": {
-      "pac": 70,
-      "sho": 79,
-      "pas": 80,
-      "dri": 83,
-      "def": 56,
-      "phy": 68
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251470.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 251805,
-    "name": "Jurriën Timber",
-    "fullName": "Jurriën Timber",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Holland",
-      "code": "es"
+      "name": "Suecia",
+      "code": "se"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Tottenham Hotspur",
+      "id": 73
     },
     "stats": {
-      "pac": 76,
-      "sho": 48,
-      "pas": 72,
-      "dri": 77,
-      "def": 82,
-      "phy": 80
+      "pac": 79,
+      "sho": 78,
+      "pas": 80,
+      "dri": 83,
+      "def": 58,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251805.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247394.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -15874,7 +14931,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 56,
@@ -15944,31 +15002,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 256853,
-    "name": "Malik Tillman",
-    "fullName": "Malik Tillman",
+    "id": 257279,
+    "name": "Álex Baena",
+    "fullName": "Alejandro Baena Rodríguez",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Estados Unidos",
-      "code": "us"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "Leverkusen",
-      "id": 3
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
-      "pac": 84,
-      "sho": 76,
-      "pas": 77,
-      "dri": 83,
-      "def": 65,
-      "phy": 77
+      "pac": 76,
+      "sho": 78,
+      "pas": 84,
+      "dri": 82,
+      "def": 64,
+      "phy": 70
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256853.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257279.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -16083,31 +15141,31 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 260908,
-    "name": "Milos Kerkez",
-    "fullName": "Milos Kerkez",
+    "id": 262457,
+    "name": "Olga Carmona",
+    "fullName": "Olga Carmona García",
     "rating": 82,
     "cardType": "gold_rare",
     "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Premier League",
+    "gender": "Women's Football",
+    "league": "Arkema PL",
     "nation": {
-      "name": "Hungría",
-      "code": "hu"
+      "name": "España",
+      "code": "es"
     },
     "club": {
-      "name": "Liverpool",
-      "id": 64
+      "name": "Real Madrid",
+      "id": 86
     },
     "stats": {
-      "pac": 87,
-      "sho": 59,
-      "pas": 75,
-      "dri": 78,
-      "def": 77,
-      "phy": 80
+      "pac": 82,
+      "sho": 72,
+      "pas": 78,
+      "dri": 81,
+      "def": 76,
+      "phy": 75
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p260908.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p262457.png?padding=0.7",
     "quickSell": 3000
   },
   {
@@ -16156,15 +15214,44 @@ const PLAYERS_DB = [
       "id": 73
     },
     "stats": {
-      "pac": 90,
-      "sho": 49,
-      "pas": 64,
-      "dri": 72,
+      "pac": 88,
+      "sho": 44,
+      "pas": 66,
+      "dri": 70,
       "def": 82,
       "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264453.png?padding=0.7",
     "quickSell": 3000
+  },
+  {
+    "id": "264453_totw",
+    "basePlayerId": 264453,
+    "name": "Micky van de Ven TOTW",
+    "fullName": "Micky van de Ven",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Tottenham Hotspur",
+      "id": 73
+    },
+    "stats": {
+      "pac": 90,
+      "sho": 46,
+      "pas": 68,
+      "dri": 72,
+      "def": 84,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264453.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 264864,
@@ -16234,7 +15321,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -16344,7 +15431,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -16400,7 +15487,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -16483,15 +15570,16 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 78,
-      "sho": 72,
-      "pas": 77,
-      "dri": 80,
-      "def": 80,
-      "phy": 81
+      "sho": 74,
+      "pas": 78,
+      "dri": 81,
+      "def": 79,
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p266866.png?padding=0.7",
     "quickSell": 3000
@@ -16622,12 +15710,12 @@ const PLAYERS_DB = [
       "id": 65
     },
     "stats": {
-      "pac": 87,
-      "sho": 71,
-      "pas": 78,
+      "pac": 88,
+      "sho": 74,
+      "pas": 76,
       "dri": 86,
-      "def": 30,
-      "phy": 53
+      "def": 32,
+      "phy": 60
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p270409.png?padding=0.7",
     "quickSell": 3000
@@ -16772,34 +15860,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 272834,
-    "name": "João Neves",
-    "fullName": "João Pedro Gonçalves Neves",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 68,
-      "pas": 81,
-      "dri": 83,
-      "def": 77,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p272834.png?padding=0.7",
-    "quickSell": 5000
-  },
-  {
     "id": 273136,
     "name": "Lorena",
     "fullName": "Lorena da Silva Leite",
@@ -16854,88 +15914,6 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
-    "id": 278349,
-    "name": "Dean Huijsen",
-    "fullName": "Dean Huijsen",
-    "rating": 82,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 71,
-      "sho": 55,
-      "pas": 73,
-      "dri": 74,
-      "def": 82,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p278349.png?padding=0.7",
-    "quickSell": 3000
-  },
-  {
-    "id": 180930,
-    "name": "Edin Džeko",
-    "fullName": "Edin Džeko",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Bosnia y Herzegovina",
-      "code": "ba"
-    },
-    "club": {
-      "name": "Fiorentina"
-    },
-    "stats": {
-      "pac": 55,
-      "sho": 82,
-      "pas": 74,
-      "dri": 77,
-      "def": 40,
-      "phy": 72
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p180930.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 181458,
-    "name": "Ivan Perišić",
-    "fullName": "Ivan Perišić",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "Eredivisie",
-    "nation": {
-      "name": "Croacia",
-      "code": "hr"
-    },
-    "club": {
-      "name": "Free Agents"
-    },
-    "stats": {
-      "pac": 75,
-      "sho": 80,
-      "pas": 81,
-      "dri": 79,
-      "def": 69,
-      "phy": 75
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p181458.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
     "id": 184392,
     "name": "Matteo Darmian",
     "fullName": "Matteo Darmian",
@@ -16964,113 +15942,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 188567,
-    "name": "Pierre-Emerick Aubameyang",
-    "fullName": "Pierre-Emerick Aubameyang",
+    "id": 192366,
+    "name": "Nicolás Otamendi",
+    "fullName": "Nicolás Otamendi",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "DEL",
+    "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
+    "league": "Liga Portugal",
     "nation": {
-      "name": "Gabon",
-      "code": "ga"
+      "name": "Argentina",
+      "code": "ar"
     },
     "club": {
-      "name": "OM"
+      "name": "Benfica",
+      "id": 234
     },
     "stats": {
-      "pac": 82,
-      "sho": 83,
-      "pas": 72,
-      "dri": 78,
-      "def": 36,
-      "phy": 63
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188567.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 188943,
-    "name": "Kevin Trapp",
-    "fullName": "Kevin Trapp",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Alemania",
-      "code": "de"
-    },
-    "club": {
-      "name": "Paris FC"
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 80,
-      "pas": 74,
-      "dri": 84,
-      "def": 76,
-      "phy": 76
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188943.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 190941,
-    "name": "Lukáš Hrádecký",
-    "fullName": "Lukáš Hrádecký",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Finlandia",
-      "code": "fi"
-    },
-    "club": {
-      "name": "AS Monaco"
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 79,
+      "pac": 50,
+      "sho": 55,
       "pas": 64,
-      "dri": 83,
-      "def": 81,
-      "phy": 81
+      "dri": 60,
+      "def": 82,
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p190941.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 193747,
-    "name": "Koke",
-    "fullName": "Jorge Resurrección",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
-    },
-    "stats": {
-      "pac": 61,
-      "sho": 72,
-      "pas": 83,
-      "dri": 78,
-      "def": 76,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p193747.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192366.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 200888,
@@ -17098,34 +15995,6 @@ const PLAYERS_DB = [
       "phy": 84
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p200888.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 201399,
-    "name": "Mauro Icardi",
-    "fullName": "Mauro Icardi",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "Galatasaray",
-      "id": 610
-    },
-    "stats": {
-      "pac": 67,
-      "sho": 82,
-      "pas": 71,
-      "dri": 76,
-      "def": 40,
-      "phy": 73
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p201399.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -17169,7 +16038,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 77,
@@ -17200,12 +16069,12 @@ const PLAYERS_DB = [
       "id": 57
     },
     "stats": {
-      "pac": 85,
-      "sho": 78,
+      "pac": 83,
+      "sho": 77,
       "pas": 76,
-      "dri": 84,
-      "def": 44,
-      "phy": 63
+      "dri": 83,
+      "def": 45,
+      "phy": 64
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p202652.png?padding=0.7",
     "quickSell": 800
@@ -17224,7 +16093,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 81,
@@ -17236,6 +16106,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p203841.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 204525,
+    "name": "Iñigo Martínez",
+    "fullName": "Iñigo Martínez Berridi",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "ROSHN Saudi League",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 55,
+      "pas": 68,
+      "dri": 68,
+      "def": 82,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204525.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 206085,
@@ -17251,7 +16149,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 82,
@@ -17278,7 +16177,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 77,
@@ -17324,7 +16224,7 @@ const PLAYERS_DB = [
     "fullName": "Marten de Roon",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "MCD",
     "gender": "Men's Football",
     "league": "Serie A Enilive",
     "nation": {
@@ -17332,74 +16232,47 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
-      "pac": 61,
-      "sho": 74,
-      "pas": 77,
-      "dri": 76,
-      "def": 83,
-      "phy": 80
+      "pac": 60,
+      "sho": 68,
+      "pas": 75,
+      "dri": 74,
+      "def": 82,
+      "phy": 83
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208461.png?padding=0.7",
     "quickSell": 1500
   },
   {
-    "id": 208574,
-    "name": "Filip Kostić",
-    "fullName": "Filip Kostić",
+    "id": 208920,
+    "name": "Nathan Aké",
+    "fullName": "Nathan Aké",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Premier League",
     "nation": {
-      "name": "Serbia",
-      "code": "rs"
+      "name": "Holland",
+      "code": "es"
     },
     "club": {
-      "name": "Juventus",
-      "id": 109
+      "name": "Manchester City",
+      "id": 65
     },
     "stats": {
-      "pac": 82,
-      "sho": 76,
-      "pas": 81,
-      "dri": 80,
-      "def": 70,
-      "phy": 77
+      "pac": 75,
+      "sho": 53,
+      "pas": 73,
+      "dri": 73,
+      "def": 82,
+      "phy": 76
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208574.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 210385,
-    "name": "Rui Silva",
-    "fullName": "Rui Tiago Dantas da Silva",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "Liga Portugal",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Sporting CP",
-      "id": 1903
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 78,
-      "pas": 77,
-      "dri": 84,
-      "def": 81,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210385.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208920.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 210676,
@@ -17470,7 +16343,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 80,
@@ -17501,41 +16374,14 @@ const PLAYERS_DB = [
       "id": 4
     },
     "stats": {
-      "pac": 61,
-      "sho": 51,
-      "pas": 68,
-      "dri": 67,
+      "pac": 70,
+      "sho": 46,
+      "pas": 64,
+      "dri": 62,
       "def": 81,
-      "phy": 79
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212190.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 212228,
-    "name": "Ivan Toney",
-    "fullName": "Ivan Toney",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Al Ahli"
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 82,
-      "pas": 71,
-      "dri": 75,
-      "def": 51,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212228.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -17552,16 +16398,16 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
-      "pac": 57,
-      "sho": 77,
-      "pas": 76,
-      "dri": 73,
-      "def": 83,
-      "phy": 81
+      "pac": 65,
+      "sho": 74,
+      "pas": 74,
+      "dri": 74,
+      "def": 82,
+      "phy": 85
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212242.png?padding=0.7",
     "quickSell": 1500
@@ -17580,16 +16426,16 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Fenerbahçe",
-      "id": 611
+      "name": "Al Nassr",
+      "id": "al_nassr"
     },
     "stats": {
-      "pac": 76,
-      "sho": 86,
-      "pas": 80,
+      "pac": 78,
+      "sho": 83,
+      "pas": 78,
       "dri": 81,
-      "def": 45,
-      "phy": 74
+      "def": 55,
+      "phy": 75
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p212523.png?padding=0.7",
     "quickSell": 1500
@@ -17622,6 +16468,63 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 213648,
+    "name": "Pierre-Emile Højbjerg",
+    "fullName": "Pierre-Emile Højbjerg",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "MCD",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Dinamarca",
+      "code": "dk"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 64,
+      "sho": 73,
+      "pas": 78,
+      "dri": 76,
+      "def": 80,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213648.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "213648_totw",
+    "basePlayerId": 213648,
+    "name": "Pierre-Emile Højbjerg TOTW",
+    "fullName": "Pierre-Emile Højbjerg",
+    "rating": 83,
+    "cardType": "totw",
+    "pos": "MCD",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Dinamarca",
+      "code": "dk"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 66,
+      "sho": 75,
+      "pas": 80,
+      "dri": 78,
+      "def": 82,
+      "phy": 84
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213648.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 214096,
     "name": "Tim Kleindienst",
     "fullName": "Tim Kleindienst",
@@ -17646,34 +16549,6 @@ const PLAYERS_DB = [
       "phy": 88
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p214096.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 216352,
-    "name": "Marcelo Brozović",
-    "fullName": "Marcelo Brozović",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MCD",
-    "gender": "Men's Football",
-    "league": "ROSHN Saudi League",
-    "nation": {
-      "name": "Croacia",
-      "code": "hr"
-    },
-    "club": {
-      "name": "Al Nassr",
-      "id": "al_nassr"
-    },
-    "stats": {
-      "pac": 63,
-      "sho": 73,
-      "pas": 78,
-      "dri": 79,
-      "def": 78,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216352.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -17717,7 +16592,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -17759,60 +16634,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 220814,
-    "name": "Lucas Hernández",
-    "fullName": "Lucas Hernández",
+    "id": 220793,
+    "name": "Davinson Sánchez",
+    "fullName": "Davinson Sánchez",
     "rating": 81,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
+    "league": "Trendyol Süper Lig",
     "nation": {
-      "name": "Francia",
-      "code": "fr"
+      "name": "Colombia",
+      "code": "co"
     },
     "club": {
-      "name": "Paris Saint-Germain",
-      "id": 524
+      "name": "Galatasaray",
+      "id": 610
     },
     "stats": {
-      "pac": 71,
-      "sho": 54,
-      "pas": 72,
-      "dri": 70,
+      "pac": 78,
+      "sho": 44,
+      "pas": 58,
+      "dri": 64,
       "def": 82,
-      "phy": 77
+      "phy": 82
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220814.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 222509,
-    "name": "Dani Ceballos",
-    "fullName": "Daniel Ceballos Fernández",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 61,
-      "sho": 71,
-      "pas": 80,
-      "dri": 82,
-      "def": 72,
-      "phy": 67
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222509.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220793.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 223885,
@@ -17855,7 +16702,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 81,
@@ -17869,31 +16716,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 225309,
-    "name": "Nadiem Amiri",
-    "fullName": "Nadiem Amiri",
+    "id": 226226,
+    "name": "Giovani Lo Celso",
+    "fullName": "Giovani Lo Celso",
     "rating": 81,
     "cardType": "gold_rare",
     "pos": "MC",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "LALIGA EA SPORTS",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Argentina",
+      "code": "ar"
     },
     "club": {
-      "name": "1. FSV Mainz 05"
+      "name": "Real Betis",
+      "id": 90
     },
     "stats": {
-      "pac": 65,
-      "sho": 79,
-      "pas": 82,
-      "dri": 82,
-      "def": 62,
+      "pac": 74,
+      "sho": 77,
+      "pas": 81,
+      "dri": 83,
+      "def": 68,
       "phy": 72
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p225309.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226226.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 226979,
@@ -17909,7 +16757,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -18008,34 +16856,6 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 228618,
-    "name": "Ferland Mendy",
-    "fullName": "Ferland Mendy",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Real Madrid",
-      "id": 86
-    },
-    "stats": {
-      "pac": 85,
-      "sho": 64,
-      "pas": 74,
-      "dri": 75,
-      "def": 78,
-      "phy": 84
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228618.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
     "id": 228805,
     "name": "Raíllo",
     "fullName": "Antonio José Raíllo Arenas",
@@ -18049,7 +16869,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 41,
@@ -18061,6 +16881,62 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228805.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 229188,
+    "name": "Vangelis Pavlidis",
+    "fullName": "Vangelis Pavlidis",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Grecia",
+      "code": "gr"
+    },
+    "club": {
+      "name": "Benfica",
+      "id": 234
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 82,
+      "pas": 72,
+      "dri": 79,
+      "def": 40,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229188.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 229476,
+    "name": "Waldemar Anton",
+    "fullName": "Waldemar Anton",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Borussia Dortmund",
+      "id": 4
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 44,
+      "pas": 68,
+      "dri": 68,
+      "def": 82,
+      "phy": 81
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229476.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 230670,
@@ -18088,6 +16964,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230670.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 230872,
+    "name": "Mile Svilar",
+    "fullName": "Mile Svilar",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Serbia",
+      "code": "rs"
+    },
+    "club": {
+      "name": "Roma",
+      "id": 100
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 79,
+      "pas": 76,
+      "dri": 83,
+      "def": 80,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p230872.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 231652,
@@ -18144,62 +17048,6 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 232363,
-    "name": "Milan Škriniar",
-    "fullName": "Milan Škriniar",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Trendyol Süper Lig",
-    "nation": {
-      "name": "Eslovaquia",
-      "code": "sk"
-    },
-    "club": {
-      "name": "Fenerbahçe",
-      "id": 611
-    },
-    "stats": {
-      "pac": 57,
-      "sho": 52,
-      "pas": 60,
-      "dri": 65,
-      "def": 83,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232363.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 232411,
-    "name": "Christopher Nkunku",
-    "fullName": "Christopher Nkunku",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MCO",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "AC Milan",
-      "id": 98
-    },
-    "stats": {
-      "pac": 77,
-      "sho": 79,
-      "pas": 80,
-      "dri": 82,
-      "def": 40,
-      "phy": 59
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232411.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
     "id": 232498,
     "name": "Isi",
     "fullName": "Isaac Palazón Camacho",
@@ -18224,34 +17072,6 @@ const PLAYERS_DB = [
       "phy": 65
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232498.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 232756,
-    "name": "Fikayo Tomori",
-    "fullName": "Fikayo Tomori",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "AC Milan",
-      "id": 98
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 40,
-      "pas": 60,
-      "dri": 67,
-      "def": 82,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232756.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -18337,32 +17157,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 234060,
-    "name": "Yangel Herrera",
-    "fullName": "Yangel Herrera",
+    "id": 235410,
+    "name": "Youssef En-Nesyri",
+    "fullName": "Youssef En-Nesyri",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MC",
+    "pos": "DEL",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Trendyol Süper Lig",
     "nation": {
-      "name": "Venezuela",
-      "code": "ve"
+      "name": "Marruecos",
+      "code": "ma"
     },
     "club": {
-      "name": "Real Sociedad",
-      "id": 92
+      "name": "Fenerbahce",
+      "id": 611
     },
     "stats": {
-      "pac": 65,
-      "sho": 76,
-      "pas": 77,
-      "dri": 79,
-      "def": 80,
-      "phy": 81
+      "pac": 81,
+      "sho": 80,
+      "pas": 66,
+      "dri": 74,
+      "def": 38,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234060.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235410.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 235657,
@@ -18393,32 +17213,31 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 235840,
-    "name": "Michele Di Gregorio",
-    "fullName": "Michele Di Gregorio",
+    "id": 235794,
+    "name": "Eberechi Eze",
+    "fullName": "Eberechi Eze",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "POR",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Serie A Enilive",
+    "league": "Premier League",
     "nation": {
-      "name": "Italia",
-      "code": "it"
+      "name": "Inglaterra",
+      "code": "gb-eng"
     },
     "club": {
-      "name": "Juventus",
-      "id": 109
+      "name": "Crystal Palace"
     },
     "stats": {
-      "pac": 82,
-      "sho": 78,
-      "pas": 79,
+      "pac": 78,
+      "sho": 79,
+      "pas": 81,
       "dri": 85,
-      "def": 83,
-      "phy": 83
+      "def": 48,
+      "phy": 66
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235840.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235794.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 235844,
@@ -18447,34 +17266,6 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235844.png?padding=0.7",
     "quickSell": 800
-  },
-  {
-    "id": 235944,
-    "name": "Brais Méndez",
-    "fullName": "Brais Méndez Portela",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "Real Sociedad",
-      "id": 92
-    },
-    "stats": {
-      "pac": 70,
-      "sho": 80,
-      "pas": 82,
-      "dri": 81,
-      "def": 65,
-      "phy": 73
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235944.png?padding=0.7",
-    "quickSell": 1500
   },
   {
     "id": 236401,
@@ -18518,19 +17309,46 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
-      "pac": 74,
-      "sho": 53,
-      "pas": 69,
-      "dri": 69,
+      "pac": 76,
+      "sho": 48,
+      "pas": 66,
+      "dri": 68,
       "def": 81,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236403.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 236461,
+    "name": "Jean-Philippe Mateta",
+    "fullName": "Jean-Philippe Mateta",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Crystal Palace"
+    },
+    "stats": {
+      "pac": 76,
+      "sho": 82,
+      "pas": 68,
+      "dri": 76,
+      "def": 36,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236461.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 236632,
@@ -18546,7 +17364,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -18585,62 +17403,6 @@ const PLAYERS_DB = [
       "phy": 81
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237646.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 237679,
-    "name": "Randal Kolo Muani",
-    "fullName": "Randal Kolo Muani",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Tottenham Hotspur",
-      "id": 73
-    },
-    "stats": {
-      "pac": 90,
-      "sho": 79,
-      "pas": 71,
-      "dri": 80,
-      "def": 38,
-      "phy": 65
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237679.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 238074,
-    "name": "Reece James",
-    "fullName": "Reece James",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "LD",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Inglaterra",
-      "code": "gb-eng"
-    },
-    "club": {
-      "name": "Chelsea",
-      "id": 61
-    },
-    "stats": {
-      "pac": 76,
-      "sho": 71,
-      "pas": 82,
-      "dri": 77,
-      "def": 81,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p238074.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -18688,11 +17450,11 @@ const PLAYERS_DB = [
       "id": 78
     },
     "stats": {
-      "pac": 78,
-      "sho": 73,
-      "pas": 77,
+      "pac": 76,
+      "sho": 75,
+      "pas": 78,
       "dri": 79,
-      "def": 77,
+      "def": 78,
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p238216.png?padding=0.7",
@@ -18732,7 +17494,7 @@ const PLAYERS_DB = [
     "fullName": "Wenderson Nascimento Galeno",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MI",
+    "pos": "EI",
     "gender": "Men's Football",
     "league": "ROSHN Saudi League",
     "nation": {
@@ -18740,15 +17502,16 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Al Ahli"
+      "name": "Porto",
+      "id": 503
     },
     "stats": {
-      "pac": 93,
-      "sho": 75,
-      "pas": 71,
+      "pac": 92,
+      "sho": 78,
+      "pas": 74,
       "dri": 83,
-      "def": 45,
-      "phy": 69
+      "def": 48,
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p239482.png?padding=0.7",
     "quickSell": 1500
@@ -18782,6 +17545,61 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 240243,
+    "name": "Matheus Cunha",
+    "fullName": "Matheus Santos Carneiro da Cunha",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Wolverhampton",
+      "id": 76
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 80,
+      "pas": 77,
+      "dri": 83,
+      "def": 44,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240243.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 241159,
+    "name": "Marc Guéhi",
+    "fullName": "Marc Guéhi",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Crystal Palace"
+    },
+    "stats": {
+      "pac": 74,
+      "sho": 38,
+      "pas": 65,
+      "dri": 68,
+      "def": 82,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241159.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 241546,
     "name": "Théa Gréboval",
     "fullName": "Théa Gréboval",
@@ -18806,61 +17624,6 @@ const PLAYERS_DB = [
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241546.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 242641,
-    "name": "Rayan Aït-Nouri",
-    "fullName": "Rayan Aït-Nouri",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Argelia",
-      "code": "dz"
-    },
-    "club": {
-      "name": "Manchester City",
-      "id": 65
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 53,
-      "pas": 76,
-      "dri": 84,
-      "def": 77,
-      "phy": 70
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242641.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 242835,
-    "name": "Leonardo Balerdi",
-    "fullName": "Leonardo Balerdi",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "OM"
-    },
-    "stats": {
-      "pac": 77,
-      "sho": 46,
-      "pas": 65,
-      "dri": 69,
-      "def": 82,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242835.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -18936,41 +17699,14 @@ const PLAYERS_DB = [
       "id": 86
     },
     "stats": {
-      "pac": 80,
-      "sho": 78,
-      "pas": 79,
-      "dri": 82,
-      "def": 80,
-      "phy": 80
+      "pac": 81,
+      "sho": 80,
+      "pas": 77,
+      "dri": 83,
+      "def": 81,
+      "phy": 74
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243952.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 244749,
-    "name": "Nayef Aguerd",
-    "fullName": "Nayef Aguerd",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DFC",
-    "gender": "Men's Football",
-    "league": "Ligue 1 McDonald's",
-    "nation": {
-      "name": "Marruecos",
-      "code": "ma"
-    },
-    "club": {
-      "name": "OM"
-    },
-    "stats": {
-      "pac": 72,
-      "sho": 50,
-      "pas": 67,
-      "dri": 65,
-      "def": 82,
-      "phy": 77
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244749.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -18991,12 +17727,12 @@ const PLAYERS_DB = [
       "id": 98
     },
     "stats": {
-      "pac": 68,
+      "pac": 74,
       "sho": 68,
-      "pas": 75,
+      "pas": 76,
       "dri": 78,
-      "def": 79,
-      "phy": 77
+      "def": 80,
+      "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p245630.png?padding=0.7",
     "quickSell": 1500
@@ -19029,34 +17765,6 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 247246,
-    "name": "Khéphren Thuram",
-    "fullName": "Khéphren Thuram",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "MC",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "Francia",
-      "code": "fr"
-    },
-    "club": {
-      "name": "Juventus",
-      "id": 109
-    },
-    "stats": {
-      "pac": 78,
-      "sho": 76,
-      "pas": 77,
-      "dri": 80,
-      "def": 81,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247246.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
     "id": 247263,
     "name": "Edmond Tapsoba",
     "fullName": "Edmond Tapsoba",
@@ -19070,45 +17778,18 @@ const PLAYERS_DB = [
       "code": "bf"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
-      "pac": 75,
-      "sho": 56,
-      "pas": 68,
-      "dri": 70,
+      "pac": 76,
+      "sho": 52,
+      "pas": 70,
+      "dri": 72,
       "def": 82,
       "phy": 80
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247263.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 247679,
-    "name": "Victor Boniface",
-    "fullName": "Victor Boniface",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Bundesliga",
-    "nation": {
-      "name": "Nigeria",
-      "code": "ng"
-    },
-    "club": {
-      "name": "SV Werder Bremen"
-    },
-    "stats": {
-      "pac": 67,
-      "sho": 83,
-      "pas": 66,
-      "dri": 80,
-      "def": 38,
-      "phy": 79
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247679.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -19167,32 +17848,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 251566,
-    "name": "Gabriel Martinelli",
-    "fullName": "Gabriel Teodoro Martinelli Silva",
+    "id": 251470,
+    "name": "Charles De Ketelaere",
+    "fullName": "Charles De Ketelaere",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "EI",
+    "pos": "MCO",
     "gender": "Men's Football",
-    "league": "Premier League",
+    "league": "Serie A Enilive",
     "nation": {
-      "name": "Brasil",
-      "code": "br"
+      "name": "Bélgica",
+      "code": "be"
     },
     "club": {
-      "name": "Arsenal",
-      "id": 57
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
-      "pac": 90,
-      "sho": 77,
-      "pas": 75,
-      "dri": 83,
-      "def": 46,
-      "phy": 72
+      "pac": 78,
+      "sho": 78,
+      "pas": 79,
+      "dri": 82,
+      "def": 54,
+      "phy": 77
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251566.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251470.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 251570,
@@ -19223,32 +17904,87 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 251852,
-    "name": "Karim Adeyemi",
-    "fullName": "Karim Adeyemi",
+    "id": 251752,
+    "name": "Lucas Chevalier",
+    "fullName": "Lucas Chevalier",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MD",
+    "pos": "POR",
     "gender": "Men's Football",
-    "league": "Bundesliga",
+    "league": "Ligue 1 McDonald's",
     "nation": {
-      "name": "Alemania",
-      "code": "de"
+      "name": "Francia",
+      "code": "fr"
     },
     "club": {
-      "name": "Borussia Dortmund",
-      "id": 4
+      "name": "LOSC Lille"
     },
     "stats": {
-      "pac": 96,
-      "sho": 76,
-      "pas": 72,
-      "dri": 82,
-      "def": 36,
-      "phy": 69
+      "pac": 82,
+      "sho": 79,
+      "pas": 78,
+      "dri": 83,
+      "def": 80,
+      "phy": 75
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251852.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251752.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 251805,
+    "name": "Jurriën Timber",
+    "fullName": "Jurriën Timber",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "LD",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Holland",
+      "code": "es"
+    },
+    "club": {
+      "name": "Arsenal",
+      "id": 57
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 48,
+      "pas": 75,
+      "dri": 79,
+      "def": 81,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251805.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": 252154,
+    "name": "Marco Carnesecchi",
+    "fullName": "Marco Carnesecchi",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Atalanta",
+      "id": 102
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 79,
+      "pas": 75,
+      "dri": 85,
+      "def": 79,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p252154.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 253306,
@@ -19363,34 +18099,6 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 255475,
-    "name": "Antony",
-    "fullName": "Antony Matheus dos Santos",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Brasil",
-      "code": "br"
-    },
-    "club": {
-      "name": "Real Betis",
-      "id": 90
-    },
-    "stats": {
-      "pac": 84,
-      "sho": 78,
-      "pas": 78,
-      "dri": 83,
-      "def": 43,
-      "phy": 70
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p255475.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
     "id": 256095,
     "name": "Perle Morroni",
     "fullName": "Perle Morroni",
@@ -19418,59 +18126,32 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 257179,
-    "name": "Gonçalo Inácio",
-    "fullName": "Gonçalo Bernardo Inácio",
+    "id": 256197,
+    "name": "Piero Hincapié",
+    "fullName": "Piero Hincapié",
     "rating": 81,
     "cardType": "gold_rare",
     "pos": "DFC",
     "gender": "Men's Football",
-    "league": "Liga Portugal",
-    "nation": {
-      "name": "Portugal",
-      "code": "pt"
-    },
-    "club": {
-      "name": "Sporting CP",
-      "id": 1903
-    },
-    "stats": {
-      "pac": 77,
-      "sho": 37,
-      "pas": 71,
-      "dri": 73,
-      "def": 82,
-      "phy": 81
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257179.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 257470,
-    "name": "Anthony Elanga",
-    "fullName": "Anthony Elanga",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "ED",
-    "gender": "Men's Football",
     "league": "Premier League",
     "nation": {
-      "name": "Suecia",
-      "code": "se"
+      "name": "Ecuador",
+      "code": "ec"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Bayer Leverkusen",
+      "id": 3
     },
     "stats": {
-      "pac": 92,
-      "sho": 72,
-      "pas": 76,
-      "dri": 82,
-      "def": 39,
-      "phy": 70
+      "pac": 78,
+      "sho": 40,
+      "pas": 68,
+      "dri": 70,
+      "def": 82,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257470.png?padding=0.7",
-    "quickSell": 1500
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256197.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 258576,
@@ -19529,59 +18210,31 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
-    "id": 259516,
-    "name": "Johnny Cardoso",
-    "fullName": "João Lucas de Souza Cardoso",
+    "id": 260592,
+    "name": "Benjamin Šeško",
+    "fullName": "Benjamin Šeško",
     "rating": 81,
     "cardType": "gold_rare",
-    "pos": "MCD",
+    "pos": "DEL",
     "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
+    "league": "Premier League",
     "nation": {
-      "name": "Estados Unidos",
-      "code": "us"
+      "name": "Eslovenia",
+      "code": "si"
     },
     "club": {
-      "name": "Atlético de Madrid",
-      "id": 78
+      "name": "RB Leipzig",
+      "id": 721
     },
     "stats": {
-      "pac": 72,
-      "sho": 67,
-      "pas": 76,
-      "dri": 78,
-      "def": 80,
-      "phy": 77
+      "pac": 84,
+      "sho": 80,
+      "pas": 68,
+      "dri": 76,
+      "def": 36,
+      "phy": 78
     },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259516.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 261865,
-    "name": "Miguel Gutiérrez",
-    "fullName": "Miguel Gutiérrez Ortega",
-    "rating": 81,
-    "cardType": "gold_rare",
-    "pos": "LI",
-    "gender": "Men's Football",
-    "league": "Serie A Enilive",
-    "nation": {
-      "name": "España",
-      "code": "es"
-    },
-    "club": {
-      "name": "SSC Napoli",
-      "id": 113
-    },
-    "stats": {
-      "pac": 81,
-      "sho": 71,
-      "pas": 79,
-      "dri": 81,
-      "def": 76,
-      "phy": 73
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p261865.png?padding=0.7",
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p260592.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -19641,6 +18294,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 263578,
+    "name": "Balde",
+    "fullName": "Alejandro Balde Martínez",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 91,
+      "sho": 50,
+      "pas": 73,
+      "dri": 79,
+      "def": 75,
+      "phy": 65
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p263578.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 263964,
     "name": "Filippa Angeldahl",
     "fullName": "Filippa Angeldahl",
@@ -19667,6 +18348,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p263964.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 264652,
+    "name": "Bradley Barcola",
+    "fullName": "Bradley Barcola",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Paris Saint-Germain",
+      "id": 524
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 76,
+      "pas": 76,
+      "dri": 84,
+      "def": 38,
+      "phy": 64
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264652.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 264884,
@@ -19876,7 +18585,7 @@ const PLAYERS_DB = [
       "code": "xk"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -20289,7 +18998,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -20387,6 +19096,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 272834,
+    "name": "João Neves",
+    "fullName": "João Pedro Gonçalves Neves",
+    "rating": 81,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "Paris Saint-Germain",
+      "id": 524
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 68,
+      "pas": 78,
+      "dri": 82,
+      "def": 78,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p272834.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
     "id": 273466,
     "name": "Alyssa Thompson",
     "fullName": "Alyssa Thompson",
@@ -20443,6 +19180,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 181458,
+    "name": "Ivan Perišić",
+    "fullName": "Ivan Perišić",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Eredivisie",
+    "nation": {
+      "name": "Croacia",
+      "code": "hr"
+    },
+    "club": {
+      "name": "PSV",
+      "id": 674
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 80,
+      "pas": 80,
+      "dri": 81,
+      "def": 68,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p181458.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 186345,
     "name": "Kieran Trippier",
     "fullName": "Kieran Trippier",
@@ -20456,7 +19221,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 66,
@@ -20605,6 +19371,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p190765.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 192318,
+    "name": "Mario Götze",
+    "fullName": "Mario Götze",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 65,
+      "sho": 75,
+      "pas": 82,
+      "dri": 82,
+      "def": 58,
+      "phy": 62
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192318.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 192563,
@@ -20952,7 +19746,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -20964,6 +19758,34 @@ const PLAYERS_DB = [
       "phy": 81
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208268.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 208574,
+    "name": "Filip Kostić",
+    "fullName": "Filip Kostić",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Serbia",
+      "code": "rs"
+    },
+    "club": {
+      "name": "Fenerbahce",
+      "id": 611
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 74,
+      "pas": 82,
+      "dri": 78,
+      "def": 70,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208574.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -20980,7 +19802,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -21020,6 +19842,34 @@ const PLAYERS_DB = [
       "phy": 54
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p209889.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 210385,
+    "name": "Rui Silva",
+    "fullName": "Rui Tiago Dantas da Silva",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "Real Betis",
+      "id": 90
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 78,
+      "pas": 74,
+      "dri": 82,
+      "def": 80,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p210385.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -21286,7 +20136,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -21341,7 +20191,8 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 69,
@@ -21395,7 +20246,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 62,
@@ -21449,7 +20300,7 @@ const PLAYERS_DB = [
       "code": "tn"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -21533,7 +20384,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 88,
@@ -21806,7 +20658,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -21862,7 +20714,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -22084,7 +20936,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -22112,7 +20964,7 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 65,
@@ -22206,6 +21058,34 @@ const PLAYERS_DB = [
       "phy": 75
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233927.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 234060,
+    "name": "Yangel Herrera",
+    "fullName": "Yangel Herrera",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Venezuela",
+      "code": "ve"
+    },
+    "club": {
+      "name": "Girona",
+      "id": 298
+    },
+    "stats": {
+      "pac": 70,
+      "sho": 74,
+      "pas": 76,
+      "dri": 76,
+      "def": 78,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234060.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -22303,7 +21183,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 83,
@@ -22344,6 +21225,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 236532,
+    "name": "Robin Koch",
+    "fullName": "Robin Koch",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 48,
+      "pas": 68,
+      "dri": 66,
+      "def": 81,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236532.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 236641,
     "name": "Abby Dahlkemper",
     "fullName": "Abby Dahlkemper",
@@ -22371,6 +21280,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 236703,
+    "name": "David Raum",
+    "fullName": "David Raum",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "RB Leipzig",
+      "id": 721
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 66,
+      "pas": 78,
+      "dri": 76,
+      "def": 76,
+      "phy": 77
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236703.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 237712,
     "name": "Valentin Castellanos",
     "fullName": "Valentin Castellanos",
@@ -22384,7 +21321,8 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 75,
@@ -22521,7 +21459,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -22549,7 +21487,7 @@ const PLAYERS_DB = [
       "code": "gh"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 80,
@@ -22561,6 +21499,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241236.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 241461,
+    "name": "Ferran Torres",
+    "fullName": "Ferran Torres García",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "FC Barcelona",
+      "id": 81
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 80,
+      "pas": 78,
+      "dri": 82,
+      "def": 35,
+      "phy": 66
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241461.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 241464,
@@ -22631,7 +21597,8 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 80,
@@ -22756,6 +21723,33 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 243014,
+    "name": "Bryan Mbeumo",
+    "fullName": "Bryan Mbeumo",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Camerún",
+      "code": "cm"
+    },
+    "club": {
+      "name": "Brentford"
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 78,
+      "pas": 77,
+      "dri": 81,
+      "def": 40,
+      "phy": 72
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243014.png?padding=0.7",
+    "quickSell": 5000
+  },
+  {
     "id": 243586,
     "name": "Ayoub El Kaabi",
     "fullName": "Ayoub El Kaabi",
@@ -22864,6 +21858,91 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 244749,
+    "name": "Nayef Aguerd",
+    "fullName": "Nayef Aguerd",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Marruecos",
+      "code": "ma"
+    },
+    "club": {
+      "name": "Real Sociedad",
+      "id": 92
+    },
+    "stats": {
+      "pac": 72,
+      "sho": 46,
+      "pas": 68,
+      "dri": 66,
+      "def": 81,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244749.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 244778,
+    "name": "Trincão",
+    "fullName": "Francisco Trincão",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "Sporting CP",
+      "id": 1903
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 76,
+      "pas": 77,
+      "dri": 83,
+      "def": 42,
+      "phy": 64
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244778.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "244778_totw",
+    "basePlayerId": 244778,
+    "name": "Trincão TOTW",
+    "fullName": "Francisco Trincão",
+    "rating": 82,
+    "cardType": "totw",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "Sporting CP",
+      "id": 1903
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 78,
+      "pas": 79,
+      "dri": 85,
+      "def": 44,
+      "phy": 66
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244778.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 245155,
     "name": "Mohammed Kudus",
     "fullName": "Mohammed Kudus",
@@ -22933,7 +22012,8 @@ const PLAYERS_DB = [
       "code": "sn"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 84,
@@ -22988,7 +22068,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 80,
@@ -22999,6 +22080,34 @@ const PLAYERS_DB = [
       "phy": 78
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p246875.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 247246,
+    "name": "Khéphren Thuram",
+    "fullName": "Khéphren Thuram",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Juventus",
+      "id": 109
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 68,
+      "pas": 76,
+      "dri": 81,
+      "def": 76,
+      "phy": 82
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247246.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -23070,7 +22179,7 @@ const PLAYERS_DB = [
       "code": "ua"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -23138,6 +22247,63 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251806.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 251852,
+    "name": "Karim Adeyemi",
+    "fullName": "Karim Adeyemi",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Borussia Dortmund",
+      "id": 4
+    },
+    "stats": {
+      "pac": 96,
+      "sho": 76,
+      "pas": 70,
+      "dri": 80,
+      "def": 34,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251852.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": "251852_totw",
+    "basePlayerId": 251852,
+    "name": "Karim Adeyemi TOTW",
+    "fullName": "Karim Adeyemi",
+    "rating": 82,
+    "cardType": "totw",
+    "pos": "EI",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "Borussia Dortmund",
+      "id": 4
+    },
+    "stats": {
+      "pac": 98,
+      "sho": 78,
+      "pas": 72,
+      "dri": 82,
+      "def": 36,
+      "phy": 70
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251852.png?padding=0.7",
+    "quickSell": 7700
   },
   {
     "id": 252802,
@@ -23248,6 +22414,34 @@ const PLAYERS_DB = [
       "phy": 69
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p254796.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 255475,
+    "name": "Antony",
+    "fullName": "Antony Matheus dos Santos",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Manchester United",
+      "id": 66
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 74,
+      "pas": 74,
+      "dri": 82,
+      "def": 44,
+      "phy": 66
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p255475.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -23376,7 +22570,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 76,
@@ -23388,6 +22582,63 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256612.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 256675,
+    "name": "Omar Marmoush",
+    "fullName": "Omar Marmoush",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Egipto",
+      "code": "eg"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 80,
+      "pas": 71,
+      "dri": 80,
+      "def": 36,
+      "phy": 73
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256675.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "256675_totw",
+    "basePlayerId": 256675,
+    "name": "Omar Marmoush TOTW",
+    "fullName": "Omar Marmoush",
+    "rating": 82,
+    "cardType": "totw",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Egipto",
+      "code": "eg"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 86,
+      "sho": 82,
+      "pas": 73,
+      "dri": 82,
+      "def": 38,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256675.png?padding=0.7",
+    "quickSell": 10400
   },
   {
     "id": 256903,
@@ -23445,6 +22696,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 257179,
+    "name": "Gonçalo Inácio",
+    "fullName": "Gonçalo Bernardo Inácio",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Portugal",
+      "code": "pt"
+    },
+    "club": {
+      "name": "Sporting CP",
+      "id": 1903
+    },
+    "stats": {
+      "pac": 74,
+      "sho": 46,
+      "pas": 74,
+      "dri": 71,
+      "def": 80,
+      "phy": 78
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257179.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 257278,
     "name": "Arthur Theate",
     "fullName": "Arthur Theate",
@@ -23458,7 +22737,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -23514,7 +22793,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -23681,7 +22960,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 80,
@@ -23708,7 +22987,7 @@ const PLAYERS_DB = [
       "code": "ua"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -23720,34 +22999,6 @@ const PLAYERS_DB = [
       "phy": 72
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259913.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 260592,
-    "name": "Benjamin Šeško",
-    "fullName": "Benjamin Šeško",
-    "rating": 80,
-    "cardType": "gold_rare",
-    "pos": "DEL",
-    "gender": "Men's Football",
-    "league": "Premier League",
-    "nation": {
-      "name": "Eslovenia",
-      "code": "si"
-    },
-    "club": {
-      "name": "Manchester United",
-      "id": 66
-    },
-    "stats": {
-      "pac": 83,
-      "sho": 80,
-      "pas": 65,
-      "dri": 78,
-      "def": 46,
-      "phy": 80
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p260592.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -23807,6 +23058,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 261865,
+    "name": "Miguel Gutiérrez",
+    "fullName": "Miguel Gutiérrez Ortega",
+    "rating": 80,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Serie A Enilive",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Girona",
+      "id": 298
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 65,
+      "pas": 77,
+      "dri": 79,
+      "def": 76,
+      "phy": 70
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p261865.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 262118,
     "name": "Tino Livramento",
     "fullName": "Tino Livramento",
@@ -23820,7 +23099,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 82,
@@ -23986,7 +23266,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 74,
@@ -24097,7 +23378,7 @@ const PLAYERS_DB = [
       "code": "hu"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -24125,7 +23406,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -24400,7 +23681,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 77,
@@ -24756,7 +24038,7 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 80,
@@ -24867,7 +24149,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 83,
@@ -25117,7 +24400,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -25417,7 +24700,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -25445,7 +24728,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 57,
@@ -25527,7 +24810,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 64,
@@ -25581,7 +24865,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 42,
@@ -25718,7 +25003,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 54,
@@ -25757,33 +25043,6 @@ const PLAYERS_DB = [
       "phy": 67
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205175.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 205186,
-    "name": "Paulo Gazzaniga",
-    "fullName": "Paulo Gazzaniga",
-    "rating": 79,
-    "cardType": "gold_rare",
-    "pos": "POR",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Argentina",
-      "code": "ar"
-    },
-    "club": {
-      "name": "Girona FC"
-    },
-    "stats": {
-      "pac": 79,
-      "sho": 78,
-      "pas": 81,
-      "dri": 78,
-      "def": 78,
-      "phy": 78
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205186.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -25938,7 +25197,8 @@ const PLAYERS_DB = [
       "code": "ba"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 61,
@@ -25965,7 +25225,8 @@ const PLAYERS_DB = [
       "code": "al"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 64,
@@ -26100,7 +25361,7 @@ const PLAYERS_DB = [
       "code": "mk"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 79,
@@ -26209,7 +25470,7 @@ const PLAYERS_DB = [
       "code": "gb-sct"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 69,
@@ -26305,6 +25566,63 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 215316,
+    "name": "Gerónimo Rulli",
+    "fullName": "Gerónimo Rulli",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 77,
+      "pas": 77,
+      "dri": 80,
+      "def": 78,
+      "phy": 76
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215316.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
+    "id": "215316_totw",
+    "basePlayerId": 215316,
+    "name": "Gerónimo Rulli TOTW",
+    "fullName": "Gerónimo Rulli",
+    "rating": 82,
+    "cardType": "totw",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 83,
+      "sho": 80,
+      "pas": 80,
+      "dri": 83,
+      "def": 81,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p215316.png?padding=0.7",
+    "quickSell": 10400
+  },
+  {
     "id": 216150,
     "name": "Davide Zappacosta",
     "fullName": "Davide Zappacosta",
@@ -26318,7 +25636,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 76,
@@ -26372,7 +25691,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -26412,6 +25731,34 @@ const PLAYERS_DB = [
       "phy": 79
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p221087.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 222509,
+    "name": "Dani Ceballos",
+    "fullName": "Daniel Ceballos Fernández",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Real Madrid",
+      "id": 86
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 71,
+      "pas": 79,
+      "dri": 82,
+      "def": 73,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222509.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -26456,7 +25803,7 @@ const PLAYERS_DB = [
       "code": "xk"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 50,
@@ -26510,7 +25857,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 79,
@@ -26565,7 +25912,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 69,
@@ -26592,7 +25939,7 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -26635,6 +25982,33 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 225309,
+    "name": "Nadiem Amiri",
+    "fullName": "Nadiem Amiri",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "MC",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "1. FSV Mainz 05"
+    },
+    "stats": {
+      "pac": 74,
+      "sho": 76,
+      "pas": 80,
+      "dri": 81,
+      "def": 65,
+      "phy": 70
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p225309.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 225663,
     "name": "Alexandr Golovin",
     "fullName": "Alexandr Golovin",
@@ -26648,7 +26022,8 @@ const PLAYERS_DB = [
       "code": "ru"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 73,
@@ -26757,7 +26132,8 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 69,
@@ -26866,7 +26242,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 65,
@@ -27031,7 +26408,7 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 76,
@@ -27276,7 +26653,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -27332,7 +26709,7 @@ const PLAYERS_DB = [
       "code": "jm"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -27430,6 +26807,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 231416,
+    "name": "Dodi Lukébakio",
+    "fullName": "Dodi Lukébakio",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Liga Portugal",
+    "nation": {
+      "name": "Bélgica",
+      "code": "be"
+    },
+    "club": {
+      "name": "Sevilla",
+      "id": 559
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 76,
+      "pas": 74,
+      "dri": 82,
+      "def": 38,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231416.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 231447,
     "name": "Donyell Malen",
     "fullName": "Donyell Malen",
@@ -27486,6 +26891,33 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 232639,
+    "name": "Ritsu Doan",
+    "fullName": "Ritsu Doan",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Japón",
+      "code": "jp"
+    },
+    "club": {
+      "name": "SC Freiburg"
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 75,
+      "pas": 76,
+      "dri": 81,
+      "def": 52,
+      "phy": 65
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p232639.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 232999,
     "name": "Tyler Adams",
     "fullName": "Tyler Adams",
@@ -27499,7 +26931,7 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 79,
@@ -27581,7 +27013,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -27746,7 +27178,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -27774,7 +27206,8 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 74,
@@ -27801,7 +27234,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 87,
@@ -27828,7 +27261,8 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 68,
@@ -28020,7 +27454,8 @@ const PLAYERS_DB = [
       "code": "dz"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 77,
@@ -28184,7 +27619,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 69,
@@ -28195,6 +27630,34 @@ const PLAYERS_DB = [
       "phy": 73
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242201.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": 242641,
+    "name": "Rayan Aït-Nouri",
+    "fullName": "Rayan Aït-Nouri",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Argelia",
+      "code": "dz"
+    },
+    "club": {
+      "name": "Wolverhampton",
+      "id": 76
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 64,
+      "pas": 76,
+      "dri": 82,
+      "def": 74,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242641.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -28295,7 +27758,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 64,
@@ -28388,33 +27851,6 @@ const PLAYERS_DB = [
       "phy": 82
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244067.png?padding=0.7",
-    "quickSell": 1500
-  },
-  {
-    "id": 244369,
-    "name": "Viktor Tsygankov",
-    "fullName": "Viktor Tsygankov",
-    "rating": 79,
-    "cardType": "gold_rare",
-    "pos": "MD",
-    "gender": "Men's Football",
-    "league": "LALIGA EA SPORTS",
-    "nation": {
-      "name": "Ucrania",
-      "code": "ua"
-    },
-    "club": {
-      "name": "Girona FC"
-    },
-    "stats": {
-      "pac": 82,
-      "sho": 75,
-      "pas": 79,
-      "dri": 78,
-      "def": 43,
-      "phy": 60
-    },
-    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244369.png?padding=0.7",
     "quickSell": 1500
   },
   {
@@ -28652,7 +28088,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 72,
@@ -28735,7 +28171,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -29039,7 +28475,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -29370,7 +28806,8 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 67,
@@ -29453,7 +28890,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 76,
@@ -29493,6 +28931,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p255069.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 256853,
+    "name": "Malik Tillman",
+    "fullName": "Malik Tillman",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "MCO",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Estados Unidos",
+      "code": "us"
+    },
+    "club": {
+      "name": "PSV",
+      "id": 674
+    },
+    "stats": {
+      "pac": 76,
+      "sho": 76,
+      "pas": 77,
+      "dri": 80,
+      "def": 56,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256853.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 257057,
@@ -29548,6 +29014,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257191.png?padding=0.7",
     "quickSell": 1500
+  },
+  {
+    "id": 257289,
+    "name": "Hugo Ekitiké",
+    "fullName": "Hugo Ekitiké",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Eintracht Frankfurt",
+      "id": 19
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 78,
+      "pas": 70,
+      "dri": 80,
+      "def": 32,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257289.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 257980,
@@ -29618,7 +29112,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 80,
@@ -29673,7 +29168,8 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 75,
@@ -29797,6 +29293,34 @@ const PLAYERS_DB = [
     "quickSell": 1500
   },
   {
+    "id": 259516,
+    "name": "Johnny Cardoso",
+    "fullName": "João Lucas de Souza Cardoso",
+    "rating": 79,
+    "cardType": "gold_rare",
+    "pos": "MCD",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Estados Unidos",
+      "code": "us"
+    },
+    "club": {
+      "name": "Real Betis",
+      "id": 90
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 62,
+      "pas": 74,
+      "dri": 76,
+      "def": 78,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259516.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 259868,
     "name": "Pape Matar Sarr",
     "fullName": "Pape Matar Sarr",
@@ -29838,7 +29362,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -29866,7 +29390,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 79,
@@ -30005,7 +29530,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 82,
@@ -30032,7 +29558,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -30115,7 +29641,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 83,
@@ -30280,7 +29807,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -30308,7 +29835,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -30692,7 +30219,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 85,
@@ -31134,7 +30662,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -31246,7 +30774,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 58,
@@ -31411,7 +30940,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -31740,7 +31269,8 @@ const PLAYERS_DB = [
       "code": "cf"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 65,
@@ -31767,7 +31297,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -31807,6 +31337,63 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204639.png?padding=0.7",
     "quickSell": 800
+  },
+  {
+    "id": 205186,
+    "name": "Paulo Gazzaniga",
+    "fullName": "Paulo Gazzaniga",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Girona",
+      "id": 298
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 76,
+      "pas": 74,
+      "dri": 80,
+      "def": 77,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205186.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
+    "id": "205186_totw",
+    "basePlayerId": 205186,
+    "name": "Paulo Gazzaniga TOTW",
+    "fullName": "Paulo Gazzaniga",
+    "rating": 84,
+    "cardType": "totw",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Girona",
+      "id": 298
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 82,
+      "pas": 80,
+      "dri": 86,
+      "def": 83,
+      "phy": 80
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205186.png?padding=0.7",
+    "quickSell": 7700
   },
   {
     "id": 205211,
@@ -32014,7 +31601,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 39,
@@ -32095,7 +31682,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -32123,7 +31710,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 74,
@@ -32177,7 +31764,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -32205,7 +31792,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -32288,7 +31875,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 88,
@@ -32507,7 +32094,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 74,
@@ -32534,7 +32121,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 81,
@@ -32725,7 +32312,8 @@ const PLAYERS_DB = [
       "code": "me"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 80,
@@ -32863,7 +32451,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 77,
@@ -32890,7 +32478,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -32918,7 +32506,8 @@ const PLAYERS_DB = [
       "code": "jp"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 77,
@@ -33559,6 +33148,33 @@ const PLAYERS_DB = [
     "quickSell": 800
   },
   {
+    "id": 234824,
+    "name": "Yoane Wissa",
+    "fullName": "Yoane Wissa",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Congo DR",
+      "code": "cd"
+    },
+    "club": {
+      "name": "Brentford"
+    },
+    "stats": {
+      "pac": 82,
+      "sho": 78,
+      "pas": 71,
+      "dri": 79,
+      "def": 36,
+      "phy": 68
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p234824.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 235374,
     "name": "Manuel Lazzari",
     "fullName": "Manuel Lazzari",
@@ -33572,7 +33188,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 90,
@@ -33681,7 +33298,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 55,
@@ -33790,7 +33408,7 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -33818,7 +33436,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 56,
@@ -33873,7 +33491,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 56,
@@ -34038,7 +33656,7 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -34066,7 +33684,7 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -34149,7 +33767,8 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 75,
@@ -34176,7 +33795,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -34480,7 +34099,7 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -34508,7 +34127,8 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 68,
@@ -34616,7 +34236,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -34726,7 +34346,8 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 85,
@@ -34753,7 +34374,8 @@ const PLAYERS_DB = [
       "code": "sn"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 67,
@@ -34875,6 +34497,34 @@ const PLAYERS_DB = [
     "quickSell": 800
   },
   {
+    "id": 242835,
+    "name": "Leonardo Balerdi",
+    "fullName": "Leonardo Balerdi",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Argentina",
+      "code": "ar"
+    },
+    "club": {
+      "name": "Marseille",
+      "id": 516
+    },
+    "stats": {
+      "pac": 75,
+      "sho": 48,
+      "pas": 68,
+      "dri": 68,
+      "def": 79,
+      "phy": 79
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p242835.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 243032,
     "name": "Hugo Duro",
     "fullName": "Hugo Duro Perales",
@@ -34888,7 +34538,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 71,
@@ -35176,6 +34826,33 @@ const PLAYERS_DB = [
     "quickSell": 800
   },
   {
+    "id": 244257,
+    "name": "Jonathan Burkardt",
+    "fullName": "Jonathan Burkardt",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "DEL",
+    "gender": "Men's Football",
+    "league": "Bundesliga",
+    "nation": {
+      "name": "Alemania",
+      "code": "de"
+    },
+    "club": {
+      "name": "1. FSV Mainz 05"
+    },
+    "stats": {
+      "pac": 80,
+      "sho": 78,
+      "pas": 68,
+      "dri": 77,
+      "def": 36,
+      "phy": 74
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244257.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 244261,
     "name": "Lovro Majer",
     "fullName": "Lovro Majer",
@@ -35271,7 +34948,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 80,
@@ -35352,7 +35029,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -35491,7 +35168,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 84,
@@ -35518,7 +35196,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 77,
@@ -35545,7 +35224,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 86,
@@ -35572,7 +35252,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 63,
@@ -35766,7 +35446,8 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 88,
@@ -35821,7 +35502,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -35876,7 +35557,8 @@ const PLAYERS_DB = [
       "code": "cz"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 72,
@@ -36286,7 +35968,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -36314,7 +35996,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 84,
@@ -36341,7 +36023,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 61,
@@ -36422,7 +36104,8 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 72,
@@ -36599,6 +36282,33 @@ const PLAYERS_DB = [
     "quickSell": 800
   },
   {
+    "id": 257470,
+    "name": "Anthony Elanga",
+    "fullName": "Anthony Elanga",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Suecia",
+      "code": "se"
+    },
+    "club": {
+      "name": "Nottingham Forest"
+    },
+    "stats": {
+      "pac": 90,
+      "sho": 72,
+      "pas": 72,
+      "dri": 79,
+      "def": 35,
+      "phy": 65
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257470.png?padding=0.7",
+    "quickSell": 1500
+  },
+  {
     "id": 258437,
     "name": "Emanuel Emegha",
     "fullName": "Emanuel Emegha",
@@ -36723,7 +36433,7 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 74,
@@ -36750,7 +36460,7 @@ const PLAYERS_DB = [
       "code": "gn"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 67,
@@ -36805,7 +36515,8 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 69,
@@ -36859,7 +36570,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -36941,7 +36652,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -37135,7 +36846,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 81,
@@ -37300,7 +37011,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -37492,7 +37203,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -37601,7 +37312,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -37879,7 +37590,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -38125,7 +37836,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -38562,7 +38273,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -38618,7 +38329,8 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 75,
@@ -38645,7 +38357,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -38686,6 +38398,34 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p270407.png?padding=0.7",
     "quickSell": 800
+  },
+  {
+    "id": 271421,
+    "name": "Désiré Doué",
+    "fullName": "Désiré Doué",
+    "rating": 78,
+    "cardType": "gold_rare",
+    "pos": "ED",
+    "gender": "Men's Football",
+    "league": "Ligue 1 McDonald's",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Paris Saint-Germain",
+      "id": 524
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 72,
+      "pas": 74,
+      "dri": 82,
+      "def": 45,
+      "phy": 66
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p271421.png?padding=0.7",
+    "quickSell": 5000
   },
   {
     "id": 271444,
@@ -39116,7 +38856,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 54,
@@ -39529,7 +39270,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -39611,7 +39352,8 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 31,
@@ -39665,7 +39407,8 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 61,
@@ -39719,7 +39462,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 64,
@@ -39746,7 +39490,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 36,
@@ -39828,7 +39573,7 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -39856,7 +39601,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 77,
@@ -40159,7 +39904,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 40,
@@ -40267,7 +40013,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -40405,7 +40151,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 64,
@@ -40568,7 +40314,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 69,
@@ -40622,7 +40369,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 68,
@@ -40758,7 +40506,8 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 77,
@@ -40839,7 +40588,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 72,
@@ -41029,7 +40779,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 76,
@@ -41056,7 +40807,7 @@ const PLAYERS_DB = [
       "code": "tg"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 66,
@@ -41110,7 +40861,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 62,
@@ -41137,7 +40889,7 @@ const PLAYERS_DB = [
       "code": "sk"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 62,
@@ -41191,7 +40943,8 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 53,
@@ -41245,7 +40998,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 70,
@@ -41489,7 +41242,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 66,
@@ -42034,7 +41787,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -42089,7 +41842,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 65,
@@ -42335,7 +42088,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 64,
@@ -42444,7 +42197,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -42472,7 +42225,7 @@ const PLAYERS_DB = [
       "code": "gr"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -42500,7 +42253,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 78,
@@ -42690,7 +42444,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 77,
@@ -42853,7 +42608,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 81,
@@ -43396,7 +43151,8 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 78,
@@ -43532,7 +43288,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 78,
@@ -43587,7 +43344,7 @@ const PLAYERS_DB = [
       "code": "mk"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -43615,7 +43372,8 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 87,
@@ -43669,7 +43427,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 65,
@@ -43806,7 +43564,7 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -43969,7 +43727,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 60,
@@ -44078,7 +43837,7 @@ const PLAYERS_DB = [
       "code": "lu"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -44134,7 +43893,7 @@ const PLAYERS_DB = [
       "code": "al"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 58,
@@ -44382,7 +44141,8 @@ const PLAYERS_DB = [
       "code": "il"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 83,
@@ -44409,7 +44169,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -44437,7 +44197,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 71,
@@ -44491,7 +44252,8 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 84,
@@ -44764,7 +44526,8 @@ const PLAYERS_DB = [
       "code": "ge"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 81,
@@ -44900,7 +44663,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 76,
@@ -44983,7 +44746,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -45148,7 +44911,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 76,
@@ -45203,7 +44966,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 75,
@@ -45257,7 +45021,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 77,
@@ -45284,7 +45049,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 66,
@@ -45339,7 +45104,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 61,
@@ -45351,6 +45116,33 @@ const PLAYERS_DB = [
     },
     "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259521.png?padding=0.7",
     "quickSell": 800
+  },
+  {
+    "id": 259532,
+    "name": "Joan García",
+    "fullName": "Joan García Pons",
+    "rating": 77,
+    "cardType": "gold_rare",
+    "pos": "POR",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Espanyol"
+    },
+    "stats": {
+      "pac": 77,
+      "sho": 76,
+      "pas": 72,
+      "dri": 79,
+      "def": 76,
+      "phy": 73
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p259532.png?padding=0.7",
+    "quickSell": 3000
   },
   {
     "id": 259633,
@@ -45449,7 +45241,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -45491,6 +45283,33 @@ const PLAYERS_DB = [
     "quickSell": 800
   },
   {
+    "id": 260908,
+    "name": "Milos Kerkez",
+    "fullName": "Milos Kerkez",
+    "rating": 77,
+    "cardType": "gold_rare",
+    "pos": "LI",
+    "gender": "Men's Football",
+    "league": "Premier League",
+    "nation": {
+      "name": "Hungría",
+      "code": "hu"
+    },
+    "club": {
+      "name": "Bournemouth"
+    },
+    "stats": {
+      "pac": 84,
+      "sho": 55,
+      "pas": 70,
+      "dri": 76,
+      "def": 74,
+      "phy": 72
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p260908.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 261654,
     "name": "Omar El Hilali",
     "fullName": "Omar El Hilali",
@@ -45504,7 +45323,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 85,
@@ -45531,7 +45350,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -45586,7 +45405,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -45696,7 +45515,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 78,
@@ -45751,7 +45571,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -46025,7 +45845,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 55,
@@ -46134,7 +45955,7 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -46243,7 +46064,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 74,
@@ -46734,7 +46555,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -46790,7 +46611,8 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 70,
@@ -47035,7 +46857,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 82,
@@ -47337,7 +47159,8 @@ const PLAYERS_DB = [
       "code": "sn"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 79,
@@ -47779,7 +47602,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -47972,7 +47795,7 @@ const PLAYERS_DB = [
       "code": "cl"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -48000,7 +47823,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -48055,7 +47878,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 42,
@@ -48191,7 +48014,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 76,
@@ -48461,7 +48284,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 80,
@@ -48623,7 +48447,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 77,
@@ -49139,7 +48964,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 75,
@@ -49275,7 +49101,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 42,
@@ -49493,7 +49319,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 59,
@@ -49764,7 +49591,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -49819,7 +49646,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -49929,7 +49756,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 72,
@@ -50146,7 +49973,7 @@ const PLAYERS_DB = [
       "code": "au"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -50256,7 +50083,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -50527,7 +50354,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -50609,7 +50436,7 @@ const PLAYERS_DB = [
       "code": "gn"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 62,
@@ -51096,7 +50923,8 @@ const PLAYERS_DB = [
       "code": "zw"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 67,
@@ -51367,7 +51195,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 75,
@@ -51394,7 +51223,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 75,
@@ -51421,7 +51250,8 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 50,
@@ -51448,7 +51278,8 @@ const PLAYERS_DB = [
       "code": "pa"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 84,
@@ -51556,7 +51387,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -51883,7 +51714,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 69,
@@ -52100,7 +51932,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 71,
@@ -52319,7 +52151,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 68,
@@ -52484,7 +52316,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -52621,7 +52453,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -52677,7 +52509,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -52867,7 +52699,8 @@ const PLAYERS_DB = [
       "code": "gh"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 59,
@@ -52921,7 +52754,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 77,
@@ -53112,7 +52946,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 71,
@@ -53384,7 +53218,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 90,
@@ -53411,7 +53245,8 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 88,
@@ -53766,7 +53601,8 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 64,
@@ -54118,7 +53954,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -54200,7 +54036,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -54312,7 +54148,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -54558,7 +54394,8 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 83,
@@ -54724,7 +54561,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 76,
@@ -54751,7 +54588,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -54941,7 +54778,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -55024,7 +54861,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -55516,7 +55353,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 72,
@@ -56062,7 +55899,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -56254,7 +56091,8 @@ const PLAYERS_DB = [
       "code": "ua"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 79,
@@ -56584,7 +56422,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -56695,7 +56533,8 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 73,
@@ -56858,7 +56697,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -57010,6 +56849,33 @@ const PLAYERS_DB = [
     "quickSell": 3000
   },
   {
+    "id": 278349,
+    "name": "Dean Huijsen",
+    "fullName": "Dean Huijsen",
+    "rating": 76,
+    "cardType": "gold_rare",
+    "pos": "DFC",
+    "gender": "Men's Football",
+    "league": "LALIGA EA SPORTS",
+    "nation": {
+      "name": "España",
+      "code": "es"
+    },
+    "club": {
+      "name": "Bournemouth"
+    },
+    "stats": {
+      "pac": 68,
+      "sho": 45,
+      "pas": 68,
+      "dri": 68,
+      "def": 77,
+      "phy": 75
+    },
+    "faceUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p278349.png?padding=0.7",
+    "quickSell": 3000
+  },
+  {
     "id": 279027,
     "name": "Javi Rodríguez",
     "fullName": "Javier Rodríguez Galiano",
@@ -57023,7 +56889,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 74,
@@ -57133,7 +56999,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -57270,7 +57136,7 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -57624,7 +57490,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 68,
@@ -57678,7 +57544,7 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 49,
@@ -58221,7 +58087,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 63,
@@ -58493,7 +58360,7 @@ const PLAYERS_DB = [
       "code": "gq"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 47,
@@ -58791,7 +58658,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 67,
@@ -59522,7 +59390,7 @@ const PLAYERS_DB = [
       "code": "gb-wls"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 70,
@@ -59738,7 +59606,8 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 79,
@@ -59765,7 +59634,7 @@ const PLAYERS_DB = [
       "code": "sr"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 92,
@@ -60280,7 +60149,8 @@ const PLAYERS_DB = [
       "code": "kr"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 81,
@@ -60444,7 +60314,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 77,
@@ -60661,7 +60532,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 62,
@@ -60688,7 +60559,7 @@ const PLAYERS_DB = [
       "code": "gh"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 69,
@@ -60985,7 +60856,8 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 75,
@@ -61066,7 +60938,7 @@ const PLAYERS_DB = [
       "code": "jp"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 84,
@@ -61309,7 +61181,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -61337,7 +61209,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -61500,7 +61372,7 @@ const PLAYERS_DB = [
       "code": "do"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -61583,7 +61455,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 78,
@@ -61800,7 +61673,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 83,
@@ -61881,7 +61754,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 77,
@@ -62043,7 +61916,7 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 62,
@@ -62179,7 +62052,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -62234,7 +62107,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 79,
@@ -63021,7 +62895,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 65,
@@ -63561,7 +63435,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -63752,7 +63626,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 69,
@@ -64212,7 +64086,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 76,
@@ -64239,7 +64113,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -64294,7 +64168,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 81,
@@ -64456,7 +64331,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 75,
@@ -64701,7 +64577,8 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 69,
@@ -64947,7 +64824,8 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 77,
@@ -65329,7 +65207,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -65601,7 +65479,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -65629,7 +65507,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -65657,7 +65535,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -65713,7 +65591,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -65904,7 +65782,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 50,
@@ -66039,7 +65917,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -66613,7 +66491,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 63,
@@ -66640,7 +66518,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 76,
@@ -67322,7 +67200,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 76,
@@ -67566,7 +67445,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -67730,7 +67609,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -67923,7 +67802,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 77,
@@ -68032,7 +67911,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 77,
@@ -68141,7 +68020,8 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 80,
@@ -68196,7 +68076,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -68582,7 +68462,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 79,
@@ -68830,7 +68711,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -69105,7 +68986,7 @@ const PLAYERS_DB = [
       "code": "jp"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -69435,7 +69316,8 @@ const PLAYERS_DB = [
       "code": "me"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 66,
@@ -69571,7 +69453,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -70525,7 +70407,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 74,
@@ -70769,7 +70651,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -70824,7 +70706,8 @@ const PLAYERS_DB = [
       "code": "ie"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 66,
@@ -70932,7 +70815,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 73,
@@ -71176,7 +71059,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 69,
@@ -71392,7 +71275,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -71609,7 +71492,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -73017,7 +72900,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 82,
@@ -73261,7 +73144,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 74,
@@ -73885,7 +73768,7 @@ const PLAYERS_DB = [
       "code": "cl"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -74617,7 +74500,7 @@ const PLAYERS_DB = [
       "code": "ro"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 74,
@@ -74779,7 +74662,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 42,
@@ -75131,7 +75014,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -75673,7 +75556,8 @@ const PLAYERS_DB = [
       "code": "sn"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 88,
@@ -76808,7 +76692,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 89,
@@ -76835,7 +76719,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 71,
@@ -76889,7 +76774,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -77161,7 +77046,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 49,
@@ -77350,7 +77235,7 @@ const PLAYERS_DB = [
       "code": "gb-sct"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -77540,7 +77425,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 73,
@@ -77567,7 +77453,8 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 90,
@@ -77945,7 +77832,7 @@ const PLAYERS_DB = [
       "code": "mx"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 83,
@@ -78785,7 +78672,8 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 88,
@@ -79056,7 +78944,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 70,
@@ -79272,7 +79161,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -79813,7 +79702,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -79895,7 +79784,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 79,
@@ -79922,7 +79811,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 73,
@@ -80193,7 +80083,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 79,
@@ -80357,7 +80247,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -80413,7 +80303,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 74,
@@ -80440,7 +80331,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 71,
@@ -80467,7 +80358,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -80522,7 +80413,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 63,
@@ -80549,7 +80440,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -80685,7 +80576,8 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 89,
@@ -80793,7 +80685,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 74,
@@ -80874,7 +80766,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 73,
@@ -81010,7 +80902,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 78,
@@ -81254,7 +81147,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -81472,7 +81365,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -81722,7 +81615,8 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 78,
@@ -82509,7 +82403,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 72,
@@ -82972,7 +82866,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 75,
@@ -83053,7 +82947,7 @@ const PLAYERS_DB = [
       "code": "dz"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -83490,7 +83384,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 71,
@@ -83761,7 +83655,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 49,
@@ -83788,7 +83682,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 72,
@@ -84007,7 +83901,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -84278,7 +84172,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -84387,7 +84281,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 75,
@@ -84522,7 +84416,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -84606,7 +84500,8 @@ const PLAYERS_DB = [
       "code": "uy"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 67,
@@ -84633,7 +84528,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -84907,7 +84802,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 80,
@@ -84934,7 +84829,8 @@ const PLAYERS_DB = [
       "code": "gr"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 76,
@@ -85344,7 +85240,7 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -85510,7 +85406,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 66,
@@ -85946,7 +85843,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 60,
@@ -86189,7 +86086,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 72,
@@ -86379,7 +86277,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -86731,7 +86629,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 65,
@@ -86839,7 +86737,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 37,
@@ -86866,7 +86765,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -87300,7 +87199,8 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 53,
@@ -87652,7 +87552,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 76,
@@ -88679,7 +88580,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -88897,7 +88798,7 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -89276,7 +89177,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 72,
@@ -90572,7 +90473,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -90762,7 +90663,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 76,
@@ -91329,7 +91230,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -91654,7 +91555,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 72,
@@ -92708,7 +92610,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 74,
@@ -92816,7 +92719,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 73,
@@ -93005,7 +92909,7 @@ const PLAYERS_DB = [
       "code": "rs"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 73,
@@ -93032,7 +92936,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 60,
@@ -95167,7 +95071,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 75,
@@ -95626,7 +95530,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 72,
@@ -95869,7 +95773,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 66,
@@ -96707,7 +96611,7 @@ const PLAYERS_DB = [
       "code": "ba"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -96924,7 +96828,8 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 85,
@@ -97032,7 +96937,7 @@ const PLAYERS_DB = [
       "code": "ie"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -97414,7 +97319,8 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 78,
@@ -97712,7 +97618,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 80,
@@ -98009,7 +97915,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -98037,7 +97943,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 69,
@@ -98199,7 +98105,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -98283,7 +98189,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -98501,7 +98407,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -98610,7 +98516,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -99237,7 +99143,7 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -100296,7 +100202,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -100731,7 +100637,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 71,
@@ -100840,7 +100746,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -100868,7 +100774,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -101141,7 +101047,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -101169,7 +101075,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -101877,7 +101783,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -101960,7 +101866,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 79,
@@ -102043,7 +101949,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -102071,7 +101977,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -102154,7 +102060,7 @@ const PLAYERS_DB = [
       "code": "se"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -102566,7 +102472,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 81,
@@ -102593,7 +102500,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 71,
@@ -102675,7 +102582,7 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -102919,7 +102826,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 62,
@@ -103164,7 +103071,7 @@ const PLAYERS_DB = [
       "code": "cn"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -103686,7 +103593,7 @@ const PLAYERS_DB = [
       "code": "at"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -104228,7 +104135,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -105769,7 +105676,8 @@ const PLAYERS_DB = [
       "code": "al"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 71,
@@ -105904,7 +105812,7 @@ const PLAYERS_DB = [
       "code": "gr"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -109878,7 +109786,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -110122,7 +110030,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 66,
@@ -111905,7 +111813,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -115097,7 +115005,7 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -115449,7 +115357,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -116180,7 +116088,8 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 80,
@@ -116666,7 +116575,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 77,
@@ -116882,7 +116791,8 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 79,
@@ -117071,7 +116981,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 56,
@@ -117639,7 +117549,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 68,
@@ -118098,7 +118008,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 79,
@@ -119266,7 +119177,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 91,
@@ -119889,7 +119800,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -119998,7 +119909,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 66,
@@ -120052,7 +119964,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -120379,7 +120291,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 73,
@@ -121191,7 +121104,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -121246,7 +121159,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -121302,7 +121215,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -121654,7 +121567,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 71,
@@ -121681,7 +121594,7 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -121818,7 +121731,8 @@ const PLAYERS_DB = [
       "code": "ng"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 79,
@@ -121927,7 +121841,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 77,
@@ -121981,7 +121896,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -122009,7 +121924,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 65,
@@ -122199,7 +122115,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -122254,7 +122170,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -122336,7 +122252,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -122418,7 +122334,7 @@ const PLAYERS_DB = [
       "code": "gt"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -122446,7 +122362,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -122746,7 +122662,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -122856,7 +122772,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -123074,7 +122990,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -123510,7 +123426,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 72,
@@ -123971,7 +123887,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 78,
@@ -124108,7 +124024,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -125165,7 +125081,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 71,
@@ -129436,7 +129353,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 72,
@@ -130733,7 +130650,7 @@ const PLAYERS_DB = [
       "code": "cd"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 63,
@@ -131813,7 +131730,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -134030,7 +133947,8 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 40,
@@ -134814,7 +134732,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 66,
@@ -135490,7 +135408,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -136490,7 +136408,8 @@ const PLAYERS_DB = [
       "code": "gh"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 88,
@@ -136841,7 +136760,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 56,
@@ -137571,7 +137491,7 @@ const PLAYERS_DB = [
       "code": "ml"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -138140,7 +138060,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -138438,7 +138358,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -138574,7 +138494,8 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 56,
@@ -139280,7 +139201,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 74,
@@ -139685,7 +139606,7 @@ const PLAYERS_DB = [
       "code": "gb-sct"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 89,
@@ -140117,7 +140038,8 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 60,
@@ -140496,7 +140418,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -140848,7 +140770,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -141065,7 +140987,7 @@ const PLAYERS_DB = [
       "code": "hr"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -141417,7 +141339,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -142286,7 +142208,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 55,
@@ -142395,7 +142317,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -142423,7 +142345,7 @@ const PLAYERS_DB = [
       "code": "dz"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -143292,7 +143214,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -143564,7 +143486,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 84,
@@ -143591,7 +143513,7 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -144188,7 +144110,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 66,
@@ -145054,7 +144976,8 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 65,
@@ -145081,7 +145004,7 @@ const PLAYERS_DB = [
       "code": "no"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -151754,7 +151677,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -155133,7 +155056,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -161188,7 +161111,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 69,
@@ -161647,7 +161570,7 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -162649,7 +162572,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -163490,7 +163413,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -163925,7 +163848,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -164466,7 +164389,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -164548,7 +164471,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 82,
@@ -164954,7 +164877,8 @@ const PLAYERS_DB = [
       "code": "ca"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 85,
@@ -165414,7 +165338,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 68,
@@ -165441,7 +165365,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -165524,7 +165448,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 65,
@@ -167396,7 +167320,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 69,
@@ -167504,7 +167428,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -167532,7 +167456,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -167641,7 +167565,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 67,
@@ -167776,7 +167701,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -168104,7 +168029,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 58,
@@ -169268,7 +169194,7 @@ const PLAYERS_DB = [
       "code": "co"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 72,
@@ -169754,7 +169680,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -169782,7 +169708,7 @@ const PLAYERS_DB = [
       "code": "cz"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 70,
@@ -169836,7 +169762,7 @@ const PLAYERS_DB = [
       "code": "cl"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -170867,7 +170793,7 @@ const PLAYERS_DB = [
       "code": "ch"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -170895,7 +170821,7 @@ const PLAYERS_DB = [
       "code": "at"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -177301,7 +177227,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -181703,7 +181629,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 41,
@@ -186511,7 +186437,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -186647,7 +186573,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 79,
@@ -187214,7 +187140,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -188947,7 +188873,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 79,
@@ -189703,7 +189629,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 60,
@@ -189919,7 +189845,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 79,
@@ -189973,7 +189899,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 80,
@@ -192331,7 +192257,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -193306,7 +193232,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 83,
@@ -194959,7 +194886,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 80,
@@ -196665,7 +196592,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 72,
@@ -197124,7 +197051,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -198318,7 +198245,7 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -198455,7 +198382,7 @@ const PLAYERS_DB = [
       "code": "br"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -199134,7 +199061,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 66,
@@ -220314,7 +220242,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 69,
@@ -220720,7 +220648,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 75,
@@ -220963,7 +220891,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 86,
@@ -220990,7 +220918,8 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 73,
@@ -221614,7 +221543,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -221966,7 +221895,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 72,
@@ -223155,7 +223084,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 65,
@@ -223452,7 +223381,8 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 66,
@@ -224345,7 +224275,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -224751,7 +224681,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 74,
@@ -225536,7 +225466,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -225591,7 +225521,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 59,
@@ -226375,7 +226305,8 @@ const PLAYERS_DB = [
       "code": "be"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 78,
@@ -226969,7 +226900,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -228132,7 +228063,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -228782,7 +228713,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -229541,7 +229472,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 65,
@@ -233430,7 +233361,7 @@ const PLAYERS_DB = [
       "code": "ua"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -239534,7 +239465,7 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 70,
@@ -242910,7 +242841,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -249477,7 +249408,8 @@ const PLAYERS_DB = [
       "code": "dk"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 66,
@@ -251531,7 +251463,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -252019,7 +251951,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -253860,7 +253792,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -254401,7 +254333,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -255241,7 +255173,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -255756,7 +255688,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -256135,7 +256067,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 77,
@@ -256702,7 +256634,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 73,
@@ -257541,7 +257473,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 68,
@@ -259031,7 +258964,7 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -261464,7 +261397,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -275237,7 +275170,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "Fenerbahçe",
+      "name": "Fenerbahce",
       "id": 611
     },
     "stats": {
@@ -281183,7 +281116,8 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 67,
@@ -281993,7 +281927,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 73,
@@ -283482,7 +283416,7 @@ const PLAYERS_DB = [
       "code": "tr"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -284510,7 +284444,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 63,
@@ -285999,7 +285934,7 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -286081,7 +286016,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 72,
@@ -295594,7 +295529,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 65,
@@ -301995,7 +301930,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 63,
@@ -307644,7 +307579,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 65,
@@ -307752,7 +307688,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 59,
@@ -307833,7 +307769,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -309022,7 +308958,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -309509,7 +309445,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -309753,7 +309689,7 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -309781,7 +309717,7 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -310458,7 +310394,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 66,
@@ -311404,7 +311340,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -312434,7 +312370,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 74,
@@ -312867,7 +312804,7 @@ const PLAYERS_DB = [
       "code": "ar"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -313381,7 +313318,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 66,
@@ -315110,7 +315047,8 @@ const PLAYERS_DB = [
       "code": "ua"
     },
     "club": {
-      "name": "Girona FC"
+      "name": "Girona",
+      "id": 298
     },
     "stats": {
       "pac": 64,
@@ -316058,7 +315996,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -316924,7 +316862,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -316979,7 +316917,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -317144,7 +317082,7 @@ const PLAYERS_DB = [
       "code": "pl"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -317415,7 +317353,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -318146,7 +318084,7 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -330246,7 +330184,8 @@ const PLAYERS_DB = [
       "code": "gb-sct"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 75,
@@ -334947,7 +334886,8 @@ const PLAYERS_DB = [
       "code": "ie"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 64,
@@ -335001,7 +334941,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Celta"
+      "name": "Celta de Vigo"
     },
     "stats": {
       "pac": 80,
@@ -338653,7 +338593,8 @@ const PLAYERS_DB = [
       "code": "zw"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 82,
@@ -338707,7 +338648,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 61,
@@ -338761,7 +338702,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -338789,7 +338730,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 59,
@@ -341761,7 +341703,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -342168,7 +342110,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "AS Monaco"
+      "name": "Monaco",
+      "id": 548
     },
     "stats": {
       "pac": 60,
@@ -342411,7 +342354,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 79,
@@ -343221,7 +343165,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "FC Porto",
+      "name": "Porto",
       "id": 503
     },
     "stats": {
@@ -344089,7 +344033,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -355918,7 +355862,7 @@ const PLAYERS_DB = [
       "code": "fi"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 65,
@@ -359919,7 +359863,8 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Villarreal CF"
+      "name": "Villarreal",
+      "id": 94
     },
     "stats": {
       "pac": 63,
@@ -361001,7 +360946,8 @@ const PLAYERS_DB = [
       "code": "py"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 80,
@@ -361649,7 +361595,8 @@ const PLAYERS_DB = [
       "code": "cm"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 87,
@@ -363218,7 +363165,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "AS Roma",
+      "name": "Roma",
       "id": 100
     },
     "stats": {
@@ -364866,7 +364813,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 56,
@@ -364920,7 +364867,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 76,
@@ -364947,7 +364895,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 64,
@@ -366514,7 +366463,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Mallorca"
+      "name": "Mallorca"
     },
     "stats": {
       "pac": 63,
@@ -370026,7 +369975,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "Bergamo Calcio"
+      "name": "Atalanta",
+      "id": 102
     },
     "stats": {
       "pac": 63,
@@ -370080,7 +370030,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Newcastle Utd"
+      "name": "Newcastle United",
+      "id": 67
     },
     "stats": {
       "pac": 63,
@@ -381184,7 +381135,7 @@ const PLAYERS_DB = [
       "code": "gb-wls"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 60,
@@ -383591,7 +383542,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -386079,7 +386030,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 63,
@@ -386972,7 +386923,7 @@ const PLAYERS_DB = [
       "code": "ma"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 73,
@@ -387485,7 +387436,7 @@ const PLAYERS_DB = [
       "code": "ml"
     },
     "club": {
-      "name": "SSC Napoli",
+      "name": "Napoli",
       "id": 113
     },
     "stats": {
@@ -387783,7 +387734,8 @@ const PLAYERS_DB = [
       "code": "dz"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 56,
@@ -388107,7 +388059,7 @@ const PLAYERS_DB = [
       "code": "hu"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -390758,7 +390710,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -399510,7 +399462,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "RCD Espanyol"
+      "name": "Espanyol"
     },
     "stats": {
       "pac": 57,
@@ -399780,7 +399732,8 @@ const PLAYERS_DB = [
       "code": "it"
     },
     "club": {
-      "name": "SS Lazio"
+      "name": "Lazio",
+      "id": 110
     },
     "stats": {
       "pac": 63,
@@ -405537,7 +405490,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Valencia CF"
+      "name": "Valencia"
     },
     "stats": {
       "pac": 68,
@@ -407319,7 +407272,8 @@ const PLAYERS_DB = [
       "code": "gb-eng"
     },
     "club": {
-      "name": "Wolves"
+      "name": "Wolverhampton",
+      "id": 76
     },
     "stats": {
       "pac": 75,
@@ -416396,7 +416350,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -418156,7 +418110,7 @@ const PLAYERS_DB = [
       "code": "gr"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 57,
@@ -419724,7 +419678,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "CA Osasuna"
+      "name": "Osasuna"
     },
     "stats": {
       "pac": 57,
@@ -426617,7 +426571,8 @@ const PLAYERS_DB = [
       "code": "fr"
     },
     "club": {
-      "name": "OM"
+      "name": "Marseille",
+      "id": 516
     },
     "stats": {
       "pac": 62,
@@ -429912,7 +429867,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Leverkusen",
+      "name": "Bayer Leverkusen",
       "id": 3
     },
     "stats": {
@@ -432157,7 +432112,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Sevilla FC",
+      "name": "Sevilla",
       "id": 559
     },
     "stats": {
@@ -435212,7 +435167,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -437211,7 +437166,7 @@ const PLAYERS_DB = [
       "code": "de"
     },
     "club": {
-      "name": "Frankfurt",
+      "name": "Eintracht Frankfurt",
       "id": 19
     },
     "stats": {
@@ -443317,7 +443272,7 @@ const PLAYERS_DB = [
       "code": "pt"
     },
     "club": {
-      "name": "SL Benfica",
+      "name": "Benfica",
       "id": 234
     },
     "stats": {
@@ -443345,7 +443300,7 @@ const PLAYERS_DB = [
       "code": "es"
     },
     "club": {
-      "name": "Getafe CF"
+      "name": "Getafe"
     },
     "stats": {
       "pac": 61,
@@ -444911,7 +444866,7 @@ const PLAYERS_DB = [
       "code": "gb-sct"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 56,
@@ -467196,7 +467151,7 @@ const PLAYERS_DB = [
       "code": "us"
     },
     "club": {
-      "name": "AFC Bournemouth"
+      "name": "Bournemouth"
     },
     "stats": {
       "pac": 54,
@@ -488599,169 +488554,634 @@ const PLAYERS_DB = [
   }
 ];
 
-const PACKS_CONFIG = {
-  free: {
-    id: "free",
-    name: "Sobre Gratis",
-    cost: 0,
-    costType: "coins",
-    cardCount: 3,
-    description: "Sobre gratuito diario. 3 cartas de cualquier calidad.",
-    color: "#6b7280",
-    glowColor: "rgba(107, 114, 128, 0.4)",
-    minRating: 50,
-    maxRating: 84,
-    probabilities: {
-      bronze: 0.50,
-      silver: 0.35,
-      gold_rare: 0.15,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
-    }
+const HOF_PLAYERS = [
+  {
+    "id": "hof_hulk",
+    "name": "Hulk",
+    "fullName": "Givanildo Vieira de Sousa",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Liga Portugal",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 92,
+      "pas": 80,
+      "dri": 86,
+      "def": 45,
+      "phy": 91
+    },
+    "faceUrl": "assets/faces/hof_hulk.webp",
+    "quickSell": 50000,
+    "tokenPrice": 750
   },
-  bronze: {
-    id: "bronze",
-    name: "Sobre Bronce",
-    cost: 500,
-    costType: "coins",
-    cardCount: 3,
-    description: "3 cartas de bronce garantizadas.",
-    color: "#cd7f32",
-    glowColor: "rgba(205, 127, 50, 0.4)",
-    minRating: 50,
-    maxRating: 64,
-    probabilities: {
-      bronze: 0.90,
-      silver: 0.10,
-      gold_rare: 0.00,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
-    }
+  {
+    "id": "hof_balotelli",
+    "name": "Balotelli",
+    "fullName": "Mario Barwuah Balotelli",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 88,
+      "pas": 78,
+      "dri": 86,
+      "def": 34,
+      "phy": 85
+    },
+    "faceUrl": "assets/faces/hof_balotelli.webp",
+    "quickSell": 48000,
+    "tokenPrice": 700
   },
-  silver: {
-    id: "silver",
-    name: "Sobre Plata",
-    cost: 2500,
-    costType: "coins",
-    cardCount: 4,
-    description: "4 cartas de plata con posibilidad de oro.",
-    color: "#c0c0c0",
-    glowColor: "rgba(192, 192, 192, 0.4)",
-    minRating: 65,
-    maxRating: 77,
-    probabilities: {
-      bronze: 0.05,
-      silver: 0.80,
-      gold_rare: 0.15,
-      totw: 0.00,
-      hero: 0.00,
-      icon: 0.00
-    }
+  {
+    "id": "hof_pato",
+    "name": "Alexandre Pato",
+    "fullName": "Alexandre Rodrigues da Silva",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 91,
+      "sho": 86,
+      "pas": 77,
+      "dri": 88,
+      "def": 36,
+      "phy": 74
+    },
+    "faceUrl": "assets/faces/hof_pato.webp",
+    "quickSell": 48000,
+    "tokenPrice": 700
   },
-  gold: {
-    id: "gold",
-    name: "Sobre Oro",
-    cost: 5000,
-    costType: "coins",
-    cardCount: 5,
-    description: "5 cartas de oro. Ideal para empezar tu colección.",
-    color: "#eab308",
-    glowColor: "rgba(234, 179, 8, 0.4)",
-    minRating: 75,
-    maxRating: 84,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.05,
-      gold_rare: 0.92,
-      totw: 0.02,
-      hero: 0.008,
-      icon: 0.002
-    }
+  {
+    "id": "hof_david_luiz",
+    "name": "David Luiz",
+    "fullName": "David Luiz Moreira Marinho",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "DFC",
+    "nation": {
+      "name": "Brasil",
+      "code": "br"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 68,
+      "pas": 79,
+      "dri": 76,
+      "def": 86,
+      "phy": 85
+    },
+    "faceUrl": "assets/faces/hof_david_luiz.webp",
+    "quickSell": 45000,
+    "tokenPrice": 650
   },
-  premium_gold: {
-    id: "premium_gold",
-    name: "Sobre Oro Premium",
-    cost: 15000,
-    costType: "coins",
-    cardCount: 5,
-    description: "5 cartas con al menos un oro +80 garantizado.",
-    color: "#f59e0b",
-    glowColor: "rgba(245, 158, 11, 0.5)",
-    minRating: 78,
-    maxRating: 91,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.88,
-      totw: 0.08,
-      hero: 0.03,
-      icon: 0.01
-    }
+  {
+    "id": "hof_fellaini",
+    "name": "Fellaini",
+    "fullName": "Marouane Fellaini-Bakkioui",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "MC",
+    "nation": {
+      "name": "Bélgica",
+      "code": "be"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 74,
+      "sho": 81,
+      "pas": 78,
+      "dri": 79,
+      "def": 78,
+      "phy": 90
+    },
+    "faceUrl": "assets/faces/hof_fellaini.webp",
+    "quickSell": 45000,
+    "tokenPrice": 650
   },
-  totw_pack: {
-    id: "totw_pack",
-    name: "Sobre TOTW Garantizado",
-    cost: 45000,
-    costType: "coins",
-    cardCount: 3,
-    description: "¡Al menos 1 carta TOTW garantizada!",
-    color: "#0f172a",
-    glowColor: "rgba(245, 158, 11, 0.7)",
-    minRating: 80,
-    maxRating: 94,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.50,
-      totw: 0.45,
-      hero: 0.035,
-      icon: 0.015
-    }
+  {
+    "id": "hof_walcott",
+    "name": "Theo Walcott",
+    "fullName": "Theo James Walcott",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "ED",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 96,
+      "sho": 81,
+      "pas": 78,
+      "dri": 85,
+      "def": 38,
+      "phy": 68
+    },
+    "faceUrl": "assets/faces/hof_walcott.webp",
+    "quickSell": 45000,
+    "tokenPrice": 650
   },
-  special: {
-    id: "special",
-    name: "Sobre Especial",
-    cost: 50,
-    costType: "points",
-    cardCount: 5,
-    description: "Alta probabilidad de jugadores de élite y especiales.",
-    color: "#a855f7",
-    glowColor: "rgba(168, 85, 247, 0.5)",
-    minRating: 83,
-    maxRating: 95,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.65,
-      totw: 0.22,
-      hero: 0.09,
-      icon: 0.04
-    }
+  {
+    "id": "hof_valencia",
+    "name": "Antonio Valencia",
+    "fullName": "Luis Antonio Valencia Mosquera",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "ED",
+    "nation": {
+      "name": "Ecuador",
+      "code": "ec"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 92,
+      "sho": 76,
+      "pas": 82,
+      "dri": 84,
+      "def": 81,
+      "phy": 86
+    },
+    "faceUrl": "assets/faces/hof_valencia.webp",
+    "quickSell": 42000,
+    "tokenPrice": 600
   },
-  mega_pack: {
-    id: "mega_pack",
-    name: "Mega Sobre",
-    cost: 100,
-    costType: "points",
-    cardCount: 8,
-    description: "8 cartas de calidad extrema. Probabilidad máxima de Iconos y Héroes.",
-    color: "#ec4899",
-    glowColor: "rgba(236, 72, 153, 0.6)",
-    minRating: 84,
-    maxRating: 98,
-    probabilities: {
-      bronze: 0.00,
-      silver: 0.00,
-      gold_rare: 0.50,
-      totw: 0.25,
-      hero: 0.15,
-      icon: 0.10
-    }
+  {
+    "id": "hof_blaszczykowski",
+    "name": "Błaszczykowski",
+    "fullName": "Jakub Błaszczykowski",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "ED",
+    "nation": {
+      "name": "Polonia",
+      "code": "pl"
+    },
+    "club": {
+      "name": "Bundesliga",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 93,
+      "sho": 78,
+      "pas": 80,
+      "dri": 84,
+      "def": 60,
+      "phy": 77
+    },
+    "faceUrl": "assets/faces/hof_blaszczykowski.webp",
+    "quickSell": 42000,
+    "tokenPrice": 600
+  },
+  {
+    "id": "hof_richards",
+    "name": "Micah Richards",
+    "fullName": "Micah Lincoln Richards",
+    "rating": 85,
+    "cardType": "hall_of_fut",
+    "pos": "LD",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 58,
+      "pas": 71,
+      "dri": 75,
+      "def": 85,
+      "phy": 89
+    },
+    "faceUrl": "assets/faces/hof_richards.webp",
+    "quickSell": 40000,
+    "tokenPrice": 550
+  },
+  {
+    "id": "hof_akinfenwa",
+    "name": "Akinfenwa",
+    "fullName": "Adebayo Akinfenwa",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Inglaterra",
+      "code": "gb-eng"
+    },
+    "club": {
+      "name": "EFL",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 70,
+      "sho": 83,
+      "pas": 68,
+      "dri": 76,
+      "def": 42,
+      "phy": 99
+    },
+    "faceUrl": "assets/faces/hof_akinfenwa.webp",
+    "quickSell": 38000,
+    "tokenPrice": 500
+  },
+  {
+    "id": "hof_ibarbo",
+    "name": "Victor Ibarbo",
+    "fullName": "Segundo Víctor Ibarbo Guerrero",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Colombia",
+      "code": "co"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 94,
+      "sho": 79,
+      "pas": 74,
+      "dri": 84,
+      "def": 45,
+      "phy": 86
+    },
+    "faceUrl": "assets/faces/hof_ibarbo.webp",
+    "quickSell": 38000,
+    "tokenPrice": 500
+  },
+  {
+    "id": "hof_doumbia",
+    "name": "Seydou Doumbia",
+    "fullName": "Seydou Doumbia",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Costa de Marfil",
+      "code": "ci"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 93,
+      "sho": 84,
+      "pas": 72,
+      "dri": 83,
+      "def": 35,
+      "phy": 79
+    },
+    "faceUrl": "assets/faces/hof_doumbia.webp",
+    "quickSell": 38000,
+    "tokenPrice": 500
+  },
+  {
+    "id": "hof_dos_santos",
+    "name": "G. dos Santos",
+    "fullName": "Giovani dos Santos Ramírez",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "México",
+      "code": "mx"
+    },
+    "club": {
+      "name": "LaLiga",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 88,
+      "sho": 81,
+      "pas": 82,
+      "dri": 88,
+      "def": 38,
+      "phy": 68
+    },
+    "faceUrl": "assets/faces/hof_dos_santos.webp",
+    "quickSell": 35000,
+    "tokenPrice": 450
+  },
+  {
+    "id": "hof_remy",
+    "name": "Loïc Rémy",
+    "fullName": "Loïc Alex Teliere Hubert Rémy",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Francia",
+      "code": "fr"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 91,
+      "sho": 84,
+      "pas": 73,
+      "dri": 82,
+      "def": 35,
+      "phy": 77
+    },
+    "faceUrl": "assets/faces/hof_remy.webp",
+    "quickSell": 35000,
+    "tokenPrice": 450
+  },
+  {
+    "id": "hof_gervinho",
+    "name": "Gervinho",
+    "fullName": "Gervais Lombe Yao Kouassi",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "EI",
+    "nation": {
+      "name": "Costa de Marfil",
+      "code": "ci"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 93,
+      "sho": 78,
+      "pas": 76,
+      "dri": 87,
+      "def": 34,
+      "phy": 72
+    },
+    "faceUrl": "assets/faces/hof_gervinho.webp",
+    "quickSell": 35000,
+    "tokenPrice": 450
+  },
+  {
+    "id": "hof_emenike",
+    "name": "Emmanuel Emenike",
+    "fullName": "Emmanuel Chinenye Emenike",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "DEL",
+    "nation": {
+      "name": "Nigeria",
+      "code": "ng"
+    },
+    "club": {
+      "name": "Süper Lig",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 91,
+      "sho": 83,
+      "pas": 68,
+      "dri": 78,
+      "def": 36,
+      "phy": 92
+    },
+    "faceUrl": "assets/faces/hof_emenike.webp",
+    "quickSell": 35000,
+    "tokenPrice": 450
+  },
+  {
+    "id": "hof_elia",
+    "name": "Eljero Elia",
+    "fullName": "Eljero George Rinaldo Elia",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "EI",
+    "nation": {
+      "name": "Países Bajos",
+      "code": "nl"
+    },
+    "club": {
+      "name": "Bundesliga",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 92,
+      "sho": 78,
+      "pas": 77,
+      "dri": 87,
+      "def": 36,
+      "phy": 70
+    },
+    "faceUrl": "assets/faces/hof_elia.webp",
+    "quickSell": 32000,
+    "tokenPrice": 400
+  },
+  {
+    "id": "hof_guarin",
+    "name": "Fredy Guarín",
+    "fullName": "Fredy Alejandro Guarín Vásquez",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "MC",
+    "nation": {
+      "name": "Colombia",
+      "code": "co"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 78,
+      "sho": 86,
+      "pas": 82,
+      "dri": 80,
+      "def": 77,
+      "phy": 88
+    },
+    "faceUrl": "assets/faces/hof_guarin.webp",
+    "quickSell": 32000,
+    "tokenPrice": 400
+  },
+  {
+    "id": "hof_layun",
+    "name": "Miguel Layún",
+    "fullName": "Miguel Arturo Layún Prado",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "LI",
+    "nation": {
+      "name": "México",
+      "code": "mx"
+    },
+    "club": {
+      "name": "Liga Portugal",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 87,
+      "sho": 78,
+      "pas": 81,
+      "dri": 80,
+      "def": 78,
+      "phy": 80
+    },
+    "faceUrl": "assets/faces/hof_layun.webp",
+    "quickSell": 30000,
+    "tokenPrice": 350
+  },
+  {
+    "id": "hof_florenzi",
+    "name": "Florenzi",
+    "fullName": "Alessandro Florenzi",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "LD",
+    "nation": {
+      "name": "Italia",
+      "code": "it"
+    },
+    "club": {
+      "name": "Serie A",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 85,
+      "sho": 77,
+      "pas": 82,
+      "dri": 83,
+      "def": 81,
+      "phy": 78
+    },
+    "faceUrl": "assets/faces/hof_florenzi.webp",
+    "quickSell": 30000,
+    "tokenPrice": 350
+  },
+  {
+    "id": "hof_mcgeady",
+    "name": "Aiden McGeady",
+    "fullName": "Aiden John McGeady",
+    "rating": 84,
+    "cardType": "hall_of_fut",
+    "pos": "ED",
+    "nation": {
+      "name": "Irlanda",
+      "code": "ie"
+    },
+    "club": {
+      "name": "Premier League",
+      "badge": "hof"
+    },
+    "stats": {
+      "pac": 89,
+      "sho": 76,
+      "pas": 80,
+      "dri": 88,
+      "def": 38,
+      "phy": 66
+    },
+    "faceUrl": "assets/faces/hof_mcgeady.webp",
+    "quickSell": 28000,
+    "tokenPrice": 300
   }
-};
+];
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = { PLAYERS_DB, PACKS_CONFIG };
+const PACKS_CONFIG = [
+    {
+        id: "pack_free",
+        name: "Sobre Gratis",
+        price: 0,
+        cardsCount: 9,
+        color: "#10b981",
+        description: "¡9 cartas gratis! Probabilidades muy bajas para cartas de élite, ideal para empezar.",
+        guaranteed: "9 Cartas (Bronce / Plata / Oro Común)",
+        weights: { bronze: 0.65, silver: 0.28, gold_rare: 0.068, totw: 0.0019, hero: 0.0001, icon: 0.0000 },
+        badgeText: "GRATIS (9 CARTAS)"
+    },
+    {
+        id: "pack_gold",
+        name: "Sobre Oro",
+        price: 5000,
+        cardsCount: 9,
+        color: "#fbbf24",
+        description: "9 cartas con presencia balanceada de jugadores Oro Únicos.",
+        guaranteed: "9 Cartas (Garantiza cartas Oro)",
+        weights: { bronze: 0.15, silver: 0.35, gold_rare: 0.46, totw: 0.035, hero: 0.004, icon: 0.001 },
+        badgeText: "ESTÁNDAR (9 CARTAS)"
+    },
+    {
+        id: "pack_gold_premium",
+        name: "Oro Premium",
+        price: 15000,
+        cardsCount: 9,
+        color: "#f59e0b",
+        description: "9 cartas de alta calidad con gran mayoría de jugadores Oro y Walkouts.",
+        guaranteed: "9 Cartas (Altas Medias)",
+        weights: { bronze: 0.03, silver: 0.12, gold_rare: 0.74, totw: 0.08, hero: 0.022, icon: 0.008 },
+        badgeText: "POPULAR (9 CARTAS)"
+    },
+    {
+        id: "pack_mega_top",
+        name: "Mega Sobre Top Players",
+        price: 50000,
+        cardsCount: 9,
+        color: "#8b5cf6",
+        description: "¡9 cartas de primer nivel! Probabilidades muy altas de Walkouts (86+), TOTW e Iconos.",
+        guaranteed: "9 Cartas Oro Único + Walkouts",
+        weights: { bronze: 0.0, silver: 0.0, gold_rare: 0.73, totw: 0.18, hero: 0.06, icon: 0.03 },
+        badgeText: "86+ WALKOUT (9 CARTAS)"
+    },
+    {
+        id: "pack_icon_legends",
+        name: "Sobre Iconos & Héroes",
+        price: 150000,
+        cardsCount: 5,
+        color: "#ec4899",
+        description: "El sobre legendario exclusivo de 5 cartas. ¡Garantiza al menos un Icono o Héroe!",
+        guaranteed: "1 Icono / Héroe 100% Asegurado",
+        weights: { bronze: 0.0, silver: 0.0, gold_rare: 0.35, totw: 0.25, hero: 0.25, icon: 0.15 },
+        badgeText: "LEGENDARIO (5 CARTAS)"
+    }
+];
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { PLAYERS_DB, PACKS_CONFIG, HOF_PLAYERS };
 }
